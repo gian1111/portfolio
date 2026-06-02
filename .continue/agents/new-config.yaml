@@ -1,0 +1,10 @@
+models:
+  - name: DeepSeek V4 Flash
+    provider: openai
+    model: deepseek-v4-flash
+    apiBase: https://api.deepseek.com/v1
+    apiKey: sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx   # Sostituisci con la tua API Key
+    # Parametri extra (opzionali ma consigliati)
+    requestOptions:
+      temperature: 1.0
+      top_p: 1.0

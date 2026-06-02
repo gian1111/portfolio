@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gianmarco Malandra | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="ggggian.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { 'accent': '#F6FB6B' },
+                    fontFamily: { 
+                        // Aggiungiamo 'satoshi' alla lista delle famiglie disponibili
+                        'satoshi': ['Satoshi', 'sans-serif'],
+                        // 'serif': ['Georgia', 'serif'] ,
+                        'aujournuit' : ['aujournuit', 'serif'],
+                        'aujournuit-ultralight' : ['aujournuit-ultralight', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-white text-black antialiased selection:bg-accent overflow-x-hidden">
+    <nav class="tracking-wide fixed top-0 left-0 w-full p-5 md:p-10 z-50 grid grid-cols-12 gap-4 items-start font-satoshi font-[600]">
+        <div class="col-span-12 md:col-span-6 text-[16px] leading-tight">
+            <h1 class="">Gianmarco Malandra.</h1>
+            <p class="">Graphic Designer and Visual Artist, based in Italy</p>
+        </div>
+        <div class="col-span-12 md:col-span-6 text-left md:text-right text-[16px] leading-tight">
+            <div class="mt-1 space-x-1">
+                <a href="mailto:gianmarco@virgilio.it" class="underline lowercase hover:text-gray-500">gianmarco@virgilio.it</a>
+                <a href="https://www.linkedin.com/in/gianmarco-malandra-a23140161/" class="underline hover:text-gray-500 transition-colors">Linkedin</a>
+                <a href="https://www.instagram.com/gnmlnd/" class="underline hover:text-gray-500 transition-colors">Instagram</a>
+            </div>
+            <div class="space-x-1">
+              <a href="index.html" id="nav-projects" class="underline hover:text-gray-500">Projects</a>
+              <a href="aboutme.html" id="nav-aboutme" class="underline hover:text-gray-500">About Me</a>
+            </div>
+            <button id="langToggle" class="underline hover:text-gray-500">ENG</button>
+        </div>
+    </nav>
+    
+<main class="grid grid-cols-12 gap-4 px-6 pt-32 pb-32">
+  <div class="col-span-12 md:col-span-6 md:col-start-2 font-satoshi font-[600]">
+    <h2 id="text-aboutme"
+        class="font-aujournuit text-6xl leading-[1.2]">
+      Gianmarco is a graphic designer and visual artist working on social media content, visual identity and key visuals
+      <img src="assets/1000045896.jpg"
+           class="float-left w-36 mr-4 mb-2"
+           alt="Gianmarco portrait">
+      with a focus on typography, layout and visual consistency.
+    </h2>
+  </div>
+
+  <div class="col-span-12 md:col-span-4 flex flex-col items-center justify-start gap-8 pt-4">
+    <a href="https://letterboxd.com/gian1/" class="circular-text">
+      <svg viewBox="0 0 200 200">
+        <defs>
+          <path
+            id="circlePath"
+            d="M 100, 100
+               m -75, 0
+               a 75,75 0 1,1 150,0
+               a 75,75 0 1,1 -150,0"
+          />
+        </defs>
+        <text class="circle-text">
+          <textPath href="#circlePath">
+          LETTERBOXD • LETTERBOXD • LETTERBOXD •
+          </textPath>
+        </text>
+      </svg>
+    </a>
+
+    <a href="https://gian1111.github.io/inartegianmarco/" class="circular-text">
+      <svg viewBox="0 0 200 200">
+        <defs>
+          <path
+            id="circlePath"
+            d="M 100, 100
+               m -75, 0
+               a 75,75 0 1,1 150,0
+               a 75,75 0 1,1 -150,0"
+          />
+        </defs>
+        <text class="circle-text">
+          <textPath href="#circlePath">
+          PHOTOGRAPHY • PHOTOGRAPHY • PHOTOGRAPHY •
+          </textPath>
+        </text>
+      </svg>
+    </a>
+  </div>
+</main>
+
+<section class="grid grid-cols-12 gap-4 px-6 pt-18 pb-16">
+  <div class="col-span-12 md:col-span-6 md:col-start-2"></div>
+  
+  <div class="col-span-12 md:col-span-5 grid grid-cols-3 gap-4">
+    <div>
+      <p class="font-satoshi font-[600] text-[16px] leading-tight ">CoVince</p>
+      <p class="font-satoshi text-[14px] text-gray-600 mt-1">2024 - Present</p>
+    </div>
+    <div>
+      <p class="font-satoshi font-[600] text-[16px] leading-tight ">Freelancer</p>
+      <p class="font-satoshi text-[14px] text-gray-600 mt-1">2018 - Present</p>
+    </div>
+    
+    <div>
+      <p class="font-satoshi font-[600] text-[16px] leading-tight ">Novo Esports</p>
+      <p class="font-satoshi text-[14px] text-gray-600 mt-1">2024 - 2024</p>
+    </div>
+    
+    <div>
+      <p class="font-satoshi font-[600] text-[16px] leading-tight ">Fracture Sounds</p>
+      <p class="font-satoshi text-[14px] text-gray-600 mt-1">2024 - 2025</p>
+    </div>
+    
+    <div>
+      <p class="font-satoshi font-[600] text-[16px] leading-tight ">Stefano Francioni</p>
+      <p class="font-satoshi text-[14px] text-gray-600 mt-1">2023 - 2024</p>
+    </div>
+    
+    <div>
+      <p class="font-satoshi font-[600] text-[16px] leading-tight ">Iris Rose & Co.</p>
+      <p class="font-satoshi text-[14px] text-gray-600 mt-1">2019 - 2019</p>
+    </div>
+    
+  </div>
+</section>
+ 
+
+  <footer class="font-satoshi font-[600] tracking-wide fixed bottom-0 left-0 w-full p-5 md:p-10 z-50 grid grid-cols-12 gap-4 items-end">
+        <div class="col-span-6 text-[16px] leading-none">
+            <div class="bg-black text-white w-max">
+                <p id="current-time" class="mb-1 font-medium">Chieti, Italy - --:-- --</p>
+            </div>
+            <p class="text-black font-bold">Available for freelance projects</p>
+        </div>
+
+        <div class="col-span-6 text-right text-[16px] leading-none">
+            <div class="flex items-center gap-1 group cursor-pointer w-max ml-auto">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 22C17.5229 22 22 17.5229 22 12C22 6.47715 17.5229 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5229 6.47715 22 12 22Z" stroke="#9ca3af" stroke-width="2" stroke-linejoin="round"/>
+                    <path d="M12 6C8.6863 6 6 8.6863 6 12" stroke="#9ca3af" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12 18C15.3137 18 18 15.3137 18 12" stroke="#9ca3af" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12 14C13.1046 14 14 13.1046 14 12C14 10.8954 13.1046 10 12 10C10.8954 10 10 10.8954 10 12C10 13.1046 10.8954 14 12 14Z" stroke="#9ca3af" stroke-width="2" stroke-linejoin="round"/>
+                </svg>
+                <p class="italic normal-case text-gray-400 mb-1 font-medium text-[14px]">
+                    Listening to - In the Court of the Crimson King (King Crimson, 1969)
+                </p>
+            </div>
+            <div class="space-x-1 text-black">
+                <a href="index.html" class="underline hover:text-gray-500">Projects</a>
+                <a href="aboutme.html" class="underline hover:text-gray-500">About Me</a>
+                <button id="themeToggle" class="underline theme-toggle hover:text-gray-500" type="button" aria-label="Toggle light mode"></button>
+            </div>
+        </div>
+    </footer>
+    
+    <div id="custom-cursor">
+        <span id="custom-cursor-inner">+</span>
+    </div>
+
+    
+    <script src="js/script.js"></script>
+</body>
+</html>

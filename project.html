@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SSC Napoli | Gianmarco Malandra</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="ggggian.svg" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/project.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { accent: '#F6FB6B' },
+          fontFamily: {
+            'satoshi': ['Satoshi', 'sans-serif'],
+            'aujournuit': ['aujournuit', 'serif'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-white text-black antialiased overflow-x-hidden">
+
+   <nav class="tracking-wide fixed top-0 left-0 w-full p-5 md:p-10 z-50 grid grid-cols-12 gap-4 items-start font-satoshi font-[600]">
+        <div class="col-span-12 md:col-span-6 text-[16px] leading-tight">
+            <h1 class="">Gianmarco Malandra.</h1>
+            <p class="">Graphic Designer and Visual Artist, based in Italy</p>
+        </div>
+        <div class="col-span-12 md:col-span-6 text-left md:text-right text-[16px] leading-tight">
+            <div class="mt-1 space-x-1">
+                <a href="mailto:gianmarco@virgilio.it" class="underline lowercase hover:text-gray-500">gianmarco@virgilio.it</a>
+                <a href="https://www.linkedin.com/in/gianmarco-malandra-a23140161/" class="underline hover:text-gray-500 transition-colors">Linkedin</a>
+                <a href="https://www.instagram.com/gnmlnd/" class="underline hover:text-gray-500 transition-colors">Instagram</a>
+            </div>
+            <div class="space-x-1">
+              <a href="index.html" id="nav-projects" class="underline hover:text-gray-500">Projects</a>
+              <a href="aboutme.html" id="nav-aboutme" class="underline hover:text-gray-500">About Me</a>
+            </div>
+            <button id="langToggle" class="underline hover:text-gray-500">ENG</button>
+        </div>
+    </nav>
+
+  <main class="px-10 pt-32 pb-40">
+    <div class="grid grid-cols-12 gap-4">
+
+      <!-- MODIFICATO: Cambiato col-span-12 in md:col-start-3 md:col-span-8 -->
+      <section class="col-span-12 md:col-start-3 md:col-span-8 mb-10">
+        <div class="flex flex-col items-start md:items-center">
+          <div class="w-full text-left md:text-center">
+            <h1 id="project-title" class="project-title font-aujournuit"></h1>
+          </div>
+
+          <div class="w-full md:w-auto md:-mt-4 mt-4">
+            <span id="project-category" class="inline-block bg-accent px-5 py-1.5 rounded-full text-[14px] font-satoshi font-bold uppercase tracking-wide mt-6"></span>
+          </div>
+
+          <p id="project-intro" class="project-intro font-satoshi font-[600] text-[18px] leading-tight mt-10 max-w-[900px]">    
+          </p>
+        </div>
+      </section>
+
+      <!-- MODIFICATO: Cambiato col-span-12 in md:col-start-3 md:col-span-8 -->
+      <section id="hero-images" class="col-span-12 md:col-start-3 md:col-span-8 flex gap-6 mb-10">
+        <img id="project-image-1" src="" alt="" class="project-image h-auto" style="min-width:0">
+        <img id="project-image-2" src="" alt="" class="project-image h-auto" style="min-width:0">
+        <img id="project-image-2-1" src="" alt="" class="project-image h-auto" style="min-width:0">
+    </section>
+
+      <!-- MODIFICATO: Cambiato col-span-12 in md:col-start-3 md:col-span-8. 
+           Inoltre rimosso "md:col-start-8" dalla colonna di destra perché ora lo spazio totale si è ristretto, 
+           quindi le due colonne interne si dividono lo spazio a metà (md:col-span-6 ciascuna) senza bisogno di salti. -->
+      <section class="col-span-12 md:col-start-3 md:col-span-8 grid grid-cols-12 gap-6 mb-16 items-start">
+        <div class="col-span-12 md:col-span-6 grid grid-cols-2 gap-x-6 gap-y-10 font-satoshi font-[600] text-[16px] leading-tight">
+          <div>
+            <p class="project-label font-[500]">Role:</p>
+            <p id="project-role" class="mt-1"></p> 
+          </div>
+
+          <div>
+            <p class="project-label font-[500]">Contribution:</p>
+            <p id="project-contribution" class="mt-1"></p>
+          </div>
+
+          <div>
+            <p class="project-label font-[500]">Clients:</p>
+            <p id="project-clients" class="mt-1 "></p>
+          </div>
+
+          <div>
+            <p class="project-label font-[500]">Tools Used:</p>
+            <p id="project-tools" class="mt-1"></p>
+          </div>
+        </div>
+
+        <div class="col-span-12 md:col-start-8 md:col-span-5">
+          <p id="project-body-1" class="project-body font-satoshi font-[600] text-[16px] leading-snug"></p>
+        </div>
+      </section>
+
+      <!-- MODIFICATO: Semplificata la struttura. Prima c'era una griglia nidificata inutile (md:col-start-3 md:col-span-8). 
+           Ora applichiamo le classi direttamente al <section> principale come fatto sopra. -->
+      <section class="col-span-12 md:col-start-3 md:col-span-8">
+        <img id="project-image-3" src="" alt="" class="project-image w-full h-auto object-cover">
+        <p id="project-body-2" class="font-satoshi font-[600] text-[18px] leading-snug mt-6 mb-6"></p>
+      </section>
+
+      <!-- MODIFICATO: Cambiato col-span-12 in md:col-start-3 md:col-span-8 -->
+      <section class="col-span-12 md:col-start-3 md:col-span-8">
+        <div id="project-gallery" class="project-gallery"></div>
+      </section>
+
+      <div class="col-span-12 md:col-start-3 md:col-span-8 mt-20 pt-8 border-t border-gray-200">
+        <a id="next-project" href="#" class="block group">
+          <p class="font-satoshi font-[600] text-[13px] uppercase tracking-widest text-gray-400 mb-2">Next Project</p>
+          <h2 class="next-title font-aujournuit text-5xl md:text-6xl leading-none" style="font-variation-settings: 'wdth' 4; letter-spacing: -0.05em;"></h2>
+        </a>
+      </div>
+    </div>
+
+
+  </main>
+
+<footer class="font-satoshi font-[600] tracking-wide fixed bottom-0 left-0 w-full p-5 md:p-10 z-50 grid grid-cols-12 gap-4 items-end">
+        <div class="col-span-6 text-[16px] leading-none">
+            <div class="bg-black text-white w-max">
+                <p id="current-time" class="mb-1 font-medium">Chieti, Italy - --:-- --</p>
+            </div>
+            <p class="text-black font-bold">Available for freelance projects</p>
+        </div>
+
+        <div class="col-span-6 text-right text-[16px] leading-none">
+            <div class="flex items-center gap-1 group cursor-pointer w-max ml-auto">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 22C17.5229 22 22 17.5229 22 12C22 6.47715 17.5229 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5229 6.47715 22 12 22Z" stroke="#9ca3af" stroke-width="2" stroke-linejoin="round"/>
+                    <path d="M12 6C8.6863 6 6 8.6863 6 12" stroke="#9ca3af" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12 18C15.3137 18 18 15.3137 18 12" stroke="#9ca3af" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12 14C13.1046 14 14 13.1046 14 12C14 10.8954 13.1046 10 12 10C10.8954 10 10 10.8954 10 12C10 13.1046 10.8954 14 12 14Z" stroke="#9ca3af" stroke-width="2" stroke-linejoin="round"/>
+                </svg>
+                <p class="italic normal-case text-gray-400 mb-1 font-medium text-[14px]">
+                    Listening to - In the Court of the Crimson King (King Crimson, 1969)
+                </p>
+            </div>
+            <div class="space-x-1 text-black">
+                <a href="index.html" class="underline hover:text-gray-500">Projects</a>
+                <a href="aboutme.html" class="underline hover:text-gray-500">About Me</a>
+                <button id="themeToggle" class="underline theme-toggle hover:text-gray-500" type="button" aria-label="Toggle light mode"></button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom cursor: appare solo sull'hover dei progetti -->
+    <div id="custom-cursor">
+        <span id="custom-cursor-inner">+</span>
+    </div>
+
+    <script src="js/script.js"></script>
+
+<div id="lightbox" class="lightbox hidden">
+  <img id="lightbox-img" src="" alt="">
+</div>
+
+<script src="js/project-data.js"></script>
+<script src="js/project-page.js"></script>
+</body>
+</html>
