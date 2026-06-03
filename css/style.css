@@ -41,6 +41,12 @@ html {
 body {
     cursor: default;
     overflow-x: hidden;
+    opacity: 0;
+    transition: opacity 0.22s ease;
+}
+
+body.loaded {
+    opacity: 1;
 }
 
 /* ── Theme toggle button ── */

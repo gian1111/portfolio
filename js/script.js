@@ -219,5 +219,6 @@ document.addEventListener('DOMContentLoaded', () => {
     initThemeToggle();
     setInterval(updateClock, 60000);
     initLangToggle();
+    document.body.classList.add('loaded');
 });
 

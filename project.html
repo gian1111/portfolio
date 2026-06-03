@@ -4,23 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SSC Napoli | Gianmarco Malandra</title>
-  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="icon" href="ggggian.svg" type="image/x-icon">
+  <link rel="stylesheet" href="css/tailwind.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/project.css">
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: { accent: '#F6FB6B' },
-          fontFamily: {
-            'satoshi': ['Satoshi', 'sans-serif'],
-            'aujournuit': ['aujournuit', 'serif'],
-          }
-        }
-      }
-    }
-  </script>
+  <script src="js/transitions.js" defer></script>
+  <script src="js/script.js" defer></script>
+  <script src="js/project-data.js" defer></script>
+  <script src="js/project-page.js" defer></script>
 </head>
 
 <body class="bg-white text-black antialiased overflow-x-hidden">
@@ -65,9 +56,9 @@
 
       <!-- MODIFICATO: Cambiato col-span-12 in md:col-start-3 md:col-span-8 -->
       <section id="hero-images" class="col-span-12 md:col-start-3 md:col-span-8 flex gap-6 mb-10">
-        <img id="project-image-1" src="" alt="" class="project-image h-auto" style="min-width:0">
-        <img id="project-image-2" src="" alt="" class="project-image h-auto" style="min-width:0">
-        <img id="project-image-2-1" src="" alt="" class="project-image h-auto" style="min-width:0">
+        <img id="project-image-1" src="" alt="" class="project-image h-auto" style="min-width:0" loading="eager" fetchpriority="high" decoding="async">
+        <img id="project-image-2" src="" alt="" class="project-image h-auto" style="min-width:0" loading="eager" fetchpriority="high" decoding="async">
+        <img id="project-image-2-1" src="" alt="" class="project-image h-auto" style="min-width:0" loading="lazy" decoding="async">
     </section>
 
       <!-- MODIFICATO: Cambiato col-span-12 in md:col-start-3 md:col-span-8. 
@@ -157,13 +148,10 @@
         <span id="custom-cursor-inner">+</span>
     </div>
 
-    <script src="js/script.js"></script>
 
 <div id="lightbox" class="lightbox hidden">
   <img id="lightbox-img" src="" alt="">
 </div>
 
-<script src="js/project-data.js"></script>
-<script src="js/project-page.js"></script>
 </body>
 </html>

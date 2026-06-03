@@ -1,3 +1,8 @@
+function toWebP(src) {
+  if (!src) return src;
+  return src.replace(/\.(png|jpg|jpeg)$/i, '.webp');
+}
+
 const params = new URLSearchParams(window.location.search);
 const slug = params.get("slug");
 
@@ -84,28 +89,28 @@ if (project) {
   /* ---------- IMMAGINI HERO ---------- */
 
   document.getElementById("project-image-1").src =
-    project.images?.[0]?.src || "";
+    toWebP(project.images?.[0]?.src) || "";
 
   document.getElementById("project-image-1").alt =
     project.images?.[0]?.alt || "";
 
 
   document.getElementById("project-image-2").src =
-    project.images?.[1]?.src || "";
+    toWebP(project.images?.[1]?.src) || "";
 
   document.getElementById("project-image-2").alt =
     project.images?.[1]?.alt || "";
 
 
   document.getElementById("project-image-2-1").src =
-    project.images?.[5]?.src || "";
+    toWebP(project.images?.[5]?.src) || "";
 
   document.getElementById("project-image-2-1").alt =
     project.images?.[5]?.alt || "";
 
 
   document.getElementById("project-image-3").src =
-    project.images?.[2]?.src || "";
+    toWebP(project.images?.[2]?.src) || "";
 
   document.getElementById("project-image-3").alt =
     project.images?.[2]?.alt || "";
@@ -147,10 +152,10 @@ function renderImageGroup(group) {
           const alt = img.alt || img.text || '';
           const caption = img.text || img.caption || '';
           const isVideo = src.endsWith('.mp4') || src.endsWith('.webm') || src.endsWith('.mov');
-          
-          const media = isVideo 
-            ? `<video src="${src}" class="project-image" autoplay loop muted playsinline style="width:100%; height:auto; display:block;"></video>`
-            : `<img src="${src}" alt="${alt}" class="project-image" loading="lazy"
+
+          const media = isVideo
+            ? `<video data-src="${src}" class="project-image lazy-video" loop muted playsinline preload="none" style="width:100%; height:auto; display:block;"></video>`
+            : `<img src="${toWebP(src)}" alt="${alt}" class="project-image" loading="lazy"
                 ${isSingle ? '' : 'onload="this.parentElement.style.flex = this.naturalWidth / this.naturalHeight"'}>`;
 
           return `
@@ -174,7 +179,7 @@ function renderImageGroup(group) {
         const alt = img.alt || img.text || '';
         return `
           <figure style="margin:0;">
-            <img src="${src}" alt="${alt}" class="project-image" loading="lazy"
+            <img src="${toWebP(src)}" alt="${alt}" class="project-image" loading="lazy"
               style="width:100%; height:auto; display:block;">
           </figure>
         `;
@@ -285,6 +290,23 @@ function initLightbox() {
 
 /* inizializza dopo il render */
 initLightbox();
+
+/* lazy-load videos when they enter the viewport */
+const videoObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (!entry.isIntersecting) return;
+    const video = entry.target;
+    if (video.dataset.src) {
+      video.src = video.dataset.src;
+      delete video.dataset.src;
+      video.load();
+      video.play().catch(() => {});
+    }
+    videoObserver.unobserve(video);
+  });
+}, { rootMargin: '200px' });
+
+document.querySelectorAll('.lazy-video').forEach(v => videoObserver.observe(v));
 
 
 /* chiusura click */
