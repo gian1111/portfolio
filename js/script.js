@@ -212,6 +212,31 @@ function initLangToggle() {
   });
 }
 
+function initHamburger() {
+    const toggle = document.getElementById('hamburger-toggle');
+    const menu = document.getElementById('mobile-menu');
+    if (!toggle || !menu) return;
+
+    toggle.addEventListener('click', () => {
+        menu.classList.toggle('open');
+        toggle.classList.toggle('active');
+    });
+
+    menu.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+            menu.classList.remove('open');
+            toggle.classList.remove('active');
+        });
+    });
+
+    document.addEventListener('keydown', e => {
+        if (e.key === 'Escape') {
+            menu.classList.remove('open');
+            toggle.classList.remove('active');
+        }
+    });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     renderProjects();
     initFilters();
@@ -219,6 +244,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initThemeToggle();
     setInterval(updateClock, 60000);
     initLangToggle();
+    initHamburger();
     document.body.classList.add('loaded');
 });
 

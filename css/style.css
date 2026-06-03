@@ -36,6 +36,7 @@
 html {
     scroll-behavior: smooth;
     scrollbar-gutter: stable both-edges;
+    overflow-x: hidden;
 }
 
 body {
@@ -196,6 +197,36 @@ h2 span:hover {
 
 .group:hover svg {
     animation: spin 3s linear infinite;
+}
+
+/* ── Mobile Menu ── */
+#mobile-menu {
+    transform: translateX(-100%);
+    transition: transform 0.25s ease;
+}
+#mobile-menu.open {
+    transform: translateX(0);
+}
+@media (min-width: 768px) {
+    #mobile-menu { display: none !important; }
+}
+body.theme-dark #mobile-menu {
+    background: #04131A !important;
+}
+body.theme-dark #mobile-menu .border-gray-200 {
+    border-color: #1F2937 !important;
+}
+body.theme-dark #mobile-menu .text-gray-500 {
+    color: #9CA3AF !important;
+}
+
+/* ── Nav show/hide helpers ── */
+.nav-desktop {
+    display: none;
+}
+@media (min-width: 768px) {
+    .nav-desktop { display: block; }
+    .nav-mobile  { display: none !important; }
 }
 
 /* ── Mobile Hamburger Menu ── */
@@ -366,9 +397,9 @@ body.theme-dark .filter-btn.bg-\[\#F6FB6B\] {
 
 @media (max-width: 767px) {
   /* più spazio sotto la nav */
-  main .pt-24 {
+  /* main .pt-24 {
     padding-top: 8rem !important;
-  }
+  } */
 
   /* filtri più piccoli */
   .filter-btn {
