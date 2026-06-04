@@ -153,8 +153,7 @@ function initThemeToggle() {
     if (!btn) return;
 
     const stored = localStorage.getItem('theme');
-    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const initial = stored || (prefersDark ? 'dark' : 'light');
+    const initial = stored || 'light';
     applyTheme(initial);
 
     btn.addEventListener('click', () => {
