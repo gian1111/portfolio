@@ -72,7 +72,6 @@
   <main class="px-10 pt-32 pb-40">
     <div class="grid grid-cols-12 gap-4">
 
-      <!-- MODIFICATO: Cambiato col-span-12 in md:col-start-3 md:col-span-8 -->
       <section class="col-span-12 md:col-start-3 md:col-span-8 mb-10">
         <div class="flex flex-col items-start md:items-center">
           <div class="w-full text-left md:text-center">
@@ -88,16 +87,12 @@
         </div>
       </section>
 
-      <!-- MODIFICATO: Cambiato col-span-12 in md:col-start-3 md:col-span-8 -->
       <section id="hero-images" class="col-span-12 md:col-start-3 md:col-span-8 flex gap-6 mb-10">
         <img id="project-image-1" src="" alt="" class="project-image h-auto" style="min-width:0" loading="eager" fetchpriority="high" decoding="async">
         <img id="project-image-2" src="" alt="" class="project-image h-auto" style="min-width:0" loading="eager" fetchpriority="high" decoding="async">
         <img id="project-image-2-1" src="" alt="" class="project-image h-auto" style="min-width:0" loading="lazy" decoding="async">
     </section>
 
-      <!-- MODIFICATO: Cambiato col-span-12 in md:col-start-3 md:col-span-8. 
-           Inoltre rimosso "md:col-start-8" dalla colonna di destra perché ora lo spazio totale si è ristretto, 
-           quindi le due colonne interne si dividono lo spazio a metà (md:col-span-6 ciascuna) senza bisogno di salti. -->
       <section class="col-span-12 md:col-start-3 md:col-span-8 grid grid-cols-12 gap-6 mb-16 items-start">
         <div class="col-span-12 md:col-span-6 grid grid-cols-2 gap-x-6 gap-y-10 font-satoshi font-[600] text-[16px] leading-tight">
           <div>
@@ -126,14 +121,11 @@
         </div>
       </section>
 
-      <!-- MODIFICATO: Semplificata la struttura. Prima c'era una griglia nidificata inutile (md:col-start-3 md:col-span-8). 
-           Ora applichiamo le classi direttamente al <section> principale come fatto sopra. -->
       <section class="col-span-12 md:col-start-3 md:col-span-8">
         <img id="project-image-3" src="" alt="" class="project-image w-full h-auto object-cover">
         <p id="project-body-2" class="font-satoshi font-[600] text-[18px] leading-snug mt-6 mb-6"></p>
       </section>
 
-      <!-- MODIFICATO: Cambiato col-span-12 in md:col-start-3 md:col-span-8 -->
       <section class="col-span-12 md:col-start-3 md:col-span-8">
         <div id="project-gallery" class="project-gallery"></div>
       </section>
@@ -177,7 +169,6 @@
         </div>
     </footer>
 
-    <!-- Custom cursor: appare solo sull'hover dei progetti -->
     <div id="custom-cursor">
         <span id="custom-cursor-inner">+</span>
     </div>
