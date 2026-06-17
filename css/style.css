@@ -414,6 +414,11 @@ body.theme-dark .filter-btn.bg-\[\#F6FB6B\] {
     padding: 0.4rem 0.9rem !important;
   }
 
+  /* hide entire footer on mobile — nav lives in the hamburger menu instead */
+  footer {
+    display: none !important;
+  }
+
 }
 
 

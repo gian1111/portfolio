@@ -121,10 +121,13 @@ function initFilters() {
  * OROLOGIO
  */
 function updateClock() {
-    const timeDisplay = document.getElementById('current-time');
     const now = new Date();
     const timeString = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: true });
-    if (timeDisplay) timeDisplay.innerText = `Chieti, Italy - ${timeString}`;
+    const text = `Chieti, Italy - ${timeString}`;
+    const timeDisplay = document.getElementById('current-time');
+    const timeDisplayMobile = document.getElementById('current-time-mobile');
+    if (timeDisplay) timeDisplay.innerText = text;
+    if (timeDisplayMobile) timeDisplayMobile.innerText = text;
 }
 
 /**
@@ -150,17 +153,21 @@ function applyTheme(theme) {
 
 function initThemeToggle() {
     const btn = document.getElementById('themeToggle');
-    if (!btn) return;
+    const btnMobile = document.getElementById('themeToggle-mobile');
 
     const stored = localStorage.getItem('theme');
     const initial = stored || 'light';
     applyTheme(initial);
 
-    btn.addEventListener('click', () => {
+    const toggle = () => {
         const next = document.body.classList.contains('theme-dark') ? 'light' : 'dark';
         localStorage.setItem('theme', next);
         applyTheme(next);
-    });
+        if (btnMobile) btnMobile.textContent = next === 'dark' ? 'Light' : 'Dark';
+    };
+
+    if (btn) btn.addEventListener('click', toggle);
+    if (btnMobile) btnMobile.addEventListener('click', toggle);
 }
 
 let currentLang = localStorage.getItem('lang') || 'en';
@@ -191,24 +198,32 @@ function applyLang(lang) {
   const navP = document.querySelector('nav p');
   const navProjects = document.getElementById('nav-projects');
   const navAboutme = document.getElementById('nav-aboutme');
+  const navProjectsMobile = document.getElementById('nav-projects-mobile');
+  const navAboutmeMobile = document.getElementById('nav-aboutme-mobile');
   const available = document.querySelector('.underline.font-bold');
   const btn = document.getElementById('langToggle');
+  const btnMobile = document.getElementById('langToggle-mobile');
 
   if (navH1) navH1.textContent = t.name;
   if (navP) navP.textContent = t.subtitle;
   if (navProjects) navProjects.textContent = t.projects;
   if (navAboutme) navAboutme.textContent = t.aboutme;
+  if (navProjectsMobile) navProjectsMobile.textContent = t.projects;
+  if (navAboutmeMobile) navAboutmeMobile.textContent = t.aboutme;
   if (available) available.textContent = t.available;
   if (btn) btn.textContent = lang === 'en' ? 'ITA' : 'ENG';
+  if (btnMobile) btnMobile.textContent = lang === 'en' ? 'ITA' : 'ENG';
+
+  document.querySelectorAll('.available-mobile').forEach(el => el.textContent = t.available);
 }
 
 function initLangToggle() {
   const btn = document.getElementById('langToggle');
-  if (!btn) return;
+  const btnMobile = document.getElementById('langToggle-mobile');
   applyLang(currentLang);
-  btn.addEventListener('click', () => {
-    applyLang(currentLang === 'it' ? 'en' : 'it');
-  });
+  const toggle = () => applyLang(currentLang === 'it' ? 'en' : 'it');
+  if (btn) btn.addEventListener('click', toggle);
+  if (btnMobile) btnMobile.addEventListener('click', toggle);
 }
 
 function initHamburger() {
