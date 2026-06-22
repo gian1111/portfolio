@@ -25,37 +25,37 @@ const projectsData = {
 
     images: [
   {
-    src: "assets/optimized-files/optimized/social-media/matchday.jpg",
-    alt: "SSC Napoli social media design poster blue layout di lorenzo"
+    src: "assets/optimized-files/optimized/social-media/matchday.webp",
+    alt: ""
   },
   {
-    src: "assets/optimized-files/optimized/social-media/matchdayjuve2.png",
-    alt: "SSC Napoli social media design poster blue layout di lorenzo"
+    src: "assets/optimized-files/optimized/social-media/matchdayjuve2.webp",
+    alt: ""
   },
 ],
     gallery: [
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/social-media/matchdayjuve.png", text: "" },
-          { image: "assets/optimized-files/optimized/social-media/ex.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/social-media/kenan1.jpg", text: "" },
+          { image: "assets/optimized-files/optimized/social-media/matchdayjuve.webp", text: "" },
+          { image: "assets/optimized-files/optimized/social-media/ex.webp", text: "" },
+          { image: "assets/optimized-files/optimized/social-media/kenan1.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/social-media/matchdayjuve3.png", text: "" },
-          { image: "assets/optimized-files/optimized/social-media/Frame 261.png", text: "" },
-          { image: "assets/optimized-files/optimized/social-media/bboga.png", text: "" },
+          { image: "assets/optimized-files/optimized/social-media/matchdayjuve3.webp", text: "" },
+          { image: "assets/optimized-files/optimized/social-media/Frame 261.webp", text: "" },
+          { image: "assets/optimized-files/optimized/social-media/bboga.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/social-media/yi.png", text: "" },
-          { image: "assets/optimized-files/optimized/social-media/Frame 427321998.png", text: "" },
-          { image: "assets/optimized-files/optimized/social-media/Frame 427321999.png", text: "" },
+          { image: "assets/optimized-files/optimized/social-media/yi.webp", text: "" },
+          { image: "assets/optimized-files/optimized/social-media/Frame 427321998.webp", text: "" },
+          { image: "assets/optimized-files/optimized/social-media/Frame 427321999.webp", text: "" },
         ]
       },
       {
@@ -206,32 +206,32 @@ const projectsData = {
 
     images: [
   {
-    src: "assets/optimized-files/optimized/letsgoski/letsgoski_4x5_3.jpg",
+    src: "assets/optimized-files/optimized/letsgoski/letsgoski_4x5_3.webp",
     alt: "letsgoski merch"
   },
 
   {
-    src: "assets/optimized-files/optimized/letsgoski/letsgoski_4x5_1.jpg",
+    src: "assets/optimized-files/optimized/letsgoski/letsgoski_4x5_1.webp",
     alt: "letsgoski merch"
   },
 
   {
-    src: "assets/optimized-files/optimized/letsgoski/letsgoski_4x5_4.jpg",
+    src: "assets/optimized-files/optimized/letsgoski/letsgoski_4x5_4.webp",
     alt: "letsgoski merch"
   },
   {
-    src: "assets/optimized-files/optimized/letsogksi2/468614821_17939031731937904_1370195125912354590_n.jpg",
+    src: "assets/optimized-files/optimized/letsogksi2/468614821_17939031731937904_1370195125912354590_n.webp",
     alt: "letsgoski merch"
   },
 
 
   {
-    src: "assets/optimized-files/optimized/letsogksi2/468614821_17939031731937904_1370195125912354590_n.jpg",
+    src: "assets/optimized-files/optimized/letsogksi2/468614821_17939031731937904_1370195125912354590_n.webp",
     alt: "letsgoski merch"
   },
 
   {
-    src: "assets/optimized-files/optimized/letsogksi2/468614821_17939031731937904_1370195125912354590_n.jpg",
+    src: "assets/optimized-files/optimized/letsogksi2/468614821_17939031731937904_1370195125912354590_n.webp",
     alt: "letsgoski merch"
   }
 ],
@@ -240,10 +240,10 @@ const projectsData = {
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/letsgoski/letsgoski_concept_fonetico2.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/letsogksi2/Front-Letsgowski_1.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/letsgoski/letsgoski_concept_fonetico.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/letsogksi2/letsgoski_logo_hat.jpg", text: "" }
+          { image: "assets/optimized-files/optimized/letsgoski/letsgoski_concept_fonetico2.webp", text: "" },
+          { image: "assets/optimized-files/optimized/letsogksi2/Front-Letsgowski_1.webp", text: "" },
+          { image: "assets/optimized-files/optimized/letsgoski/letsgoski_concept_fonetico.webp", text: "" },
+          { image: "assets/optimized-files/optimized/letsogksi2/letsgoski_logo_hat.webp", text: "" }
         ]
       },
       {
@@ -254,11 +254,11 @@ const projectsData = {
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/letsogksi2/letsgoski_concept_4.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/letsogksi2/letsgoski_concept2_2.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/letsogksi2/letsgoski_concept2_5.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/letsogksi2/letsgoski_concept2_1.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/letsogksi2/letsgoski_concept2_3.jpg", text: "" },
+          { image: "assets/optimized-files/optimized/letsogksi2/letsgoski_concept_4.webp", text: "" },
+          { image: "assets/optimized-files/optimized/letsogksi2/letsgoski_concept2_2.webp", text: "" },
+          { image: "assets/optimized-files/optimized/letsogksi2/letsgoski_concept2_5.webp", text: "" },
+          { image: "assets/optimized-files/optimized/letsogksi2/letsgoski_concept2_1.webp", text: "" },
+          { image: "assets/optimized-files/optimized/letsogksi2/letsgoski_concept2_3.webp", text: "" },
         ]
       },
       {
@@ -269,8 +269,8 @@ const projectsData = {
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/letsogksi2/letsgoski_back_1.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/letsogksi2/letsgoski_back_2.jpg", text: "" }
+          { image: "assets/optimized-files/optimized/letsogksi2/letsgoski_back_1.webp", text: "" },
+          { image: "assets/optimized-files/optimized/letsogksi2/letsgoski_back_2.webp", text: "" }
         ]
       },
       {
@@ -308,26 +308,26 @@ const projectsData = {
 
     images: [
   {
-    src: "assets/optimized-files/optimized/dinosound/DinoSound_Mockup1_2.jpg",
+    src: "assets/optimized-files/optimized/dinosound/DinoSound_Mockup1_2.webp",
     alt: "letsgoski merch"
   },
 
   {
-    src: "assets/optimized-files/optimized/dinosound/DinoSound_Mockup1_1.jpg",
+    src: "assets/optimized-files/optimized/dinosound/DinoSound_Mockup1_1.webp",
     alt: "letsgoski merch"
   },
 
   {
-    src: "assets/optimized-files/optimized/dinosound/Slide 16_9 - 12.jpg",
+    src: "assets/optimized-files/optimized/dinosound/Slide 16_9 - 12.webp",
     alt: "letsgoski merch"
   },
   {
-    src: "assets/optimized-files/optimized/dinosound/DinoSound_Mockup1_2.jpg",
+    src: "assets/optimized-files/optimized/dinosound/DinoSound_Mockup1_2.webp",
     alt: "letsgoski merch"
   },
 
   {
-    src: "assets/optimized-files/optimized/dinosound/DinoSound_Mockup1_2.jpg",
+    src: "assets/optimized-files/optimized/dinosound/DinoSound_Mockup1_2.webp",
     alt: "letsgoski merch"
   },
 
@@ -364,12 +364,12 @@ const projectsData = {
 
     images: [
   {
-    src: "assets/optimized-files/optimized/berserk/berserk_2.png",
-    alt: "letsgoski merch"
+    src: "assets/optimized-files/optimized/berserk/berserk_2.webp",
+    alt: ""
   },
   {
-    src: "assets/optimized-files/optimized/berserk/berserk_8.png",
-    alt: "letsgoski merch"
+    src: "assets/optimized-files/optimized/berserk/berserk_8.webp",
+    alt: ""
   },
   
   ],
@@ -377,13 +377,13 @@ const projectsData = {
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/berserk/berserk_1.png", text: "" },
+          { image: "assets/optimized-files/optimized/berserk/berserk_1.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/berserk/berserk_2.png", text: "" },
+          { image: "assets/optimized-files/optimized/berserk/berserk_2.webp", text: "" },
         ]
       },
       {
@@ -395,31 +395,31 @@ const projectsData = {
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/berserk/berserk_4.png", text: "" },
+          { image: "assets/optimized-files/optimized/berserk/berserk_4.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/berserk/berserk_5.png", text: "" },
+          { image: "assets/optimized-files/optimized/berserk/berserk_5.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/berserk/berserk_6.png", text: "" },
+          { image: "assets/optimized-files/optimized/berserk/berserk_6.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/berserk/berserk_15.png", text: "" },
+          { image: "assets/optimized-files/optimized/berserk/berserk_15.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/berserk/berserk_7.png", text: "" },
+          { image: "assets/optimized-files/optimized/berserk/berserk_7.webp", text: "" },
         ]
       },
       {
@@ -431,7 +431,7 @@ const projectsData = {
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/berserk/berserk_3.png", text: "" },
+          { image: "assets/optimized-files/optimized/berserk/berserk_3.webp", text: "" },
         ]
       },
       {
@@ -443,25 +443,25 @@ const projectsData = {
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/berserk/berserk_9.png", text: "" },
+          { image: "assets/optimized-files/optimized/berserk/berserk_9.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/berserk/berserk_8.png", text: "" },
+          { image: "assets/optimized-files/optimized/berserk/berserk_8.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/berserk/berserk_11.png", text: "" },
+          { image: "assets/optimized-files/optimized/berserk/berserk_11.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/berserk/berserk_10.png", text: "" },
+          { image: "assets/optimized-files/optimized/berserk/berserk_10.webp", text: "" },
         ]
       },
       {
@@ -473,7 +473,7 @@ const projectsData = {
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/berserk/assets.png", text: "" },
+          { image: "assets/optimized-files/optimized/berserk/assets.webp", text: "" },
         ]
       },
       {
@@ -509,32 +509,32 @@ const projectsData = {
 
     images: [
   {
-    src: "assets/optimized-files/optimized/stefanofrancioni/roccopapaleo_apropositodirocco_600x800.jpg",
+    src: "assets/optimized-files/optimized/stefanofrancioni/roccopapaleo_apropositodirocco_600x800.webp",
     alt: "SSC Napoli social media design poster blue layout di lorenzo"
   },
 
   {
-    src: "assets/optimized-files/optimized/stefanofrancioni/roccopapaleo_divertissment_600x800.jpg",
+    src: "assets/optimized-files/optimized/stefanofrancioni/roccopapaleo_divertissment_600x800.webp",
     alt: "SSC Napoli Instagram visual bold typography osimhen matchday"
   },
 
   {
-    src: "assets/optimized-files/optimized/stefanofrancioni/ManifestoDraft_1.jpg",
+    src: "assets/optimized-files/optimized/stefanofrancioni/ManifestoDraft_1.webp",
     alt: "Victor Osimhen Napoli dramatic poster design"
   },
   {
-    src: "assets/optimized-files/optimized/ssc-napoli/contenapoli.jpg",
+    src: "assets/optimized-files/optimized/ssc-napoli/contenapoli.webp",
     alt: "SSC Napoli social campaign layout concept"
   },
 
 
   {
-    src: "assets/optimized-files/optimized/ssc-napoli/testnapoli_5.jpg",
+    src: "assets/optimized-files/optimized/ssc-napoli/testnapoli_5.webp",
     alt: "SSC Napoli branding visual blue composition"
   },
 
   {
-    src: "assets/optimized-files/optimized/stefanofrancioni/stagioneteatrale_post.jpg",
+    src: "assets/optimized-files/optimized/stefanofrancioni/stagioneteatrale_post.webp",
     alt: "SSC Napoli branding visual blue composition conte"
   }
 ],
@@ -543,14 +543,14 @@ const projectsData = {
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/stefanofrancioni/pasotti_21.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/stefanofrancioni/pasotti_23.jpg", text: "" }
+          { image: "assets/optimized-files/optimized/stefanofrancioni/pasotti_21.webp", text: "" },
+          { image: "assets/optimized-files/optimized/stefanofrancioni/pasotti_23.webp", text: "" }
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/stefanofrancioni/pasotti_22.jpg", text: "" },
+          { image: "assets/optimized-files/optimized/stefanofrancioni/pasotti_22.webp", text: "" },
         ]
       },
       {
@@ -561,15 +561,15 @@ const projectsData = {
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/stefanofrancioni/pasotti3.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/stefanofrancioni/pasotti_2.jpg", text: "", },
-          { image: "assets/optimized-files/optimized/stefanofrancioni/pasotti.jpg", text: "" },
+          { image: "assets/optimized-files/optimized/stefanofrancioni/pasotti3.webp", text: "" },
+          { image: "assets/optimized-files/optimized/stefanofrancioni/pasotti_2.webp", text: "", },
+          { image: "assets/optimized-files/optimized/stefanofrancioni/pasotti.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/stefanofrancioni/pasotti2.jpg", text: "" },
+          { image: "assets/optimized-files/optimized/stefanofrancioni/pasotti2.webp", text: "" },
         ]
       },
         { type: "text",
@@ -578,8 +578,8 @@ const projectsData = {
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/stefanofrancioni/roccopapaleo_divertissment_600x800.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/stefanofrancioni/roccopapaleo_apropositodirocco_600x800.jpg", text: "" }
+          { image: "assets/optimized-files/optimized/stefanofrancioni/roccopapaleo_divertissment_600x800.webp", text: "" },
+          { image: "assets/optimized-files/optimized/stefanofrancioni/roccopapaleo_apropositodirocco_600x800.webp", text: "" }
         ]
       },
       {
@@ -590,8 +590,8 @@ const projectsData = {
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/stefanofrancioni/stagioneteatrale_post.jpg", text: "", flex: 0.8 },
-          { image: "assets/optimized-files/optimized/stefanofrancioni/stagioneteatrale_storia.jpg", text: "", flex: 0.5625 }
+          { image: "assets/optimized-files/optimized/stefanofrancioni/stagioneteatrale_post.webp", text: "", flex: 0.8 },
+          { image: "assets/optimized-files/optimized/stefanofrancioni/stagioneteatrale_storia.webp", text: "", flex: 0.5625 }
         ]
       },
       {
@@ -602,8 +602,8 @@ const projectsData = {
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/stefanofrancioni/leogullotta_manifesto.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/stefanofrancioni/ManifestoDraft_1.jpg", text: "" }
+          { image: "assets/optimized-files/optimized/stefanofrancioni/leogullotta_manifesto.webp", text: "" },
+          { image: "assets/optimized-files/optimized/stefanofrancioni/ManifestoDraft_1.webp", text: "" }
         ]
       },
       {
@@ -638,21 +638,21 @@ const projectsData = {
     ],
     images: [
   {
-    src: "assets/optimized-files/optimized/poster/gorgeous3.jpg",
-    alt: "letsgoski merch"
+    src: "assets/optimized-files/optimized/poster/gorgeous3.webp",
+    alt: ""
   },
 
   {
-    src: "assets/optimized-files/optimized/poster/74981432b0b393c3247275b1d943a9594e54a75d536ebaa874b2b66882215a9e.jpg",
-    alt: "letsgoski merch"
+    src: "assets/optimized-files/optimized/poster/74981432b0b393c3247275b1d943a9594e54a75d536ebaa874b2b66882215a9e.webp",
+    alt: ""
   }  
 ],
 gallery: [
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/poster/gorgeous3.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/poster/gorgeousposter2.jpg", text: "" },
+          { image: "assets/optimized-files/optimized/poster/gorgeous3.webp", text: "" },
+          { image: "assets/optimized-files/optimized/poster/gorgeousposter2.webp", text: "" },
         ]
       },
       {
@@ -663,7 +663,7 @@ gallery: [
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/poster/dist-gor.jpg", text: "" },
+          { image: "assets/optimized-files/optimized/poster/dist-gor.webp", text: "" },
         ]
       },
       {
@@ -700,12 +700,12 @@ gallery: [
 
     images: [
   {
-    src: "assets/optimized-files/optimized/carosello/shogun1.jpg",
-    alt: "SSC Napoli social media design poster blue layout di lorenzo"
+    src: "assets/optimized-files/optimized/carosello/shogun1.webp",
+    alt: ""
   },
   {
-    src: "assets/optimized-files/optimized/carosello/genesi.jpg",
-    alt: "SSC Napoli social media design poster blue layout di lorenzo"
+    src: "assets/optimized-files/optimized/carosello/genesi.webp",
+    alt: ""
   },
   
 ],
@@ -714,7 +714,7 @@ gallery: [
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/carosello/shogun-carousel.jpg", text: "" },
+          { image: "assets/optimized-files/optimized/carosello/shogun-carousel.webp", text: "" },
         ]
       },
       {
@@ -726,7 +726,7 @@ gallery: [
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/carosello/genesi-carosello.jpg", text: "" },
+          { image: "assets/optimized-files/optimized/carosello/genesi-carosello.webp", text: "" },
         ]
       },
       {
@@ -738,7 +738,7 @@ gallery: [
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/carosello/giampaolomorelli.jpg", text: "" },
+          { image: "assets/optimized-files/optimized/carosello/giampaolomorelli.webp", text: "" },
         ]
       },
       {
@@ -750,7 +750,7 @@ gallery: [
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/carosello/carosello_novo_recap.png", text: "" },
+          { image: "assets/optimized-files/optimized/carosello/carosello_novo_recap.webp", text: "" },
         ]
       },
       { type: "text",
@@ -785,8 +785,8 @@ gallery: [
 
     images: [
   {
-    src: "assets/optimized-files/optimized/StraightThroughPoster/Landscape_Poster_3.jpg",
-    alt: "SSC Napoli social media design poster blue layout di lorenzo"
+    src: "assets/optimized-files/optimized/StraightThroughPoster/Landscape_Poster_3.webp",
+    alt: ""
   },
 ],
 
@@ -865,12 +865,12 @@ gallery: [
 
     images: [
   {
-    src: "assets/optimized-files/optimized/seventh peak UI/main screen.png",
-    alt: "SSC Napoli social media design poster blue layout di lorenzo"
+    src: "assets/optimized-files/optimized/seventh peak UI/main screen.webp",
+    alt: ""
   },
   {
-    src: "assets/optimized-files/optimized/seventh peak UI/opening – 85.png",
-    alt: "SSC Napoli social media design poster blue layout di lorenzo"
+    src: "assets/optimized-files/optimized/seventh peak UI/opening – 85.webp",
+    alt: ""
   },
 ],
 
@@ -878,49 +878,49 @@ gallery: [
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/seventh peak UI/Web 1920 – 18.png", text: "" },
+          { image: "assets/optimized-files/optimized/seventh peak UI/Web 1920 – 18.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/seventh peak UI/Web 1920 – 14.png", text: "" },
+          { image: "assets/optimized-files/optimized/seventh peak UI/Web 1920 – 14.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/seventh peak UI/Web 1920 – 10.png", text: "" },
+          { image: "assets/optimized-files/optimized/seventh peak UI/Web 1920 – 10.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/seventh peak UI/Web 1920 – 17.png", text: "" },
+          { image: "assets/optimized-files/optimized/seventh peak UI/Web 1920 – 17.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/seventh peak UI/opening – 52.png", text: "" },
+          { image: "assets/optimized-files/optimized/seventh peak UI/opening – 52.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/seventh peak UI/opening – 14.png", text: "" },
+          { image: "assets/optimized-files/optimized/seventh peak UI/opening – 14.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/seventh peak UI/opening – 53.png", text: "" },
+          { image: "assets/optimized-files/optimized/seventh peak UI/opening – 53.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/seventh peak UI/opening – 61.png", text: "" },
+          { image: "assets/optimized-files/optimized/seventh peak UI/opening – 61.webp", text: "" },
         ]
       },
       
@@ -928,19 +928,19 @@ gallery: [
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/seventh peak UI/opening – 57.png", text: "" },
+          { image: "assets/optimized-files/optimized/seventh peak UI/opening – 57.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/seventh peak UI/opening – 56.png", text: "" },
+          { image: "assets/optimized-files/optimized/seventh peak UI/opening – 56.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/seventh peak UI/Web 1920 – 9.png", text: "" },
+          { image: "assets/optimized-files/optimized/seventh peak UI/Web 1920 – 9.webp", text: "" },
         ]
       },
       {
@@ -955,97 +955,97 @@ gallery: [
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/seventh peak UI/opening – 91.png", text: "" },
+          { image: "assets/optimized-files/optimized/seventh peak UI/opening – 91.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/seventh peak UI/main screen.png", text: "" },
+          { image: "assets/optimized-files/optimized/seventh peak UI/main screen.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/seventh peak UI/opening – 88.png", text: "" },
+          { image: "assets/optimized-files/optimized/seventh peak UI/opening – 88.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/seventh peak UI/opening – 87.png", text: "" },
+          { image: "assets/optimized-files/optimized/seventh peak UI/opening – 87.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/seventh peak UI/settings.png", text: "" },
+          { image: "assets/optimized-files/optimized/seventh peak UI/settings.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/seventh peak UI/settings-1.png", text: "" },
+          { image: "assets/optimized-files/optimized/seventh peak UI/settings-1.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/seventh peak UI/settings-2.png", text: "" },
+          { image: "assets/optimized-files/optimized/seventh peak UI/settings-2.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/seventh peak UI/opening – 84.png", text: "" },
+          { image: "assets/optimized-files/optimized/seventh peak UI/opening – 84.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/seventh peak UI/opening – 85.png", text: "" },
+          { image: "assets/optimized-files/optimized/seventh peak UI/opening – 85.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/seventh peak UI/opening – 86.png", text: "" },
+          { image: "assets/optimized-files/optimized/seventh peak UI/opening – 86.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/seventh peak UI/opening – 89.png", text: "" },
+          { image: "assets/optimized-files/optimized/seventh peak UI/opening – 89.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/seventh peak UI/dirò.png", text: "" },
+          { image: "assets/optimized-files/optimized/seventh peak UI/dirò.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/seventh peak UI/screen qui.png", text: "" },
+          { image: "assets/optimized-files/optimized/seventh peak UI/screen qui.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/seventh peak UI/opening – 94.png", text: "" },
+          { image: "assets/optimized-files/optimized/seventh peak UI/opening – 94.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/seventh peak UI/opening – 93.png", text: "" },
+          { image: "assets/optimized-files/optimized/seventh peak UI/opening – 93.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/seventh peak UI/subtitle.png", text: "" },
+          { image: "assets/optimized-files/optimized/seventh peak UI/subtitle.webp", text: "" },
         ]
       },
       {
@@ -1057,7 +1057,7 @@ gallery: [
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/seventh peak UI/Group 415.png", text: "" },
+          { image: "assets/optimized-files/optimized/seventh peak UI/Group 415.webp", text: "" },
         ]
       },
       {
@@ -1093,8 +1093,8 @@ gallery: [
 
     images: [
   {
-    src: "assets/optimized-files/optimized/area-sport/Frame 427322020.png",
-    alt: "SSC Napoli social media design poster blue layout di lorenzo"
+    src: "assets/optimized-files/optimized/area-sport/Frame 427322020.webp",
+    alt: ""
   },
 ],
 
@@ -1102,37 +1102,37 @@ gallery: [
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/area-sport/Frame 427322020.png", text: "" },
+          { image: "assets/optimized-files/optimized/area-sport/Frame 427322020.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/area-sport/Frame 427322025.png", text: "" },
+          { image: "assets/optimized-files/optimized/area-sport/Frame 427322025.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/area-sport/Frame 427322027.png", text: "" },
+          { image: "assets/optimized-files/optimized/area-sport/Frame 427322027.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/area-sport/Frame 427322028.png", text: "" },
+          { image: "assets/optimized-files/optimized/area-sport/Frame 427322028.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/area-sport/Frame 427322029.png", text: "" },
+          { image: "assets/optimized-files/optimized/area-sport/Frame 427322029.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/area-sport/Frame 427322030.png", text: "" },
+          { image: "assets/optimized-files/optimized/area-sport/Frame 427322030.webp", text: "" },
         ]
       },
       // {
@@ -1168,7 +1168,7 @@ gallery: [
 
     images: [
   {
-    src: "assets/optimized-files/optimized/social-media/HuescaFcBarcelona.jpg",
+    src: "assets/optimized-files/optimized/social-media/HuescaFcBarcelona.webp",
     alt: "SSC Napoli social media design poster blue layout di lorenzo"
   },
 ],
@@ -1176,25 +1176,25 @@ gallery: [
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/ssc-napoli/testnapoli_14png.jpg", text: "" },
-          { image: "assets/projects-media/sscnapoli/testnapoli_5.png", text: "" },
-          { image: "assets/projects-media/sscnapoli/testnapoli_3.png", text: "" },
+          { image: "assets/optimized-files/optimized/ssc-napoli/testnapoli_14png.webp", text: "" },
+          { image: "assets/optimized-files/optimized/ssc-napoli/testnapoli_5.webp", text: "" },
+          { image: "assets/optimized-files/optimized/ssc-napoli/testnapoli_3.webp", text: "" },
 
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/ssc-napoli/testnapoli_12.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/social-media/ngonge1.png", text: "" },
-          { image: "assets/projects-media/sscnapoli/contenapoli.png", text: "" },
+          { image: "assets/optimized-files/optimized/ssc-napoli/testnapoli_12.webp", text: "" },
+          { image: "assets/optimized-files/optimized/social-media/ngonge1.webp", text: "" },
+          { image: "assets/optimized-files/optimized/ssc-napoli/contenapoli.webp", text: "" },
         ]
       },
             {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/ssc-napoli/testnapoli_4.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/ssc-napoli/victor.jpg", text: "" },
+          { image: "assets/optimized-files/optimized/ssc-napoli/testnapoli_4.webp", text: "" },
+          { image: "assets/optimized-files/optimized/ssc-napoli/victor.webp", text: "" },
         ]
       },
       {
@@ -1206,15 +1206,15 @@ gallery: [
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/social-media/italia_1.png", text: "" },
-          { image: "assets/optimized-files/optimized/social-media/italia_3.png", text: "" },
+          { image: "assets/optimized-files/optimized/social-media/italia_1.webp", text: "" },
+          { image: "assets/optimized-files/optimized/social-media/italia_3.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/social-media/zaccagni.png", text: "" },
-          { image: "assets/optimized-files/optimized/social-media/raspadori.png", text: "" },
+          { image: "assets/optimized-files/optimized/social-media/zaccagni.webp", text: "" },
+          { image: "assets/optimized-files/optimized/social-media/raspadori.webp", text: "" },
         ]
       },
       {
@@ -1225,9 +1225,9 @@ gallery: [
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/social-media/lecce_1.png", text: "" },
-          { image: "assets/optimized-files/optimized/social-media/lecce_2.png", text: "" },
-          { image: "assets/optimized-files/optimized/social-media/lecce_3.png", text: "" },
+          { image: "assets/optimized-files/optimized/social-media/lecce_1.webp", text: "" },
+          { image: "assets/optimized-files/optimized/social-media/lecce_2.webp", text: "" },
+          { image: "assets/optimized-files/optimized/social-media/lecce_3.webp", text: "" },
         ]
       },
       {
@@ -1239,8 +1239,8 @@ gallery: [
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/social-media/Torino_1.png", text: "" },
-          { image: "assets/optimized-files/optimized/social-media/Torino_2.png", text: "" },
+          { image: "assets/optimized-files/optimized/social-media/Torino_1.webp", text: "" },
+          { image: "assets/optimized-files/optimized/social-media/Torino_2.webp", text: "" },
         ]
       },
       {
@@ -1282,7 +1282,7 @@ gallery: [
 
     images: [
   {
-    src: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/QualifiedToGrandFinal.jpg",
+    src: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/QualifiedToGrandFinal.webp",
     alt: "SSC Napoli social media design poster blue layout di lorenzo"
   },
 ],
@@ -1290,16 +1290,16 @@ gallery: [
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/3-2_NOVO_Playoff_Defeat_LoserBracket.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/H1ber_MVP_4x5.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/NOVO_Playoff_Victory_LoserBracket_1080x1920.jpg", text: "" },
+          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/3-2_NOVO_Playoff_Defeat_LoserBracket.webp", text: "" },
+          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/H1ber_MVP_4x5.webp", text: "" },
+          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/NOVO_Playoff_Victory_LoserBracket_1080x1920.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/QualifiedToGrandFinal.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/QualifiedToGrandFinal_4x5_2.jpg", text: "" },
+          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/QualifiedToGrandFinal.webp", text: "" },
+          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/QualifiedToGrandFinal_4x5_2.webp", text: "" },
           ]
       },
       {
@@ -1311,15 +1311,15 @@ gallery: [
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/novo1/NOVO_Playoff_Matchday_Derby.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/novo1/NOVO_Playoff_Victory_Derby.jpg", text: "" },
+          { image: "assets/optimized-files/optimized/novo1/NOVO_Playoff_Matchday_Derby.webp", text: "" },
+          { image: "assets/optimized-files/optimized/novo1/NOVO_Playoff_Victory_Derby.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/novo1/NOVO_Playoff_MVP_Derby.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/novo1/NOVO_Playoff_Defeat_Derby_1080x1920.jpg", text: "" },
+          { image: "assets/optimized-files/optimized/novo1/NOVO_Playoff_MVP_Derby.webp", text: "" },
+          { image: "assets/optimized-files/optimized/novo1/NOVO_Playoff_Defeat_Derby_1080x1920.webp", text: "" },
         ]
       },
       {
@@ -1331,9 +1331,9 @@ gallery: [
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (12)/fcporopen.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (12)/delazzz_4x5_notqualified.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (12)/anonymous_16x9_qualified.jpg", text: "" },
+          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (12)/fcporopen.webp", text: "" },
+          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (12)/delazzz_4x5_notqualified.webp", text: "" },
+          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (12)/anonymous_16x9_qualified.webp", text: "" },
         ]
       },
       {
@@ -1344,8 +1344,8 @@ gallery: [
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/MatchdayGrandFinal.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/VictoryGrandFinal_1080x1920_5-4.jpg", text: "" },
+          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/MatchdayGrandFinal.webp", text: "" },
+          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/VictoryGrandFinal_1080x1920_5-4.webp", text: "" },
         ]
       },
       {
@@ -1358,9 +1358,9 @@ gallery: [
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/novotruman/truman_matchday.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/novotruman/truman_victory.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/novotruman/truman_defeat.jpg", text: "" },
+          { image: "assets/optimized-files/optimized/novotruman/truman_matchday.webp", text: "" },
+          { image: "assets/optimized-files/optimized/novotruman/truman_victory.webp", text: "" },
+          { image: "assets/optimized-files/optimized/novotruman/truman_defeat.webp", text: "" },
         ]
       },
       {
@@ -1372,22 +1372,22 @@ gallery: [
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/novowallpaper/novo_wallpaper_2_1920.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/novowallpaper/novo_wallpaper_mobile_2.jpg", text: "" },
+          { image: "assets/optimized-files/optimized/novowallpaper/novo_wallpaper_2_1920.webp", text: "" },
+          { image: "assets/optimized-files/optimized/novowallpaper/novo_wallpaper_mobile_2.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/novowallpaper/novo_wallpaper_2560.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/novowallpaper/novo_wallpaper_mobile.jpg", text: "" },
+          { image: "assets/optimized-files/optimized/novowallpaper/novo_wallpaper_2560.webp", text: "" },
+          { image: "assets/optimized-files/optimized/novowallpaper/novo_wallpaper_mobile.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/novowallpaper/novo_wallpaper-2.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/novowallpaper/novo_wallpaper5.jpg", text: "" },
+          { image: "assets/optimized-files/optimized/novowallpaper/novo_wallpaper-2.webp", text: "" },
+          { image: "assets/optimized-files/optimized/novowallpaper/novo_wallpaper5.webp", text: "" },
         ]
       },
       {
@@ -1399,16 +1399,16 @@ gallery: [
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (5)/stella-novo_4x5.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (8)/standings_playoff.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (5)/aig_supercell.jpg", text: "" },
+          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (5)/stella-novo_4x5.webp", text: "" },
+          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (8)/standings_playoff.webp", text: "" },
+          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (5)/aig_supercell.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (5)/NOVO_Genesi_Results.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/estamosenrising.jpg", text: "" },
+          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (5)/NOVO_Genesi_Results.webp", text: "" },
+          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/estamosenrising.webp", text: "" },
         ]
       },      
       {
@@ -1444,7 +1444,7 @@ gallery: [
 
     images: [
   {
-    src: "assets/optimized-files/optimized/fractures1/Piano-Month-Banner-Updated.jpg",
+    src: "assets/optimized-files/optimized/fractures1/Piano-Month-Banner-Updated.webp",
     alt: "SSC Napoli social media design poster blue layout di lorenzo"
   },
 ],
@@ -1452,14 +1452,14 @@ gallery: [
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/fractures2/concept 1-background-horrizontal.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/fractures2/concept 1 - artwork.jpg", text: "" },
+          { image: "assets/optimized-files/optimized/fractures2/concept 1-background-horrizontal.webp", text: "" },
+          { image: "assets/optimized-files/optimized/fractures2/concept 1 - artwork.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/fractures2/concept 1-title-banner.jpg", text: "" },
+          { image: "assets/optimized-files/optimized/fractures2/concept 1-title-banner.webp", text: "" },
         ]
       },
       {
@@ -1471,14 +1471,14 @@ gallery: [
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/fractures3/fracture-sounds-trails-background-horrizontal.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/fractures3/fracture-sounds-spotlight-piano-artwork.jpg", text: "" },
+          { image: "assets/optimized-files/optimized/fractures3/fracture-sounds-trails-background-horrizontal.webp", text: "" },
+          { image: "assets/optimized-files/optimized/fractures3/fracture-sounds-spotlight-piano-artwork.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/fractures3/fracture-sounds-moonlight-celeste-gui-main.jpg", text: "" },
+          { image: "assets/optimized-files/optimized/fractures3/fracture-sounds-moonlight-celeste-gui-main.webp", text: "" },
         ]
       },
       {
@@ -1490,17 +1490,17 @@ gallery: [
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/fractures1/99bundle_nodirt.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/fractures1/lightbundle_nodirt.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/fractures1/originalbundle_notext.jpg", text: "" },
+          { image: "assets/optimized-files/optimized/fractures1/99bundle_nodirt.webp", text: "" },
+          { image: "assets/optimized-files/optimized/fractures1/lightbundle_nodirt.webp", text: "" },
+          { image: "assets/optimized-files/optimized/fractures1/originalbundle_notext.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/fractures1/99bundle2.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/fractures1/lightbundle2.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/fractures1/originalbundle2.jpg", text: "" },
+          { image: "assets/optimized-files/optimized/fractures1/99bundle2.webp", text: "" },
+          { image: "assets/optimized-files/optimized/fractures1/lightbundle2.webp", text: "" },
+          { image: "assets/optimized-files/optimized/fractures1/originalbundle2.webp", text: "" },
         ]
       },
       {
