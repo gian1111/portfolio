@@ -168,12 +168,12 @@ body.theme-dark .project-label {
 }
 
 /* ── Hover sui nomi dei progetti ── */
-h2 span {
+#project-container span {
     transition: all 0.3s ease;
     display: inline-block;
 }
 
-h2 span:hover {
+#project-container span:hover {
     color: #F6FB6B;
     transform: skewX(-5deg);
 }

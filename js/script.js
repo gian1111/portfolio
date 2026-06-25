@@ -8,7 +8,7 @@ const myProjects = [
     { name: "Letsgoski Official Merch", slug: "letsgoski", style: "", category: "merch" },
     { name: "Dinousound", slug: "dinosound", style: "", category: "uxui" },
     { name: "Berserk: The Long Night", slug:"berserk", style: "", category: "uxui" },
-    { name: "CoVince", slug:"covince", style: "", category: "uxui", category: "art-direction" },
+    { name: "CoVince", slug:"covince", style: "", category: "uxui", category: "branding" },
     { name: "Stefano Francioni", slug: "stefano-francioni", style: "", category: "art-direction" },
     { name: "Gorgeous Blu-Ray", slug:"gorgeous", style: "", category: "art-direction" }, 
     { name: "Carousels", slug:"carousels", style: "", category: "social" },
@@ -178,14 +178,40 @@ const translations = {
     subtitle: 'Graphic Designer e Visual Artist, based in Italy',
     projects: 'Progetti',
     aboutme: 'Chi sono',
-    available: 'Disponibile per progetti freelance'
+    available: 'Disponibile per progetti freelance',
+    // mobile menu labels
+    menuContact: 'Contatto',
+    menuNavigation: 'Navigazione',
+    menuSettings: 'Impostazioni',
+    menuInfo: 'Info',
+    // about me bio (innerHTML — contiene il tag img)
+    aboutBio: 'Gianmarco è un graphic designer e visual artist che lavora su contenuti per i social media, identità visiva e key visual <img src="assets/1000045896.jpg" class="float-left w-36 mr-4 mb-2" alt="Gianmarco portrait"> con un focus su tipografia, layout e coerenza visiva.',
+    // project.html labels
+    labelRole: 'Ruolo:',
+    labelContribution: 'Contributo:',
+    labelClients: 'Clienti:',
+    labelTools: 'Strumenti:',
+    labelNextProject: 'Prossimo Progetto',
   },
   en: {
     name: 'Gianmarco Malandra.',
     subtitle: 'Graphic Designer and Visual Artist, based in Italy',
     projects: 'Projects',
     aboutme: 'About Me',
-    available: 'Available for freelance projects'
+    available: 'Available for freelance projects',
+    // mobile menu labels
+    menuContact: 'Contact',
+    menuNavigation: 'Navigation',
+    menuSettings: 'Settings',
+    menuInfo: 'Info',
+    // about me bio
+    aboutBio: 'Gianmarco is a graphic designer and visual artist working on social media content, visual identity and key visuals <img src="assets/1000045896.jpg" class="float-left w-36 mr-4 mb-2" alt="Gianmarco portrait"> with a focus on typography, layout and visual consistency.',
+    // project.html labels
+    labelRole: 'Role:',
+    labelContribution: 'Contribution:',
+    labelClients: 'Clients:',
+    labelTools: 'Tools Used:',
+    labelNextProject: 'Next Project',
   }
 };
 
@@ -194,13 +220,13 @@ function applyLang(lang) {
   localStorage.setItem('lang', lang);
   const t = translations[lang];
 
+  // Nav
   const navH1 = document.querySelector('nav h1');
   const navP = document.querySelector('nav p');
   const navProjects = document.getElementById('nav-projects');
   const navAboutme = document.getElementById('nav-aboutme');
   const navProjectsMobile = document.getElementById('nav-projects-mobile');
   const navAboutmeMobile = document.getElementById('nav-aboutme-mobile');
-  const available = document.querySelector('.underline.font-bold');
   const btn = document.getElementById('langToggle');
   const btnMobile = document.getElementById('langToggle-mobile');
 
@@ -210,11 +236,43 @@ function applyLang(lang) {
   if (navAboutme) navAboutme.textContent = t.aboutme;
   if (navProjectsMobile) navProjectsMobile.textContent = t.projects;
   if (navAboutmeMobile) navAboutmeMobile.textContent = t.aboutme;
-  if (available) available.textContent = t.available;
   if (btn) btn.textContent = lang === 'en' ? 'ITA' : 'ENG';
   if (btnMobile) btnMobile.textContent = lang === 'en' ? 'ITA' : 'ENG';
 
+  // Available (footer + mobile)
+  document.querySelectorAll('.i18n-available').forEach(el => el.textContent = t.available);
   document.querySelectorAll('.available-mobile').forEach(el => el.textContent = t.available);
+
+  // Mobile menu section labels
+  const menuContact = document.getElementById('menu-contact');
+  const menuNav = document.getElementById('menu-navigation');
+  const menuSettings = document.getElementById('menu-settings');
+  const menuInfo = document.getElementById('menu-info');
+  if (menuContact) menuContact.textContent = t.menuContact;
+  if (menuNav) menuNav.textContent = t.menuNavigation;
+  if (menuSettings) menuSettings.textContent = t.menuSettings;
+  if (menuInfo) menuInfo.textContent = t.menuInfo;
+
+  // About Me bio
+  const aboutBio = document.getElementById('about-bio');
+  if (aboutBio) aboutBio.innerHTML = t.aboutBio;
+
+  // Project page labels
+  const labelRole = document.getElementById('label-role');
+  const labelContribution = document.getElementById('label-contribution');
+  const labelClients = document.getElementById('label-clients');
+  const labelTools = document.getElementById('label-tools');
+  const labelNextProject = document.getElementById('label-next-project');
+  if (labelRole) labelRole.textContent = t.labelRole;
+  if (labelContribution) labelContribution.textContent = t.labelContribution;
+  if (labelClients) labelClients.textContent = t.labelClients;
+  if (labelTools) labelTools.textContent = t.labelTools;
+  if (labelNextProject) labelNextProject.textContent = t.labelNextProject;
+
+  // Project page content (intro, body, gallery texts)
+  if (typeof window.renderProjectContent === 'function') {
+    window.renderProjectContent(lang);
+  }
 }
 
 function initLangToggle() {

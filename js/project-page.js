@@ -15,29 +15,25 @@ const project = projectsData[slug];
 
 if (!project) {
 
-  document.querySelector("main").innerHTML = `
-
-    <div class="grid grid-cols-12 px-6 pt-40">
-
-      <div class="col-span-12 md:col-span-6 md:col-start-4">
-
-        <h1 class="project-title font-aujournuit">
-          Project not found
-        </h1>
-
-        <p class="mt-6 font-satoshi">
-          This project does not exist or is still under construction.
-        </p>
-
-        <a href="index.html" class="underline mt-10 inline-block">
-          Back to projects
-        </a>
-
+  window.renderProjectContent = function(lang) {
+    const l = lang || 'en';
+    const isIt = l === 'it';
+    document.querySelector("main").innerHTML = `
+      <div class="grid grid-cols-12 px-6 pt-40">
+        <div class="col-span-12 md:col-span-6 md:col-start-4">
+          <h1 class="project-title font-aujournuit">
+            ${isIt ? 'Progetto non trovato' : 'Project not found'}
+          </h1>
+          <p class="mt-6 font-satoshi">
+            ${isIt ? 'Questo progetto non esiste o è ancora in costruzione.' : 'This project does not exist or is still under construction.'}
+          </p>
+          <a href="index.html" class="underline mt-10 inline-block">
+            ${isIt ? 'Torna ai progetti' : 'Back to projects'}
+          </a>
+        </div>
       </div>
-
-    </div>
-
-  `;
+    `;
+  };
 
 }
 
@@ -48,7 +44,7 @@ if (!project) {
 
 if (project) {
 
-  /* ---------- TITOLI ---------- */
+  /* ---------- TITOLI (una tantum) ---------- */
 
   document.getElementById("project-title").innerHTML =
       project.title || "";
@@ -58,11 +54,8 @@ if (project) {
   document.getElementById("project-category").innerHTML =
     project.category || "";
 
-  document.getElementById("project-intro").innerHTML =
-    project.intro || "";
 
-
-  /* ---------- META ---------- */
+  /* ---------- META (una tantum) ---------- */
 
   document.getElementById("project-role").innerHTML =
     project.role || "";
@@ -77,41 +70,25 @@ if (project) {
     project.tools || "";
 
 
-  /* ---------- TESTI ---------- */
-
-  document.getElementById("project-body-1").innerHTML =
-    project.body?.[0] || "";
-
-  document.getElementById("project-body-2").innerHTML =
-    project.body?.[1] || "";
-
-
-  /* ---------- IMMAGINI HERO ---------- */
+  /* ---------- IMMAGINI HERO (una tantum) ---------- */
 
   document.getElementById("project-image-1").src =
     toWebP(project.images?.[0]?.src) || "";
-
   document.getElementById("project-image-1").alt =
     project.images?.[0]?.alt || "";
 
-
   document.getElementById("project-image-2").src =
     toWebP(project.images?.[1]?.src) || "";
-
   document.getElementById("project-image-2").alt =
     project.images?.[1]?.alt || "";
 
-
   document.getElementById("project-image-2-1").src =
     toWebP(project.images?.[5]?.src) || "";
-
   document.getElementById("project-image-2-1").alt =
     project.images?.[5]?.alt || "";
 
-
   document.getElementById("project-image-3").src =
     toWebP(project.images?.[2]?.src) || "";
-
   document.getElementById("project-image-3").alt =
     project.images?.[2]?.alt || "";
 
@@ -124,25 +101,43 @@ if (project) {
     if (img.complete && img.naturalWidth) onLoad();
     else img.addEventListener('load', onLoad);
   });
+
+
+  /* ---------- NEXT PROJECT (una tantum) ---------- */
+
+  const projectSlugs = Object.keys(projectsData);
+  const currentIndex = projectSlugs.indexOf(slug);
+  const nextSlug = projectSlugs[currentIndex + 1] || projectSlugs[0];
+  const nextProject = projectsData[nextSlug];
+
+  const nextEl = document.getElementById('next-project');
+  if (nextEl && nextProject) {
+    nextEl.href = `project.html?slug=${nextSlug}`;
+    nextEl.querySelector('.next-title').textContent = nextProject.title;
+  }
+
+
   /* ===============================
-     GALLERY DINAMICA (group-based)
-     Supports new grouped structure and falls back to legacy flat arrays
-  =============================== */
+     GALLERY RENDERING
+  ================================ */
 
-  const galleryContainer = document.getElementById("project-gallery");
-
-  function renderTextBlock(item) {
+  function renderTextBlock(item, lang) {
+    const isIt = lang === 'it';
+    const title = isIt ? (item.title_it || item.title || '') : (item.title || '');
+    const text  = isIt ? (item.text_it  || item.text  || '') : (item.text  || '');
     return `
       <figure class="gallery-text-block">
         <div class="gallery-text-inner font-satoshi">
-          ${item.title ? `<h3 class="gallery-text-title font-[700] text-[18px] mb-1">${item.title}</h3>` : ''}
-          ${item.html ? item.html : (item.text ? `<p class="gallery-text-body text-[16px] leading-snug tracking-wide">${item.text}</p>` : '')}
+          ${title ? `<h3 class="gallery-text-title font-[700] text-[18px] mb-1">${title}</h3>` : ''}
+          ${item.html
+            ? `<p class="gallery-text-body text-[16px] leading-snug tracking-wide">${item.html}</p>`
+            : text ? `<p class="gallery-text-body text-[16px] leading-snug tracking-wide">${text}</p>` : ''}
         </div>
       </figure>
     `;
   }
 
-function renderImageGroup(group) {
+  function renderImageGroup(group) {
     const images = group.images || [];
     const isSingle = images.length === 1;
     return `
@@ -170,35 +165,34 @@ function renderImageGroup(group) {
   }
 
   function renderImageGrid(group) {
-  const images = group.images || [];
-  const cols = group.cols || 3;
-  return `
-    <div class="project-image-grid" style="display:grid; grid-template-columns: repeat(${cols}, 1fr); gap: 1rem; margin-bottom: 1.5rem;">
-      ${images.map(img => {
-        const src = img.image || img.src || '';
-        const alt = img.alt || img.text || '';
-        return `
-          <figure style="margin:0;">
-            <img src="${toWebP(src)}" alt="${alt}" class="project-image" loading="lazy"
-              style="width:100%; height:auto; display:block;">
-          </figure>
-        `;
-      }).join('')}
-    </div>
-  `;
-}
+    const images = group.images || [];
+    const cols = group.cols || 3;
+    return `
+      <div class="project-image-grid" style="display:grid; grid-template-columns: repeat(${cols}, 1fr); gap: 1rem; margin-bottom: 1.5rem;">
+        ${images.map(img => {
+          const src = img.image || img.src || '';
+          const alt = img.alt || img.text || '';
+          return `
+            <figure style="margin:0;">
+              <img src="${toWebP(src)}" alt="${alt}" class="project-image" loading="lazy"
+                style="width:100%; height:auto; display:block;">
+            </figure>
+          `;
+        }).join('')}
+      </div>
+    `;
+  }
 
-  if (project.gallery?.length && galleryContainer) {
-    // Normalize: if items already have a `type` property (group/text), use as-is.
-    // Otherwise coalesce contiguous images into groups (backwards compatibility).
+  function renderGallery(lang) {
+    const galleryContainer = document.getElementById("project-gallery");
+    if (!project.gallery?.length || !galleryContainer) return;
+
     let blocks = [];
-
     const hasTyped = project.gallery.some(i => i && i.type);
 
     if (hasTyped) {
       blocks = project.gallery;
     } else {
-      // legacy flat array: group contiguous image items into a group
       let currentGroup = { type: 'group', images: [] };
       project.gallery.forEach(item => {
         if (item.type === 'text' || item.textOnly) {
@@ -216,35 +210,38 @@ function renderImageGroup(group) {
 
     galleryContainer.style.display = "flex";
     galleryContainer.style.flexDirection = "column";
-    
+
     galleryContainer.innerHTML = blocks.map(block => {
-      if (block.type === 'text') return renderTextBlock(block);
+      if (block.type === 'text') return renderTextBlock(block, lang);
       if (block.type === 'group') return renderImageGroup(block);
       if (block.type === 'grid') return renderImageGrid(block);
-      // fallback: if block looks like an image
       if (block.image || block.src) return renderImageGroup({ images: [block] });
       return '';
     }).join('');
+
+    initLightbox();
+
+    document.querySelectorAll('.lazy-video').forEach(v => videoObserver.observe(v));
   }
 
-//   function normalizeGroupHeights() {
-//   document.querySelectorAll('.project-gallery-block').forEach(group => {
-//     const imgs = group.querySelectorAll('img');
-//     imgs.forEach(img => {
-//       const onLoad = () => {
-//         const flexValue = img.naturalWidth * img.naturalHeight;
-//         img.parentElement.style.flex = flexValue.toString();
-//         img.style.width = '100%';
-//         img.style.height = 'auto';
-//         img.style.display = 'block';
-//       };
-//       if (img.complete && img.naturalWidth) onLoad();
-//       else img.addEventListener('load', onLoad);
-//     });
-//   });
-// }
 
-// normalizeGroupHeights();
+  /* ===============================
+     FUNZIONE PUBBLICA: aggiorna testi
+  ================================ */
+
+  window.renderProjectContent = function(lang) {
+    const l = lang || 'en';
+    const isIt = l === 'it';
+
+    document.getElementById("project-intro").innerHTML =
+      (isIt ? project.intro_it : null) || project.intro || '';
+
+    const body = (isIt && project.body_it) ? project.body_it : project.body;
+    document.getElementById("project-body-1").innerHTML = body?.[0] || '';
+    document.getElementById("project-body-2").innerHTML = body?.[1] || '';
+
+    renderGallery(l);
+  };
 
 }
 
@@ -253,43 +250,19 @@ function renderImageGroup(group) {
    LIGHTBOX
 ================================ */
 
-const lightbox =
-  document.getElementById("lightbox");
-
-const lightboxImg =
-  document.getElementById("lightbox-img");
-
+const lightbox = document.getElementById("lightbox");
+const lightboxImg = document.getElementById("lightbox-img");
 
 function initLightbox() {
-
-  const images =
-    document.querySelectorAll(".project-image");
-
-  images.forEach(img => {
-
+  document.querySelectorAll(".project-image").forEach(img => {
     img.addEventListener("click", () => {
-
       lightboxImg.src = img.src;
-
       lightboxImg.alt = img.alt || "";
-
       lightbox.classList.remove("hidden");
-
-      setTimeout(() => {
-
-        lightbox.classList.add("show");
-
-      }, 10);
-
+      setTimeout(() => lightbox.classList.add("show"), 10);
     });
-
   });
-
 }
-
-
-/* inizializza dopo il render */
-initLightbox();
 
 /* lazy-load videos when they enter the viewport */
 const videoObserver = new IntersectionObserver((entries) => {
@@ -306,58 +279,25 @@ const videoObserver = new IntersectionObserver((entries) => {
   });
 }, { rootMargin: '200px' });
 
-document.querySelectorAll('.lazy-video').forEach(v => videoObserver.observe(v));
-
 
 /* chiusura click */
-
 lightbox.addEventListener("click", () => {
-
   lightbox.classList.remove("show");
-
   setTimeout(() => {
-
     lightbox.classList.add("hidden");
-
     lightboxImg.src = "";
-
     lightboxImg.alt = "";
-
   }, 200);
-
 });
-
 
 /* chiusura ESC */
-
 document.addEventListener("keydown", e => {
-
   if (e.key === "Escape") {
-
     lightbox.classList.remove("show");
-
     setTimeout(() => {
-
       lightbox.classList.add("hidden");
-
       lightboxImg.src = "";
-
       lightboxImg.alt = "";
-
     }, 200);
-
   }
-
 });
-
-// NEXT PROJECT
-const projectSlugs = Object.keys(projectsData);
-const currentIndex = projectSlugs.indexOf(slug);
-const nextSlug = projectSlugs[currentIndex + 1] || projectSlugs[0];
-const nextProject = projectsData[nextSlug];
-
-const nextEl = document.getElementById('next-project');
-if (nextEl && nextProject) {
-  nextEl.href = `project.html?slug=${nextSlug}`;
-  nextEl.querySelector('.next-title').textContent = nextProject.title;
-}

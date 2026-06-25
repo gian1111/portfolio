@@ -45,7 +45,7 @@
     <div id="mobile-menu" class="fixed inset-0 bg-white z-40 overflow-y-auto pt-20 px-5 pb-10 font-satoshi font-[600]">
         <div class="space-y-6 text-[18px]">
             <div class="border-t border-gray-200 pt-4">
-                <p class="text-gray-500 text-[11px] uppercase tracking-widest mb-4">Contact</p>
+                <p id="menu-contact" class="text-gray-500 text-[11px] uppercase tracking-widest mb-4">Contact</p>
                 <div class="space-y-3">
                     <a href="mailto:gianmarco@virgilio.it" class="block underline lowercase">gianmarco@virgilio.it</a>
                     <a href="https://www.linkedin.com/in/gianmarco-malandra-a23140161/" class="block underline">Linkedin</a>
@@ -53,14 +53,14 @@
                 </div>
             </div>
             <div class="border-t border-gray-200 pt-4">
-                <p class="text-gray-500 text-[11px] uppercase tracking-widest mb-4">Navigation</p>
+                <p id="menu-navigation" class="text-gray-500 text-[11px] uppercase tracking-widest mb-4">Navigation</p>
                 <div class="space-y-3">
                     <a href="index.html" id="nav-projects-mobile" class="block underline">Projects</a>
                     <a href="aboutme.html" id="nav-aboutme-mobile" class="block underline">About Me</a>
                 </div>
             </div>
             <div class="border-t border-gray-200 pt-4">
-                <p class="text-gray-500 text-[11px] uppercase tracking-widest mb-4">Settings</p>
+                <p id="menu-settings" class="text-gray-500 text-[11px] uppercase tracking-widest mb-4">Settings</p>
                 <div class="space-y-3">
                     <button id="langToggle-mobile" class="block underline w-full text-left">ITA</button>
                     <button id="themeToggle-mobile" class="block underline w-full text-left">Dark</button>
@@ -68,7 +68,7 @@
             </div>
 
             <div class="border-t border-gray-200 pt-4">
-                <p class="text-gray-500 text-[11px] uppercase tracking-widest mb-4">Info</p>
+                <p id="menu-info" class="text-gray-500 text-[11px] uppercase tracking-widest mb-4">Info</p>
                 <div class="space-y-3">
                     <p id="current-time-mobile" class="text-[16px]">Chieti, Italy - --:-- --</p>
                     <p class="available-mobile text-[16px] font-bold">Available for freelance projects</p>
@@ -105,22 +105,22 @@
       <section class="col-span-12 md:col-start-3 md:col-span-8 grid grid-cols-12 gap-6 mb-16 items-start">
         <div class="col-span-12 md:col-span-6 grid grid-cols-2 gap-x-6 gap-y-10 font-satoshi font-[600] text-[16px] leading-tight">
           <div>
-            <p class="project-label font-[500]">Role:</p>
+            <p id="label-role" class="project-label font-[500]">Role:</p>
             <p id="project-role" class="mt-1"></p> 
           </div>
 
           <div>
-            <p class="project-label font-[500]">Contribution:</p>
+            <p id="label-contribution" class="project-label font-[500]">Contribution:</p>
             <p id="project-contribution" class="mt-1"></p>
           </div>
 
           <div>
-            <p class="project-label font-[500]">Clients:</p>
+            <p id="label-clients" class="project-label font-[500]">Clients:</p>
             <p id="project-clients" class="mt-1 "></p>
           </div>
 
           <div>
-            <p class="project-label font-[500]">Tools Used:</p>
+            <p id="label-tools" class="project-label font-[500]">Tools Used:</p>
             <p id="project-tools" class="mt-1"></p>
           </div>
         </div>
@@ -141,7 +141,7 @@
 
       <div class="col-span-12 md:col-start-3 md:col-span-8 mt-20 pt-8 border-t border-gray-200">
         <a id="next-project" href="#" class="block group">
-          <p class="font-satoshi font-[600] text-[13px] uppercase tracking-widest text-gray-400 mb-2">Next Project</p>
+          <p id="label-next-project" class="font-satoshi font-[600] text-[13px] uppercase tracking-widest text-gray-400 mb-2">Next Project</p>
           <h2 class="next-title font-aujournuit text-5xl md:text-6xl leading-none" style="font-variation-settings: 'wdth' 4; letter-spacing: -0.05em;"></h2>
         </a>
       </div>
@@ -155,7 +155,7 @@
             <div class="bg-black text-white w-max">
                 <p id="current-time" class="mb-1 font-medium">Chieti, Italy - --:-- --</p>
             </div>
-            <p class="text-black font-bold">Available for freelance projects</p>
+            <p class="i18n-available text-black font-bold">Available for freelance projects</p>
         </div>
 
         <div class="col-span-6 text-right text-[16px] leading-none">
