@@ -151,9 +151,11 @@ if (project) {
           const alt = img.alt || img.text || '';
           const caption = img.text || img.caption || '';
           const isVideo = src.endsWith('.mp4') || src.endsWith('.webm') || src.endsWith('.mov');
+          const liteVideo = src.replace(/\/([^\/]+)$/, '/compressed/$1');
+          const poster = liteVideo.replace(/\.(mp4|webm|mov)$/i, '.jpg');
 
           const media = isVideo
-            ? `<video data-src="${src}" class="project-image lazy-video" loop muted playsinline preload="none" style="width:100%; height:auto; display:block;"></video>`
+            ? `<video data-src="${liteVideo}" poster="${poster}" class="project-image lazy-video" loop muted playsinline preload="none" style="width:100%; height:auto; display:block;"></video>`
             : `<img src="${toThumb(src)}" data-full="${toWebP(src)}" alt="${alt}" class="project-image" loading="lazy" decoding="async"
                 ${isSingle ? '' : 'onload="this.parentElement.style.flex = this.naturalWidth / this.naturalHeight"'}>`;
 
@@ -284,7 +286,7 @@ const videoObserver = new IntersectionObserver((entries) => {
     }
     videoObserver.unobserve(video);
   });
-}, { rootMargin: '200px' });
+}, { rootMargin: '600px' });
 
 
 /* chiusura click */
