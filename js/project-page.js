@@ -172,9 +172,12 @@ if (project) {
         ${images.map(img => {
           const src = img.image || img.src || '';
           const alt = img.alt || img.text || '';
+          const full = toWebP(src);
+          // thumbnail leggera per il grid; la full si apre nel lightbox (data-full)
+          const thumb = full.replace(/\/([^\/]+)$/, '/thumbs/$1');
           return `
             <figure style="margin:0; content-visibility:auto; contain-intrinsic-size:0 360px;">
-              <img src="${toWebP(src)}" alt="${alt}" class="project-image" loading="lazy" decoding="async"
+              <img src="${thumb}" data-full="${full}" alt="${alt}" class="project-image" loading="lazy" decoding="async"
                 style="width:100%; height:auto; display:block;">
             </figure>
           `;
@@ -256,7 +259,7 @@ const lightboxImg = document.getElementById("lightbox-img");
 function initLightbox() {
   document.querySelectorAll(".project-image").forEach(img => {
     img.addEventListener("click", () => {
-      lightboxImg.src = img.src;
+      lightboxImg.src = img.dataset.full || img.src;
       lightboxImg.alt = img.alt || "";
       lightbox.classList.remove("hidden");
       setTimeout(() => lightbox.classList.add("show"), 10);
