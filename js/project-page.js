@@ -3,6 +3,14 @@ function toWebP(src) {
   return src.replace(/\.(png|jpg|jpeg)$/i, '.webp');
 }
 
+// versione leggera (cartella /thumbs accanto all'immagine) per il display;
+// la full si apre nel lightbox
+function toThumb(src) {
+  const full = toWebP(src);
+  if (!full) return full;
+  return full.replace(/\/([^\/]+)$/, '/thumbs/$1');
+}
+
 const params = new URLSearchParams(window.location.search);
 const slug = params.get("slug");
 
@@ -72,25 +80,21 @@ if (project) {
 
   /* ---------- IMMAGINI HERO (una tantum) ---------- */
 
-  document.getElementById("project-image-1").src =
-    toWebP(project.images?.[0]?.src) || "";
-  document.getElementById("project-image-1").alt =
-    project.images?.[0]?.alt || "";
+  function setHero(id, item) {
+    const el = document.getElementById(id);
+    if (!el) return;
+    const src = item?.src;
+    if (!src) { el.hidden = true; return; }
+    el.hidden = false;
+    el.src = toThumb(src);
+    el.dataset.full = toWebP(src);
+    el.alt = item.alt || "";
+  }
 
-  document.getElementById("project-image-2").src =
-    toWebP(project.images?.[1]?.src) || "";
-  document.getElementById("project-image-2").alt =
-    project.images?.[1]?.alt || "";
-
-  document.getElementById("project-image-2-1").src =
-    toWebP(project.images?.[5]?.src) || "";
-  document.getElementById("project-image-2-1").alt =
-    project.images?.[5]?.alt || "";
-
-  document.getElementById("project-image-3").src =
-    toWebP(project.images?.[2]?.src) || "";
-  document.getElementById("project-image-3").alt =
-    project.images?.[2]?.alt || "";
+  setHero("project-image-1", project.images?.[0]);
+  setHero("project-image-2", project.images?.[1]);
+  setHero("project-image-2-1", project.images?.[5]);
+  setHero("project-image-3", project.images?.[2]);
 
   ['project-image-1', 'project-image-2', 'project-image-2-1'].forEach(id => {
     const img = document.getElementById(id);
@@ -150,7 +154,7 @@ if (project) {
 
           const media = isVideo
             ? `<video data-src="${src}" class="project-image lazy-video" loop muted playsinline preload="none" style="width:100%; height:auto; display:block;"></video>`
-            : `<img src="${toWebP(src)}" alt="${alt}" class="project-image" loading="lazy"
+            : `<img src="${toThumb(src)}" data-full="${toWebP(src)}" alt="${alt}" class="project-image" loading="lazy" decoding="async"
                 ${isSingle ? '' : 'onload="this.parentElement.style.flex = this.naturalWidth / this.naturalHeight"'}>`;
 
           return `

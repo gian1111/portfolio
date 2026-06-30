@@ -354,7 +354,11 @@ function initProjectPreview() {
                 if (!data) return;
                 const firstImage = data.images?.[0]?.src || data.gallery?.[0]?.images?.[0]?.image;
                 if (!firstImage) return;
-                img.src = firstImage;
+                // usa la thumbnail leggera (/thumbs) invece dell'originale full-res
+                const thumb = firstImage
+                    .replace(/\.(png|jpg|jpeg)$/i, '.webp')
+                    .replace(/\/([^\/]+)$/, '/thumbs/$1');
+                img.src = thumb;
                 preview.style.opacity = '1';
             });
             link.addEventListener('mouseleave', () => {
