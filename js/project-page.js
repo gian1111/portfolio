@@ -173,8 +173,8 @@ if (project) {
           const src = img.image || img.src || '';
           const alt = img.alt || img.text || '';
           return `
-            <figure style="margin:0;">
-              <img src="${toWebP(src)}" alt="${alt}" class="project-image" loading="lazy"
+            <figure style="margin:0; content-visibility:auto; contain-intrinsic-size:0 360px;">
+              <img src="${toWebP(src)}" alt="${alt}" class="project-image" loading="lazy" decoding="async"
                 style="width:100%; height:auto; display:block;">
             </figure>
           `;

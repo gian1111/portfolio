@@ -40,7 +40,8 @@ function renderProjects() {
             : "text-[#E8E8E8] cursor-default pointer-events-none";
 
         const projectSpan = `
-        <a href="project.html?slug=${project.slug}" 
+        <a href="project.html?slug=${project.slug}"
+            data-slug="${project.slug}"
             class="inline-block transition-all duration-500 ${project.style} ${stateClasses}">
             ${project.name}
         </a>
@@ -51,6 +52,7 @@ function renderProjects() {
         return projectSpan + separator;
     }).join(' ');
     initLetterHover();
+    if (typeof window._previewAttach === 'function') window._previewAttach();
 }
 
 // Letter Hover Effect
@@ -309,6 +311,65 @@ function initHamburger() {
     });
 }
 
+/**
+ * HOVER PREVIEW
+ */
+function initProjectPreview() {
+    const preview = document.createElement('div');
+    preview.id = 'project-preview';
+    preview.style.cssText = `
+        position: fixed;
+        pointer-events: none;
+        z-index: 9999;
+        opacity: 0;
+        transition: opacity 0.2s ease;
+        width: 140px;
+        height: 80px;
+        overflow: hidden;
+        border-radius: 18px;
+    `;
+    const img = document.createElement('img');
+    img.style.cssText = 'width:100%; height:100%; object-fit:cover; display:block;';
+    preview.appendChild(img);
+    document.body.appendChild(preview);
+
+    // Dimensioni fisse (vedi cssText sopra): evita reflow sincrono ad ogni frame
+    const PW = 140, PH = 80;
+
+    document.addEventListener('mousemove', e => {
+        // Riposiziona solo quando il preview è effettivamente visibile
+        if (preview.style.opacity !== '1') return;
+        const offset = 20;
+        const x = e.clientX + offset + PW > window.innerWidth ? e.clientX - offset - PW : e.clientX + offset;
+        const y = e.clientY + offset + PH > window.innerHeight ? e.clientY - offset - PH : e.clientY + offset;
+        preview.style.left = x + 'px';
+        preview.style.top = y + 'px';
+    });
+
+    function attachPreviewListeners() {
+        document.querySelectorAll('#project-container a[data-slug]').forEach(link => {
+            link.addEventListener('mouseenter', () => {
+                const slug = link.getAttribute('data-slug');
+                const data = typeof projectsData !== 'undefined' && projectsData[slug];
+                if (!data) return;
+                const firstImage = data.images?.[0]?.src || data.gallery?.[0]?.images?.[0]?.image;
+                if (!firstImage) return;
+                img.src = firstImage;
+                preview.style.opacity = '1';
+            });
+            link.addEventListener('mouseleave', () => {
+                preview.style.opacity = '0';
+            });
+        });
+    }
+
+    // Re-attach dopo ogni render (i filtri ri-renderizzano la lista)
+    const origRender = renderProjects;
+    window._previewAttach = attachPreviewListeners;
+
+    attachPreviewListeners();
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     renderProjects();
     initFilters();
@@ -317,6 +378,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setInterval(updateClock, 60000);
     initLangToggle();
     initHamburger();
+    initProjectPreview();
     document.body.classList.add('loaded');
 });
 
