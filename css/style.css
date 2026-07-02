@@ -45,6 +45,13 @@ body {
     transition: opacity 0.18s ease;
 }
 
+/* anti-FOUC: tiene il body invisibile finché JS non ha applicato
+   lingua, lista progetti e font (evita flash EN->IT e layout jump).
+   La classe viene rimossa da script.js (o dal timeout di sicurezza). */
+html.preload-hide body {
+    opacity: 0 !important;
+}
+
 /* fade-out durante la navigazione tra pagine */
 body.leaving {
     opacity: 0;
