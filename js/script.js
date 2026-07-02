@@ -384,19 +384,10 @@ document.addEventListener('DOMContentLoaded', () => {
     initHamburger();
     initProjectPreview();
 
-    // Rivela la pagina solo dopo che lingua/render sono applicati e i font
-    // sono pronti: elimina il flash EN->IT e il layout jump da FOUT.
-    const reveal = () => {
-        document.documentElement.classList.remove('preload-hide');
-        document.body.classList.add('loaded');
-    };
-    if (document.fonts && document.fonts.ready) {
-        Promise.race([
-            document.fonts.ready,
-            new Promise(res => setTimeout(res, 800))
-        ]).then(reveal);
-    } else {
-        reveal();
-    }
+    // Lingua e lista sono già applicate qui (in modo sincrono): rivela
+    // subito. Elimina il flash EN->IT senza aggiungere attesa percepita.
+    // Il font e' gestito da preload + font-display:optional (niente jump).
+    document.documentElement.classList.remove('preload-hide');
+    document.body.classList.add('loaded');
 });
 
