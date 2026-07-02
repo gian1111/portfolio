@@ -99,7 +99,7 @@ if (project) {
   ['project-image-1', 'project-image-2', 'project-image-2-1'].forEach(id => {
     const img = document.getElementById(id);
     const onLoad = () => {
-      img.style.flex = img.naturalWidth / img.naturalHeight;
+      img.style.flex = (img.naturalWidth / img.naturalHeight) * 100;
       img.style.width = '100%';
     };
     if (img.complete && img.naturalWidth) onLoad();
@@ -157,7 +157,7 @@ if (project) {
           const media = isVideo
             ? `<video data-src="${liteVideo}" poster="${poster}" class="project-image lazy-video" loop muted playsinline preload="none" style="width:100%; height:auto; display:block;"></video>`
             : `<img src="${toThumb(src)}" data-full="${toWebP(src)}" alt="${alt}" class="project-image" loading="lazy" decoding="async"
-                ${isSingle ? '' : 'onload="this.parentElement.style.flex = this.naturalWidth / this.naturalHeight"'}>`;
+                ${isSingle ? '' : 'onload="this.parentElement.style.flex = (this.naturalWidth / this.naturalHeight) * 100"'}>`;
 
           return `
             <figure style="flex: ${img.flex || 1}">

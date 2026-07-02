@@ -1745,54 +1745,186 @@ gallery: [
         text_it: "Serie di flyer per gli eventi Tomo Cafe, esplorando più direzioni di layout e varianti cromatiche."
       },
 
+      // {
+      //   type: "group",
+      //   images: [
+      //     { image: "assets/optimized-files/optimized/covince/screens/amazon/1/1.webp", text: "" },
+      //     { image: "assets/optimized-files/optimized/covince/screens/amazon/1/2.webp", text: "" },
+      //     { image: "assets/optimized-files/optimized/covince/screens/amazon/1/4.webp", text: "" },
+      //   ]
+      // },
+      // {
+      //   type: "group",
+      //   images: [
+      //     { image: "assets/optimized-files/optimized/covince/screens/amazon/3/1.webp", text: "" },
+      //     { image: "assets/optimized-files/optimized/covince/screens/amazon/3/2.webp", text: "" },
+      //     { image: "assets/optimized-files/optimized/covince/screens/amazon/3/3.webp", text: "" },
+      //   ]
+      // },
+      // {
+      //   type: "group",
+      //   images: [
+      //     { image: "assets/optimized-files/optimized/covince/screens/jap/verti424al_obeya.webp", text: "" },
+      //     { image: "assets/optimized-files/optimized/covince/screens/jap/vertical_1obeya2.webp", text: "" },
+      //     { image: "assets/optimized-files/optimized/covince/screens/jap/vertical_ob4eya2.webp", text: "" },
+      //   ]
+      // },
+      // {
+      //   type: "text",
+      //   title: "Syner Suite Screens",
+      //   title_it: "Schermate App",
+      //   text: "Template designs for various experiences using the Syner Suite.",
+      //   text_it: "Template di design pronti per diverse esperienze con Syner Suite."
+      // },
+
+      // {
+      //     type: "group",
+      //     images: [
+      //       { image: "assets/optimized-files/optimized/covince/screens/jap/verti424al_obeya.webp", text: "" },
+      //       { image: "assets/optimized-files/optimized/covince/screens/jap/vertical_1obeya2.webp", text: "" },
+      //       { image: "assets/optimized-files/optimized/covince/screens/jap/vertical_ob4eya2.webp", text: "" },
+      //     ]
+      //   },
+      //   {
+      //     type: "text",
+      //     title: "Obeya Screens",
+      //     title_it: "Schermate Obeya",
+      //     text: "Additional interface screens for the Obeya module within the CoVince platform.",
+      //     text_it: "Schermate aggiuntive per il modulo Obeya all'interno della piattaforma CoVince."
+      //   },
+
+      /* ---------- DASHBOARD REDESIGN ---------- */
+
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/covince/screens/amazon/1/1.webp", text: "" },
-          { image: "assets/optimized-files/optimized/covince/screens/amazon/1/2.webp", text: "" },
-          { image: "assets/optimized-files/optimized/covince/screens/amazon/1/4.webp", text: "" },
+          { image: "assets/optimized-files/optimized/covince/dashboar/20260323012429 - FULL 1.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/covince/screens/amazon/3/1.webp", text: "" },
-          { image: "assets/optimized-files/optimized/covince/screens/amazon/3/2.webp", text: "" },
-          { image: "assets/optimized-files/optimized/covince/screens/amazon/3/3.webp", text: "" },
+          { image: "assets/optimized-files/optimized/covince/dashboar/Slide 16_9 - 226.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/covince/screens/jap/verti424al_obeya.webp", text: "" },
-          { image: "assets/optimized-files/optimized/covince/screens/jap/vertical_1obeya2.webp", text: "" },
-          { image: "assets/optimized-files/optimized/covince/screens/jap/vertical_ob4eya2.webp", text: "" },
+          { image: "assets/optimized-files/optimized/covince/dashboar/Slide 16_9 - 225.webp", text: "" },
         ]
       },
+            {
+        type: "text",
+        title: "Dashboard Redesign",
+        title_it: "Redesign della Dashboard",
+        text: "A full redesign of the CoVince home dashboard, reorganised into three focused columns: Journeys, Timeline and Calendar/Events. A refreshed dark UI surfaces the community feed, to-dos and scheduled work at a glance.",
+        text_it: "Redesign completo della dashboard principale di CoVince, riorganizzata in tre colonne: Journeys, Timeline e Calendario/Eventi. Una nuova UI dark mette in evidenza feed della community, to-do e attività pianificate a colpo d'occhio."
+      },
+
+
+      /* ---------- JOURNEY BUILDER / ADMIN ---------- */
+            {
+        type: "grid",
+        cols: 3,
+        images: [
+          { image: "assets/optimized-files/optimized/covince/journey-dashboard/20260312110747 - FULL 1.webp", alt: "" },
+          { image: "assets/optimized-files/optimized/covince/journey-dashboard/20260312110924 - FULL 1.webp", alt: "" },
+          { image: "assets/optimized-files/optimized/covince/journey-dashboard/20260312111006 - FULL 1.webp", alt: "" },
+        ]
+      },
+
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/covince/journey-dashboard/Final Layout-1.webp", text: "" },
+{ image: "assets/optimized-files/optimized/covince/journey-dashboard/Final Layout.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+                    { image: "assets/optimized-files/optimized/covince/journey-dashboard/Final Layout-2.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/covince/journey-dashboard/Final Layout - Admin Page.webp", text: "" },
+
+        ]
+      },
+            {
+        type: "text",
+        title: "Journey Builder & Admin",
+        title_it: "Journey Builder & Admin",
+        text: "The back-office side of the platform: the Journey builder where admins configure banners, media, toggles, data aspects and stats, together with the admin users management view and the supporting UI components and pop-ups.",
+        text_it: "Il lato back-office della piattaforma: il builder dei Journey dove gli admin configurano banner, media, toggle, dati e statistiche, insieme alla gestione degli utenti amministratori e ai componenti UI e pop-up di supporto."
+      },
+
+      /* ---------- SMARTNOTE REDESIGN ---------- */
+
+            {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/covince/smart-note-redesign/image 27.webp", text: "" },
+           { image: "assets/optimized-files/optimized/covince/smart-note-redesign/Slide 16_9 - 31.webp", text: "" },
+
+        ]
+      },
+            {
+        type: "group",
+        images: [
+                    { image: "assets/optimized-files/optimized/covince/smart-note-redesign/Frame 423.webp", text: "" },
+           
+        ]
+      },
+      {
+        type: "group",
+        images: [
+        
+          { image: "assets/optimized-files/optimized/covince/smart-note-redesign/Slide 16_9 - 33.webp", text: "" },
+        ]
+      },
+            {
+        type: "text",
+        title: "SmartNote Redesign",
+        title_it: "Redesign di SmartNote",
+        text: "A redesign of SmartNote, the in-platform note tool: a cleaner note panel with a quick-action toolbar (article, audio, image, assign) paired with a threaded Comments & History panel supporting replies, attachments and voice memos.",
+        text_it: "Redesign di SmartNote, lo strumento note della piattaforma: un pannello note più pulito con toolbar di azioni rapide (articolo, audio, immagine, assegna) affiancato da un pannello Commenti & Cronologia con risposte, allegati e memo vocali."
+      },
+
+
+
+      /* ---------- SWIPESLIDES ---------- */
+
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/covince/swipeslides/20251218081222 - FULL 2.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/covince/swipeslides/SwipeSlides - UI.webp", text: "" },
+          { image: "assets/optimized-files/optimized/covince/swipeslides/SwipeSlides - UI-1.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+
+          { image: "assets/optimized-files/optimized/covince/swipeslides/SwipeSlides - UI-2.webp", text: "" },
+        ]
+      },
+
       {
         type: "text",
-        title: "Syner Suite Screens",
-        title_it: "Schermate App",
-        text: "Template designs for various experiences using the Syner Suite.",
-        text_it: "Template di design pronti per diverse esperienze con Syner Suite."
+        title: "SwipeSlides",
+        title_it: "SwipeSlides",
+        text: "SwipeSlides, an AI storyboard tool: each slide pairs a voice-over script with image and video generation prompts, letting users build a narrated visual story and push the generated media straight into a Smart Note.",
+        text_it: "SwipeSlides, uno strumento di storyboard con AI: ogni slide combina uno script di voice-over con prompt per generare immagini e video, permettendo di costruire una storia visiva narrata e inviare i media generati direttamente in uno Smart Note."
       },
-
-      {
-          type: "group",
-          images: [
-            { image: "assets/optimized-files/optimized/covince/screens/jap/verti424al_obeya.webp", text: "" },
-            { image: "assets/optimized-files/optimized/covince/screens/jap/vertical_1obeya2.webp", text: "" },
-            { image: "assets/optimized-files/optimized/covince/screens/jap/vertical_ob4eya2.webp", text: "" },
-          ]
-        },
-        {
-          type: "text",
-          title: "Obeya Screens",
-          title_it: "Schermate Obeya",
-          text: "Additional interface screens for the Obeya module within the CoVince platform.",
-          text_it: "Schermate aggiuntive per il modulo Obeya all'interno della piattaforma CoVince."
-        },
-
     ]
   },
 };
