@@ -87,6 +87,14 @@ main section {
 
 .project-image {
     cursor: zoom-in;
+    background-color: #f2f2f2;
+}
+
+/* Riserva spazio minimo prima che le hero image carichino, per ridurre
+   il layout shift finché project-page.js non calcola il flex reale */
+#hero-images img {
+    min-height: 200px;
+    object-fit: cover;
 }
 
 
