@@ -389,5 +389,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // Il font e' gestito da preload + font-display:optional (niente jump).
     document.documentElement.classList.remove('preload-hide');
     document.body.classList.add('loaded');
+
+    // Carica i dati progetti (88KB) DOPO il paint: servono solo per
+    // l'anteprima hover in home, non devono ritardare il caricamento.
+    // Su project.html projectsData è già definito -> non ricaricare.
+    if (typeof projectsData === 'undefined') {
+        const s = document.createElement('script');
+        s.src = 'js/project-data.js';
+        document.body.appendChild(s);
+    }
 });
 
