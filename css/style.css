@@ -42,7 +42,7 @@ html {
 body {
     cursor: default;
     overflow-x: hidden;
-    transition: opacity 0.18s ease;
+    transition: opacity 0.1s ease;
 }
 
 /* anti-FOUC: tiene il body invisibile finché JS non ha applicato

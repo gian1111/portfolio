@@ -24,5 +24,5 @@ document.addEventListener('click', e => {
     document.body.classList.add('leaving');
     setTimeout(() => {
         window.location.href = href;
-    }, 180);
+    }, 90);
 });
