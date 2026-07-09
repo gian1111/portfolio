@@ -214,7 +214,7 @@ for (const [slug, project] of Object.entries(projectsData)) {
   );
   const pageUrl = `${SITE_URL}/project/${slug}.html`;
   const img = firstImage(project);
-  const imageUrl = img ? encodeURI(`${SITE_URL}/${img}`) : `${SITE_URL}/assets/1000045896.jpg`;
+  const imageUrl = img ? encodeURI(`${SITE_URL}/${img}`) : `${SITE_URL}/assets/og-cover.jpg`;
 
   const metaBlock = `<title>${escapeAttr(title)}</title>
   <meta name="description" content="${escapeAttr(description)}">
