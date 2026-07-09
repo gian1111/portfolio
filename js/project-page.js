@@ -244,6 +244,16 @@ if (project) {
     const l = lang || 'en';
     const isIt = l === 'it';
 
+    // contenuto EN già presente nell'HTML statico (build:pages): non
+    // ri-renderizzare, attiva solo lightbox e video lazy. Il flag viene
+    // rimosso al primo passaggio in italiano, da lì rende sempre il JS.
+    if (!isIt && document.documentElement.dataset.prerendered === 'en') {
+      initLightbox();
+      document.querySelectorAll('.lazy-video').forEach(v => videoObserver.observe(v));
+      return;
+    }
+    delete document.documentElement.dataset.prerendered;
+
     document.getElementById("project-intro").innerHTML =
       (isIt ? project.intro_it : null) || project.intro || '';
 

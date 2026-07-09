@@ -311,7 +311,12 @@ function initHamburger() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    renderProjects();
+    // la lista è pre-renderizzata nell'HTML (build:pages) per i crawler:
+    // al primo load basta attivare l'hover; renderProjects serve solo
+    // quando cambiano i filtri
+    const staticList = document.querySelector('#project-container a');
+    if (staticList) initLetterHover();
+    else renderProjects();
     initFilters();
     updateClock();
     initThemeToggle();
