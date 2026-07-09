@@ -38,7 +38,7 @@
     - Textual blocks: include `type: 'text'` or `textOnly: true` plus `title`/`text`/`html`.
     - Image blocks: include `image` (URL) and optional `text` (caption).
 - DOM contract (IDs expected by scripts):
-  - Project detail IDs: `project-title`, `project-category`, `project-intro`, `project-role`, `project-contribution`, `project-duration`, `project-tools`, `project-body-1`, `project-body-2`, `project-image-1`, `project-image-2`, `project-image-2-1`, `project-image-3`, `project-gallery`, `lightbox`, `lightbox-img`.
+  - Project detail IDs: `project-title`, `project-category`, `project-intro`, `project-role`, `project-deliverables`, `project-duration`, `project-tools`, `project-body-1`, `project-body-2`, `project-image-1`, `project-image-2`, `project-image-2-1`, `project-image-3`, `project-gallery`, `lightbox`, `lightbox-img`.
   - Script expects `themeToggle` button to exist for theme switching; it stores selection in localStorage under `theme` and toggles `theme-dark` class on body.
 - Accessibility and behavior:
   - Lightbox closes on click and Escape key.

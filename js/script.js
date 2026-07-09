@@ -189,10 +189,13 @@ const translations = {
     aboutBio: '<img src="assets/1000045896.jpg" class="float-left w-36 mr-4 mb-2" alt="Ritratto di Gianmarco Malandra">Gianmarco è un graphic designer e art director che lavora su contenuti per i social media, identità visiva e key visual con un focus su tipografia, layout e coerenza visiva.',
     // project.html labels
     labelRole: 'Ruolo:',
-    labelContribution: 'Contributo:',
+    labelDeliverables: 'Materiali finali:',
     labelClients: 'Clienti:',
     labelTools: 'Strumenti:',
     labelNextProject: 'Prossimo Progetto',
+    // footer CV
+    cvLabel: 'Scarica CV',
+    cvFile: 'gianmarco-malandra_CV-ita.pdf',
   },
   en: {
     name: 'Gianmarco Malandra.',
@@ -209,10 +212,13 @@ const translations = {
     aboutBio: '<img src="assets/1000045896.jpg" class="float-left w-36 mr-4 mb-2" alt="Portrait of Gianmarco Malandra">Gianmarco is a graphic designer and art director working on social media content, visual identity and key visuals with a focus on typography, layout and visual consistency.',
     // project.html labels
     labelRole: 'Role:',
-    labelContribution: 'Contribution:',
+    labelDeliverables: 'Deliverables:',
     labelClients: 'Clients:',
     labelTools: 'Tools Used:',
     labelNextProject: 'Next Project',
+    // footer CV
+    cvLabel: 'Download CV',
+    cvFile: 'gianmarco-malandra_resume-.pdf',
   }
 };
 
@@ -254,18 +260,25 @@ function applyLang(lang) {
   if (menuSettings) menuSettings.textContent = t.menuSettings;
   if (menuInfo) menuInfo.textContent = t.menuInfo;
 
+  // Footer: link download CV
+  const footerCv = document.getElementById('footer-cv');
+  if (footerCv) {
+    footerCv.textContent = t.cvLabel;
+    footerCv.setAttribute('href', t.cvFile);
+  }
+
   // About Me bio
   const aboutBio = document.getElementById('about-bio');
   if (aboutBio) aboutBio.innerHTML = t.aboutBio;
 
   // Project page labels
   const labelRole = document.getElementById('label-role');
-  const labelContribution = document.getElementById('label-contribution');
+  const labelDeliverables = document.getElementById('label-deliverables');
   const labelClients = document.getElementById('label-clients');
   const labelTools = document.getElementById('label-tools');
   const labelNextProject = document.getElementById('label-next-project');
   if (labelRole) labelRole.textContent = t.labelRole;
-  if (labelContribution) labelContribution.textContent = t.labelContribution;
+  if (labelDeliverables) labelDeliverables.textContent = t.labelDeliverables;
   if (labelClients) labelClients.textContent = t.labelClients;
   if (labelTools) labelTools.textContent = t.labelTools;
   if (labelNextProject) labelNextProject.textContent = t.labelNextProject;

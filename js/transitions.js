@@ -15,6 +15,7 @@ document.addEventListener('click', e => {
     const link = e.target.closest('a[href]');
     if (!link) return;
     if (link.target && link.target !== '_self') return;
+    if (link.hasAttribute('download')) return; // download diretto, niente transizione
     const href = link.getAttribute('href');
     if (!href || href.startsWith('#') || href.startsWith('mailto') || href.startsWith('http')) return;
 

@@ -70,8 +70,8 @@ if (project) {
   document.getElementById("project-role").innerHTML =
     project.role || "";
 
-  document.getElementById("project-contribution").innerHTML =
-    project.contribution || "";
+  document.getElementById("project-deliverables").innerHTML =
+    project.deliverables || "";
 
   document.getElementById("project-clients").innerHTML =
     project.clients || "";

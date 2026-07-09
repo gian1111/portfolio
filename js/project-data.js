@@ -11,7 +11,7 @@ const projectsData = {
     role:
       "Graphic Designer, Art Director",
 
-    contribution:
+    deliverables:
       "Graphic Design, Art Direction",
 
     clients:
@@ -83,7 +83,7 @@ const projectsData = {
     role:
       "Graphic Designer &<br>Art Director",
 
-    contribution:
+    deliverables:
       "Visual Direction, Typography,<br>Photo Manipulation,<br>Art Direction",
 
     clients:
@@ -203,7 +203,7 @@ const projectsData = {
     role:
       "Graphic Designer &<br>Art Director",
 
-    contribution:
+    deliverables:
       "Visual Direction, Typography, Art Direction",
 
     clients:
@@ -316,7 +316,7 @@ const projectsData = {
     role:
       "Graphic Designer &<br>Art Director",
 
-    contribution:
+    deliverables:
       "UI Design, UX Design, Art Direction, 3D Design ",
 
     duration:
@@ -377,7 +377,7 @@ const projectsData = {
     role:
       "Graphic Designer &<br>Art Director",
 
-    contribution:
+    deliverables:
       "UI Design, UX Design, Art Direction, 3D Design ",
 
     clients:
@@ -537,7 +537,7 @@ const projectsData = {
     role:
       "Graphic Designer &<br>Art Director",
 
-    contribution:
+    deliverables:
       "Visual Direction, Social Media Design, Poster Design, Graphic Design",
 
     clients:
@@ -679,7 +679,7 @@ const projectsData = {
     role:
       "Graphic Designer &<br>Art Director",
 
-    contribution:
+    deliverables:
       "Poster Design, Visual Direction, Art Direction",
 
     clients:
@@ -749,7 +749,7 @@ gallery: [
     role:
       "Graphic Designer &<br>Art Director",
 
-    contribution:
+    deliverables:
       "Visual Direction, Social Media Design, Poster Design, Graphic Design",
 
     clients:
@@ -843,7 +843,7 @@ gallery: [
     role:
       "Graphic Designer &<br>Art Director",
 
-    contribution:
+    deliverables:
       "Visual Direction, Poster Design, Graphic Design",
 
     clients:
@@ -935,7 +935,7 @@ gallery: [
     role:
       "Graphic Designer, UX Designer, UI Designer",
 
-    contribution:
+    deliverables:
       "UI Design, UX Design, Prototyping, Concept Art, Graphic Design",
 
     clients:
@@ -1172,7 +1172,7 @@ gallery: [
     role:
       "Graphic Designer, Art Director",
 
-    contribution:
+    deliverables:
       "Branding, Social Media Design, Graphic Design",
 
     clients:
@@ -1252,7 +1252,7 @@ gallery: [
     role:
       "Graphic Designer, Art Director",
 
-    contribution:
+    deliverables:
       "Graphic Design, Art Direction",
 
     clients:
@@ -1371,7 +1371,7 @@ gallery: [
     role:
       "Graphic Designer, Art Director",
 
-    contribution:
+    deliverables:
       "Graphic Design, Art Direction, Merch Design, Social Media Design",
 
     clients:
@@ -1547,7 +1547,7 @@ gallery: [
     role:
       "Graphic Designer, Art Director",
 
-    contribution:
+    deliverables:
       "Graphic Design, Art Direction, UI Design, Social Media Design",
 
     clients:
@@ -1662,7 +1662,7 @@ gallery: [
     role:
       "Multi-Media Designer, Art Director",
 
-    contribution:
+    deliverables:
       "Graphic Design, UX Design, UI Design, Social Media Design",
 
     clients:

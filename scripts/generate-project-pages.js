@@ -245,7 +245,7 @@ for (const [slug, project] of Object.entries(projectsData)) {
   html = fillById(html, 'project-category', project.category || '');
   html = fillById(html, 'project-intro', project.intro || '');
   html = fillById(html, 'project-role', project.role || '');
-  html = fillById(html, 'project-contribution', project.contribution || '');
+  html = fillById(html, 'project-deliverables', project.deliverables || '');
   html = fillById(html, 'project-clients', project.clients || '');
   html = fillById(html, 'project-tools', project.tools || '');
   html = fillById(html, 'project-body-1', project.body?.[0] || '');
