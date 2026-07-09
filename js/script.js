@@ -8,7 +8,7 @@ const myProjects = [
     { name: "Letsgoski Official Merch", slug: "letsgoski", style: "", category: "merch" },
     { name: "Dinousound", slug: "dinosound", style: "", category: "uxui" },
     { name: "Berserk: The Long Night", slug:"berserk", style: "", category: "uxui" },
-    { name: "CoVince", slug:"covince", style: "", category: "uxui", category: "branding" },
+    { name: "CoVince", slug:"covince", style: "", category: ["uxui", "branding"] },
     { name: "Stefano Francioni", slug: "stefano-francioni", style: "", category: "art-direction" },
     { name: "Gorgeous Blu-Ray", slug:"gorgeous", style: "", category: "art-direction" }, 
     { name: "Carousels", slug:"carousels", style: "", category: "social" },
@@ -32,7 +32,7 @@ function renderProjects() {
 
     container.innerHTML = myProjects.map((project, index) => {
         // Controllo se il progetto fa parte del filtro attivo
-        const isMatch = activeFilter === 'all' || project.category === activeFilter;
+        const isMatch = activeFilter === 'all' || [].concat(project.category).includes(activeFilter);
         
         // Classi stato: se match -> Nero, se NO match -> Grigio #E8E8E8
         const stateClasses = isMatch 
@@ -40,7 +40,7 @@ function renderProjects() {
             : "text-[#E8E8E8] cursor-default pointer-events-none";
 
         const projectSpan = `
-        <a href="project.html?slug=${project.slug}"
+        <a href="project/${project.slug}.html"
             data-slug="${project.slug}"
             class="inline-block transition-all duration-500 ${project.style} ${stateClasses}">
             ${project.name}
@@ -123,7 +123,7 @@ function initFilters() {
  */
 function updateClock() {
     const now = new Date();
-    const timeString = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: true });
+    const timeString = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: true, timeZone: 'Europe/Rome' });
     const text = `Chieti, Italy - ${timeString}`;
     const timeDisplay = document.getElementById('current-time');
     const timeDisplayMobile = document.getElementById('current-time-mobile');
@@ -186,7 +186,7 @@ const translations = {
     menuSettings: 'Impostazioni',
     menuInfo: 'Info',
     // about me bio (innerHTML — contiene il tag img)
-    aboutBio: 'Gianmarco è un graphic designer e visual artist che lavora su contenuti per i social media, identità visiva e key visual <img src="assets/1000045896.jpg" class="float-left w-36 mr-4 mb-2" alt="Gianmarco portrait"> con un focus su tipografia, layout e coerenza visiva.',
+    aboutBio: '<img src="assets/1000045896.jpg" class="float-left w-36 mr-4 mb-2" alt="Ritratto di Gianmarco Malandra">Gianmarco è un graphic designer e visual artist che lavora su contenuti per i social media, identità visiva e key visual con un focus su tipografia, layout e coerenza visiva.',
     // project.html labels
     labelRole: 'Ruolo:',
     labelContribution: 'Contributo:',
@@ -206,7 +206,7 @@ const translations = {
     menuSettings: 'Settings',
     menuInfo: 'Info',
     // about me bio
-    aboutBio: 'Gianmarco is a graphic designer and visual artist working on social media content, visual identity and key visuals <img src="assets/1000045896.jpg" class="float-left w-36 mr-4 mb-2" alt="Gianmarco portrait"> with a focus on typography, layout and visual consistency.',
+    aboutBio: '<img src="assets/1000045896.jpg" class="float-left w-36 mr-4 mb-2" alt="Portrait of Gianmarco Malandra">Gianmarco is a graphic designer and visual artist working on social media content, visual identity and key visuals with a focus on typography, layout and visual consistency.',
     // project.html labels
     labelRole: 'Role:',
     labelContribution: 'Contribution:',

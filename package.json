@@ -1,25 +1,22 @@
 {
   "name": "portfolio-2",
   "version": "1.0.0",
-  "description": "",
-  "main": "tailwind.config.js",
+  "private": true,
+  "description": "Portfolio di Gianmarco Malandra - graphic designer e visual artist",
+  "author": "Gianmarco Malandra <gianmarco@virgilio.it>",
+  "homepage": "https://www.gianmarcom.xyz",
   "scripts": {
     "build:css": "tailwindcss -i ./css/tailwind-input.css -o ./css/tailwind.css --minify",
     "watch:css": "tailwindcss -i ./css/tailwind-input.css -o ./css/tailwind.css --watch",
-    "convert:images": "node scripts/convert-to-webp.js"
+    "convert:images": "node scripts/convert-to-webp.js",
+    "build:pages": "node scripts/generate-project-pages.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gian1111/portfolio.git"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/gian1111/portfolio/issues"
-  },
-  "homepage": "https://github.com/gian1111/portfolio#readme",
   "devDependencies": {
     "ffmpeg-static": "^5.3.0",
     "sharp": "^0.34.5",

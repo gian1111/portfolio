@@ -12,7 +12,9 @@ function toThumb(src) {
 }
 
 const params = new URLSearchParams(window.location.search);
-const slug = params.get("slug");
+// le pagine statiche generate (/project/<slug>.html) espongono lo slug
+// su <html data-slug>; project.html?slug=... resta come fallback
+const slug = params.get("slug") || document.documentElement.dataset.slug;
 
 const project = projectsData[slug];
 
@@ -88,7 +90,7 @@ if (project) {
     el.hidden = false;
     el.src = toThumb(src);
     el.dataset.full = toWebP(src);
-    el.alt = item.alt || "";
+    el.alt = item.alt || `${project.title} — hero image`;
   }
 
   setHero("project-image-1", project.images?.[0]);
@@ -116,7 +118,7 @@ if (project) {
 
   const nextEl = document.getElementById('next-project');
   if (nextEl && nextProject) {
-    nextEl.href = `project.html?slug=${nextSlug}`;
+    nextEl.href = `project/${nextSlug}.html`;
     nextEl.querySelector('.next-title').textContent = nextProject.title;
   }
 
