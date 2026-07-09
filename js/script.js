@@ -176,7 +176,7 @@ let currentLang = localStorage.getItem('lang') || 'en';
 const translations = {
   it: {
     name: 'Gianmarco Malandra.',
-    subtitle: 'Graphic Designer e Visual Artist, based in Italy',
+    subtitle: 'Graphic Designer e Art Director, based in Italy',
     projects: 'Progetti',
     aboutme: 'Chi sono',
     available: 'Disponibile per progetti freelance',
@@ -186,7 +186,7 @@ const translations = {
     menuSettings: 'Impostazioni',
     menuInfo: 'Info',
     // about me bio (innerHTML — contiene il tag img)
-    aboutBio: '<img src="assets/1000045896.jpg" class="float-left w-36 mr-4 mb-2" alt="Ritratto di Gianmarco Malandra">Gianmarco è un graphic designer e visual artist che lavora su contenuti per i social media, identità visiva e key visual con un focus su tipografia, layout e coerenza visiva.',
+    aboutBio: '<img src="assets/1000045896.jpg" class="float-left w-36 mr-4 mb-2" alt="Ritratto di Gianmarco Malandra">Gianmarco è un graphic designer e art director che lavora su contenuti per i social media, identità visiva e key visual con un focus su tipografia, layout e coerenza visiva.',
     // project.html labels
     labelRole: 'Ruolo:',
     labelContribution: 'Contributo:',
@@ -196,7 +196,7 @@ const translations = {
   },
   en: {
     name: 'Gianmarco Malandra.',
-    subtitle: 'Graphic Designer and Visual Artist, based in Italy',
+    subtitle: 'Graphic Designer and Art Director, based in Italy',
     projects: 'Projects',
     aboutme: 'About Me',
     available: 'Available for freelance projects',
@@ -206,7 +206,7 @@ const translations = {
     menuSettings: 'Settings',
     menuInfo: 'Info',
     // about me bio
-    aboutBio: '<img src="assets/1000045896.jpg" class="float-left w-36 mr-4 mb-2" alt="Portrait of Gianmarco Malandra">Gianmarco is a graphic designer and visual artist working on social media content, visual identity and key visuals with a focus on typography, layout and visual consistency.',
+    aboutBio: '<img src="assets/1000045896.jpg" class="float-left w-36 mr-4 mb-2" alt="Portrait of Gianmarco Malandra">Gianmarco is a graphic designer and art director working on social media content, visual identity and key visuals with a focus on typography, layout and visual consistency.',
     // project.html labels
     labelRole: 'Role:',
     labelContribution: 'Contribution:',
