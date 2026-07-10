@@ -84,7 +84,7 @@ const projectsData = {
       "Graphic Designer &<br>Art Director",
 
     deliverables:
-      "Visual Direction, Typography,<br>Photo Manipulation,<br>Art Direction",
+      "Posters, Typography",
 
     clients:
       "Spectrum Films, Black Math Pictures",
@@ -204,7 +204,7 @@ const projectsData = {
       "Graphic Designer &<br>Art Director",
 
     deliverables:
-      "Visual Direction, Typography, Art Direction",
+      "Merch Design, Mockup Design, Logo Design",
 
     clients:
       "Novo Esports",
@@ -266,8 +266,8 @@ const projectsData = {
         type: "text",
         title: "Final Apparel Collection & Custom Logotype",
         title_it: "Collezione Abbigliamento Finale & Logotipo Custom",
-        text: "The definitive showcase of the Letsgoski merchandise line, featuring custom-designed t-shirts and headwear. This section highlights the final production-ready layouts, combining a bespoke logotype designed from scratch with carefully structured typographic systems tailored for modern streetwear.",
-        text_it: "La presentazione definitiva della linea merchandise Letsgoski, con t-shirt e cappellini dal design custom. Questa sezione mette in risalto i layout finali pronti per la produzione, combinando un logotipo su misura progettato da zero con sistemi tipografici strutturati pensati per lo streetwear moderno."
+        text: "The definitive showcase of the Letsgoski merchandise line, featuring custom-designed t-shirts and headwear. This section highlights the final production-ready layouts, combining a bespoke logotype designed from scratch with carefully structured typographic systems tailored for modern streetwear. Produced and released as a full collection, backed by a marketing and influencer campaign, with strong sales across the line. <a href=\"https://shop.novoesports.gg/collections/all\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Shop ↗</a>",
+        text_it: "La vetrina definitiva della linea merchandise Letsgoski, con t-shirt e cappellini disegnati su misura. Questa sezione mostra i layout finali pronti per la produzione, unendo un logotype creato da zero a sistemi tipografici strutturati per uno streetwear contemporaneo. Prodotta e lanciata come collezione completa, accompagnata da una campagna marketing e influencer, con ottime vendite su tutta la linea. <a href=\"https://shop.novoesports.gg/collections/all\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Shop ↗</a>"
       },
       {
         type: "group",
@@ -538,7 +538,7 @@ const projectsData = {
       "Graphic Designer &<br>Art Director",
 
     deliverables:
-      "Visual Direction, Social Media Design, Poster Design, Graphic Design",
+      "Poster Design, Billboard, Social Media Design",
 
     clients:
       "Stefano Francioni Produzioni",
@@ -635,8 +635,8 @@ const projectsData = {
       {
         type: "text",
         title: "Rocco Papaleo",
-        text: "Complete art direction and poster design for Rocco Papaleo's theatrical shows, in collaboration with Stefano Francioni Produzioni. A typography-dominated layout set against a light background",
-        text_it: "Direzione artistica completa e progettazione di poster per gli spettacoli teatrali di Rocco Papaleo, in collaborazione con Stefano Francioni Produzioni. Un layout dominato dalla tipografia su sfondo chiaro."
+        text: "Art direction and poster design for Rocco Papaleo's theatrical show, in collaboration with Stefano Francioni Produzioni. A typography-led layout on a light background, built to hold attention as the show's key visual. Used as the official poster for the production's live run. <a href=\"https://www.rivieraweb.it/lamezia-terme-al-teatro-rocco-papaleo-con-divertissement/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Article ↗</a> <a href=\"https://www.stefanofrancioniproduzioni.com/eventi/categorie/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Website ↗</a>",
+        text_it: "Art direction e design del manifesto per lo spettacolo teatrale di Rocco Papaleo, in collaborazione con Stefano Francioni Produzioni. Un layout guidato dalla tipografia su fondo chiaro, pensato per funzionare come key visual dello spettacolo. Utilizzato come manifesto ufficiale della produzione durante le repliche. <a href=\"https://www.rivieraweb.it/lamezia-terme-al-teatro-rocco-papaleo-con-divertissement/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Articolo ↗</a> <a href=\"https://www.stefanofrancioniproduzioni.com/eventi/categorie/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Sito ↗</a>"
       },
       {
         type: "group",
@@ -649,8 +649,8 @@ const projectsData = {
         type: "text",
         title: "Promotional flyer for the 2024 Theater Season",
         title_it: "Locandina promozionale per la Stagione Teatrale 2024",
-        text: "Poster design campaign (print and digital) for the 2024 season of the Teatro di Città Sant'Angelo in Pescara. Created and art-directed by me.",
-        text_it: "Campagna di poster (stampa e digitale) per la stagione 2024 del Teatro di Città Sant'Angelo di Pescara. Ideata e art-diretta da me."
+        text: "Poster campaign, print and digital, for the 2024 season of Teatro di Città Sant'Angelo (Pescara). Created and art-directed by me as a consistent visual system across the full season's programme, used throughout the season's official print and digital communication. <a href=\"https://visitcittasantangelo.it/evento/stagione-teatrale-2024/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Website ↗</a>",
+        text_it: "Campagna di manifesti, print e digital, per la stagione 2024 del Teatro di Città Sant'Angelo (Pescara). Ideata e diretta artisticamente da me: un sistema visivo coerente declinato su tutti gli spettacoli in programma. Utilizzata nella comunicazione ufficiale della stagione, sia stampata che digitale. <a href=\"https://visitcittasantangelo.it/evento/stagione-teatrale-2024/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Sito ↗</a>"
       },
       {
         type: "group",
@@ -662,8 +662,8 @@ const projectsData = {
       {
         type: "text",
         title: "Leo Gullotta and Fabio Grossi",
-        text: "Poster design and multi-format graphics for the play In Ogni Vita la Pioggia Deve Cadere, featuring Leo Gullotta and Fabio Grossi",
-        text_it: "Progettazione di poster e grafica multi-formato per lo spettacolo In Ogni Vita la Pioggia Deve Cadere, con Leo Gullotta e Fabio Grossi."
+        text: "Poster design and multi-format graphics for the play In Ogni Vita la Pioggia Deve Cadere, starring Leo Gullotta and Fabio Grossi. A single visual identity adapted across print and digital formats, used as the show's official campaign across print and social. <a href=\"https://www.linkedin.com/posts/fabio-grossi-a4892b58_a-roma-dal-26-al-28-gennaio-teatro-parioli-activity-7148359869589368832-wHCY/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">LinkedIn ↗</a>",
+        text_it: "Design del manifesto e grafiche multi-formato per lo spettacolo In Ogni Vita la Pioggia Deve Cadere, con Leo Gullotta e Fabio Grossi. Un'identità visiva unica declinata su formati print e digital per la produzione. Utilizzata come campagna ufficiale dello spettacolo, tra stampa e social. <a href=\"https://www.linkedin.com/posts/fabio-grossi-a4892b58_a-roma-dal-26-al-28-gennaio-teatro-parioli-activity-7148359869589368832-wHCY/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">LinkedIn ↗</a>"
       },
     ]
   },
@@ -680,7 +680,7 @@ const projectsData = {
       "Graphic Designer &<br>Art Director",
 
     deliverables:
-      "Poster Design, Visual Direction, Art Direction",
+      "Blu-Ray Design, Art Direction, Print Design",
 
     clients:
       "Spectrum Films",
@@ -718,8 +718,8 @@ gallery: [
         type: "text",
         title: "Process & Evolution: Final Artwork (left) and First Draft (right)",
         title_it: "Processo ed Evoluzione: Artwork Finale (sinistra) e Prima Bozza (destra)",
-        text: "The color grading was completely overhauled during development, pivoting to warmer tones to better align with the film's visual identity.",
-        text_it: "La gradazione del colore è stata completamente rinnovata durante lo sviluppo, virando verso toni più caldi per allinearsi meglio all'identità visiva del film."
+        text: "Final artwork (left) vs first draft (right): both the layout and the colour grading were reworked during development. The composition was restructured and the palette shifted to warmer tones, bringing the final cover closer to the film's identity with more mood and cohesion. The design carries the film's visual identity onto physical packaging built for retail and distribution.",
+        text_it: "Artwork finale (sinistra) vs prima bozza (destra): durante lo sviluppo sono stati rivisti sia il layout sia la color grading. La composizione è stata ristrutturata e la palette virata verso toni più caldi, avvicinando la cover finale all'identità del film con più atmosfera e coerenza. Il design porta l'identità visiva del film sul packaging fisico, pensato per la vendita e la distribuzione."
       },
       {
         type: "group",
@@ -731,8 +731,8 @@ gallery: [
         type: "text",
         title: "Distribution & Retail Showcase",
         title_it: "Distribuzione & Presentazione Retail",
-        text: "A look at the finalized Blu-ray design live in production. This section highlights the product placement across official distribution channels, including the Spectrum Films webstore and Rakuten.",
-        text_it: "Uno sguardo al design Blu-ray finalizzato in produzione. Questa sezione mette in evidenza il posizionamento del prodotto nei canali di distribuzione ufficiali, inclusi il webstore di Spectrum Films e Rakuten."
+        text: "A look at the finalized Blu-ray design live in production. This section highlights the product placement across official distribution channels, including the Spectrum Films webstore and Rakuten. <a href=\"https://www.spectrumfilms.fr/catalogue/158-product-3760405250031.html\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Shop ↗</a>",
+        text_it: "Uno sguardo al design Blu-ray finalizzato in produzione. Questa sezione mette in evidenza il posizionamento del prodotto nei canali di distribuzione ufficiali, inclusi il webstore di Spectrum Films e Rakuten. <a href=\"https://www.spectrumfilms.fr/catalogue/158-product-3760405250031.html\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Shop ↗</a>"
       },
     ]
 
@@ -750,7 +750,7 @@ gallery: [
       "Graphic Designer &<br>Art Director",
 
     deliverables:
-      "Visual Direction, Social Media Design, Poster Design, Graphic Design",
+      "Social Media Design, Carousels, KPI Focus",
 
     clients:
       "Novo Esports, Requiem for a Film, Stefano Francioni Produzioni",
@@ -788,8 +788,8 @@ gallery: [
       {
         type: "text",
         title: "SHOGUN - Requiem for a Film",
-        text: "Social media carousel for the series SHOGUN, produced for Requiem for a Film. Focus on editorial layout and visual storytelling.",
-        text_it: "Carosello social media per la serie SHOGUN, realizzato per Requiem for a Film. Focus su layout editoriale e visual storytelling."
+        text: "Social carousel for the series SHOGUN, created for Requiem for a Film. Editorial layout and visual storytelling built to accompany the show's release with an aesthetic true to its world. Designed as social content to promote the title",
+        text_it: "Carosello social per la serie SHOGUN, realizzato per Requiem for a Film. Layout editoriale e visual storytelling costruiti per accompagnare l'uscita della serie con un'estetica coerente al suo mondo. Progettato come contenuto social per la promozione del titolo."
       },
 
       {
@@ -801,8 +801,8 @@ gallery: [
       {
         type: "text",
         title: "NOVO Esports - Genesi 2024",
-        text: "A recap carousel for the Genesi series, created during my time as Art Director for Novo Esports. The main focus was highlighting our key achievements while strictly adhering to the brand's visual guidelines.",
-        text_it: "Un carosello di recap per la serie Genesi, creato durante il mio periodo come Art Director per Novo Esports. Il focus principale era evidenziare i risultati chiave rispettando scrupolosamente le linee guida visive del brand."
+        text: "Recap carousel for the Genesi series, created during my time as Art Director at NOVO Esports. The goal was to highlight the key results while strictly following the brand's visual guidelines. Published on NOVO's official channels as recap content for the series.",
+        text_it: "Carosello di recap per la serie Genesi, realizzato durante il mio periodo da Art Director in NOVO Esports. L'obiettivo era mettere in evidenza i risultati chiave rispettando in modo rigoroso le linee guida visive del brand. Pubblicato sui canali ufficiali NOVO come contenuto di recap della serie."
       },
 
       {
@@ -814,8 +814,8 @@ gallery: [
       {
         type: "text",
         title: "Giampolo Morelli",
-        text: "Carousel adaptation of the official show poster for Giampaolo Morelli, promoting his nationwide tour dates.",
-        text_it: "Adattamento a carosello del poster ufficiale dello spettacolo di Giampaolo Morelli, per promuovere le date del suo tour nazionale."
+        text: "Carousel adaptation of the official poster for Giampaolo Morelli's show, promoting the dates of his national tour. The poster was reworked into a social format while keeping the campaign's visual identity intact. Created as promotional content for the tour dates.",
+        text_it: "Adattamento a carosello del manifesto ufficiale dello spettacolo di Giampaolo Morelli, per promuovere le date del tour nazionale. Il poster è stato ripensato in formato social mantenendo l'identità visiva della campagna. Realizzato come contenuto promozionale per le date del tour."
       },
 
       {
@@ -826,8 +826,8 @@ gallery: [
       },
       { type: "text",
           title: "NOVO Esports - Genesi 2024",
-          text: "Marketing and data-driven recap carousel for Genesi 2024, highlighting the campaign's key numbers and metrics.",
-          text_it: "Carosello di recap marketing e basato sui dati per Genesi 2024, che evidenzia i numeri e le metriche chiave della campagna."
+          text: "Marketing and data-driven recap carousel for Genesi 2024, highlighting the campaign's key numbers and metrics. Designed to make the data readable and striking at a glance. Published on NOVO's channels as a visual end-of-campaign report.",
+          text_it: "Carosello di recap marketing e data-driven per Genesi 2024, con in evidenza numeri e metriche chiave della campagna. Design pensato per rendere i dati leggibili e d'impatto a colpo d'occhio. Pubblicato sui canali NOVO come report visivo di fine campagna."
         },
     ]
   },
@@ -877,8 +877,8 @@ gallery: [
       {
         type: "text",
         title: "Moodboard",
-        text: "A curated visual reference system established to define the project's visual language and design aesthetic, seamlessly aligning with the core vibe and cinematic look of the film.",
-        text_it: "Un sistema curato di riferimenti visivi stabilito per definire il linguaggio visivo e l'estetica del progetto, allineandosi perfettamente con il vibe e il look cinematografico del film."
+        text: "A curated system of visual references built early on to define the project's visual language and aesthetic, setting the palette, mood and cinematic tone before moving into artwork production.",
+        text_it: "Un sistema curato di riferimenti visivi costruito nella fase iniziale per definire il linguaggio e l'estetica del progetto, fissando palette, atmosfera e tono cinematografico prima di passare alla produzione dell'artwork."
       },
       {
         type: "group",
@@ -891,8 +891,8 @@ gallery: [
         type: "text",
         title: "Vertical Key Art & Character Variants",
         title_it: "Key Art Verticale & Varianti dei Personaggi",
-        text: "The final vertical key art designed with a character-focused approach. This layout was developed into twin variations, allowing the campaign to highlight different lead characters while maintaining a unified visual identity and composition.",
-        text_it: "La key art verticale finale progettata con un approccio centrato sui personaggi. Questo layout è stato sviluppato in due variazioni gemelle, permettendo alla campagna di mettere in risalto diversi personaggi principali mantenendo un'identità visiva e una composizione unificate."
+        text: "The final vertical key art, built around a character-focused approach. The layout was developed in two twin variants, letting the campaign spotlight different lead characters while keeping a unified visual identity and composition. Used as the film's official key art across its promotional campaign. <a href=\"https://www.imdb.com/title/tt21054864/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">IMDb ↗</a> <a href=\"https://letterboxd.com/film/straight-through-crew/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Letterboxd ↗</a>",
+        text_it: "La key art verticale finale, costruita con un approccio centrato sui personaggi. Il layout è stato sviluppato in due varianti gemelle, che permettono alla campagna di mettere in risalto personaggi principali diversi mantenendo un'identità visiva e una composizione unificate. Adottata come key art ufficiale del film e utilizzata nella sua campagna promozionale. <a href=\"https://www.imdb.com/title/tt21054864/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">IMDb ↗</a> <a href=\"https://letterboxd.com/film/straight-through-crew/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Letterboxd ↗</a>"
       },
       {
         type: "group",
@@ -905,8 +905,8 @@ gallery: [
         type: "text",
         title: "Marketing Banners & Campaign Rollout",
         title_it: "Banner Marketing & Lancio della Campagna",
-        text: "Horizontal marketing banners adapted for digital advertising and display networks. Following the campaign's core strategy, these assets feature alternative character focuses to maximize engagement across different target audiences and platforms.",
-        text_it: "Banner marketing orizzontali adattati per la pubblicità digitale e le reti display. Seguendo la strategia principale della campagna, questi asset presentano focus alternativi sui personaggi per massimizzare l'engagement tra diversi target di pubblico e piattaforme."
+        text: "Horizontal banners adapted for digital advertising and display networks. In line with the campaign's core strategy, these assets rotate the focus across different characters to maximise engagement across audiences and platforms. Ran live in the film's advertising campaign, across display networks and digital channels.",
+        text_it: "Banner orizzontali adattati per la pubblicità digitale e le reti display. In linea con la strategia principale della campagna, questi asset alternano il focus sui diversi personaggi per massimizzare l'engagement tra pubblici e piattaforme. Andati live nella campagna pubblicitaria del film, sulle reti display e sui canali digitali."
       },
       {
         type: "group",
@@ -1173,7 +1173,7 @@ gallery: [
       "Graphic Designer, Art Director",
 
     deliverables:
-      "Branding, Social Media Design, Graphic Design",
+      "Brand Design, Visual Identity, Social Media Design",
 
     clients:
       "Personal Project",
@@ -1548,7 +1548,7 @@ gallery: [
       "Graphic Designer, Art Director",
 
     deliverables:
-      "Graphic Design, Art Direction, UI Design, Social Media Design",
+      "Logo Design, Brand Design, UI Design, Marketing Design, Motion Graphics",
 
     clients:
       "Fracture Sounds",
@@ -1587,8 +1587,8 @@ gallery: [
       {
         type: "text",
         title: "String Formations",
-        text: "Created the visual identity, background artwork, and logo design for String Formations, a 2024 product release by Fracture Sounds. Tailored the aesthetics to capture the essence of the library's unique soundscapes",
-        text_it: "Ho creato l'identità visiva, l'artwork di sfondo e il logo per String Formations, una release di prodotto 2024 di Fracture Sounds. Ho adattato l'estetica per catturare l'essenza dei soundscape unici della libreria."
+        text: "Visual identity, background artwork and logo design for String Formations, a 2024 sample library release by Fracture Sounds. The aesthetic was built to capture the essence of the library's unique soundscapes. Used as the product's official identity across its store page and marketing for the commercial release. <a href=\"https://www.youtube.com/watch?v=RFSRO49tCbE\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">YouTube ↗</a>",
+        text_it: "Identità visiva, artwork di sfondo e design del logo per String Formations, una sample library del 2024 di Fracture Sounds. L'estetica è stata costruita per catturare l'essenza dei soundscape unici della libreria. Utilizzata come identità ufficiale del prodotto, sulla pagina store e nei materiali di lancio commerciale. <a href=\"https://www.youtube.com/watch?v=RFSRO49tCbE\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">YouTube ↗</a>"
       },
 
       {
@@ -1607,8 +1607,8 @@ gallery: [
       {
         type: "text",
         title: "Moonlight Celeste",
-        text: "Created the visual identity, background artwork, and logo design for Moonlight Celeste, a 2024 product release by Fracture Sounds. Engineered the visuals to match the delicate and atmospheric tone of the instrument.",
-        text_it: "Ho creato l'identità visiva, l'artwork di sfondo e il logo per Moonlight Celeste, una release di prodotto 2024 di Fracture Sounds. I visual sono stati progettati per corrispondere al tono delicato e atmosferico dello strumento."
+        text: "Visual identity, background artwork and logo design for Moonlight Celeste, a 2024 sample library release by Fracture Sounds. The visuals were crafted to match the instrument's delicate, atmospheric tone. Used as the product's official identity across its store page and marketing for the commercial release. <a href=\"https://fracturesounds.com/product/moonlight-celeste/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Shop ↗</a>",
+        text_it: "Identità visiva, artwork di sfondo e design del logo per Moonlight Celeste, una sample library del 2024 di Fracture Sounds. I visual sono stati costruiti per rispecchiare il tono delicato e atmosferico dello strumento. Utilizzata come identità ufficiale del prodotto, sulla pagina store e nei materiali di lancio commerciale. <a href=\"https://fracturesounds.com/product/moonlight-celeste/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Shop ↗</a>"
       },
 
       {
