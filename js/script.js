@@ -3,6 +3,7 @@
  */
 const myProjects = [
     // { name: "SSC Napoli", slug: "ssc-napoli", style: "", category: "social"},
+    { name: "Area Sport", slug:"area", style: "", category: "branding" },
     { name: "Juventus FC", slug:"juventus", style: "", category: "social" },
     { name: "Movie Posters", slug: "movie-posters", style: "", category: "art-direction" },
     { name: "Letsgoski Official Merch", slug: "letsgoski", style: "", category: "merch" },
@@ -14,7 +15,6 @@ const myProjects = [
     { name: "Carousels", slug:"carousels", style: "", category: "social" },
     { name: "Straight Through Crew", slug:"straight", style: "", category: "art-direction" },
     { name: "The Seventh Peak", slug:"seventh", style: "", category: "uxui" },
-    { name: "Area Sport", slug:"area", style: "", category: "branding" },
     { name: "Football Social Media Design", slug:"social-media", style: "", category: "social" },
     { name: "Novo Esports", slug:"novo", style: "", category: "art-direction" },
     { name: "FractureSounds", slug: "fracturesounds",style: "", category: "social" },

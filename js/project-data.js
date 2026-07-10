@@ -1,4 +1,84 @@
 const projectsData = {
+  "area": {
+
+    title: "Area Sport",
+    category: "Branding",
+    intro:
+      "Brand Kit and Rebrand for a Football Agency.",
+    intro_it:
+      "Brand Kit e Rebrand per un'Agenzia di Procuratori Calcistica",
+
+    role:
+      "Graphic Designer, Art Director",
+
+    deliverables:
+      "Brand Design, Visual Identity, Social Media Design",
+
+    clients:
+      "Personal Project",
+
+    tools:
+      "Adobe Photoshop,<br>Illustrator, Figma, Blender",
+
+
+    body: [
+      "A full rebranding case study for a football player agency: visual identity, logo, color palette, and social media assets, designed to give the brand a more solid and contemporary image.",
+    ],
+    body_it: [
+      "Case study di rebranding completo per un'agenzia di procura calcistica: identità visiva, logo, palette, e asset per la comunicazione social, pensati per dare un'immagine più solida e contemporanea al brand.",
+    ],
+
+    images: [
+  {
+    src: "assets/optimized-files/optimized/area-sport/Frame 427322020.webp",
+    alt: ""
+  },
+],
+
+    gallery: [
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/area-sport/Frame 427322020.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/area-sport/Frame 427322025.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/area-sport/Frame 427322027.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/area-sport/Frame 427322028.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/area-sport/Frame 427322029.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/area-sport/Frame 427322030.webp", text: "" },
+        ]
+      },
+      // {
+      //   type: "text",
+      //   title: "Marketing Poster",
+      //   text: "Horizontal format, adapted for digital platforms and online promotion."
+      // },
+    ]
+  },
   "juventus": {
 
     title: "Juventus FC",
@@ -1158,86 +1238,6 @@ gallery: [
         text: "Various assets created for the project, mainly with Illustrator and Photoshop.",
         text_it: "Vari asset creati per il progetto, principalmente con Illustrator e Photoshop."
       },
-    ]
-  },
-  "area": {
-
-    title: "Area Sport",
-    category: "Branding",
-    intro:
-      "Brand Kit and Rebrand for a Football Agency.",
-    intro_it:
-      "Brand Kit e Rebrand per un'Agenzia di Procuratori Calcistica",
-
-    role:
-      "Graphic Designer, Art Director",
-
-    deliverables:
-      "Brand Design, Visual Identity, Social Media Design",
-
-    clients:
-      "Personal Project",
-
-    tools:
-      "Adobe Photoshop,<br>Illustrator, Figma, Blender",
-
-
-    body: [
-      "A full rebranding case study for a football player agency: visual identity, logo, color palette, and social media assets, designed to give the brand a more solid and contemporary image.",
-    ],
-    body_it: [
-      "Case study di rebranding completo per un'agenzia di procura calcistica: identità visiva, logo, palette, e asset per la comunicazione social, pensati per dare un'immagine più solida e contemporanea al brand.",
-    ],
-
-    images: [
-  {
-    src: "assets/optimized-files/optimized/area-sport/Frame 427322020.webp",
-    alt: ""
-  },
-],
-
-    gallery: [
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/area-sport/Frame 427322020.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/area-sport/Frame 427322025.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/area-sport/Frame 427322027.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/area-sport/Frame 427322028.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/area-sport/Frame 427322029.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/area-sport/Frame 427322030.webp", text: "" },
-        ]
-      },
-      // {
-      //   type: "text",
-      //   title: "Marketing Poster",
-      //   text: "Horizontal format, adapted for digital platforms and online promotion."
-      // },
     ]
   },
   "social-media": {
