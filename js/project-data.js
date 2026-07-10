@@ -12,7 +12,7 @@ const projectsData = {
       "Graphic Designer, Art Director",
 
     deliverables:
-      "Graphic Design, Art Direction",
+      "Matchday Design, Editorial Campaign",
 
     clients:
       "Personal Project",
@@ -1663,7 +1663,7 @@ gallery: [
       "Multi-Media Designer, Art Director",
 
     deliverables:
-      "Graphic Design, UX Design, UI Design, Social Media Design",
+      "UX/UI Design, Flyers, Brand Design, Web Design ",
 
     clients:
       "CoVince",
@@ -1710,8 +1710,8 @@ gallery: [
         type: "text",
         title: "January Event Flyers",
         title_it: "Flyer Evento Gennaio",
-        text: "Flyer designs for CoVince January events, created across multiple formats and visual variants.",
-        text_it: "Design di flyer per gli eventi CoVince di gennaio, realizzati in più formati e varianti visive."
+        text: "Flyer designs for CoVince January events, created across multiple formats and visual variants, used across the event's official communication. <a href=\"https://www.linkedin.com/posts/melanie-van-halteren-25510b10_laatste-plekken-vrijdag-23-januari-knvb-ugcPost-7419308273075376128-bPrG\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">LinkedIn ↗</a>",
+        text_it: "Design di flyer per gli eventi CoVince di gennaio, realizzati in più formati e varianti visive e utilizzati nella comunicazione ufficiale dell'evento. <a href=\"https://www.linkedin.com/posts/melanie-van-halteren-25510b10_laatste-plekken-vrijdag-23-januari-knvb-ugcPost-7419308273075376128-bPrG\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">LinkedIn ↗</a>"
       },
 
 
@@ -1741,8 +1741,8 @@ gallery: [
         type: "text",
         title: "Tomo Cafe Flyers",
         title_it: "Flyer Tomo Cafe",
-        text: "Flyer series for the Tomo Cafe events, exploring multiple layout directions and color variants.",
-        text_it: "Serie di flyer per gli eventi Tomo Cafe, esplorando più direzioni di layout e varianti cromatiche."
+        text: "Flyer series for the Tomo events, exploring multiple layout directions and color variants, published across the event's social and promotional channels. <a href=\"https://www.linkedin.com/posts/nieuwsgierig-hoe-ai-jouw-zorggesprekken-kan-share-7417966792570040320-v_zG/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">LinkedIn ↗</a>",
+        text_it: "Serie di flyer per gli eventi Tomo Cafe, con diverse direzioni di layout e varianti di colore. Pubblicati sui canali social e promozionali dell'evento. <a href=\"https://www.linkedin.com/posts/nieuwsgierig-hoe-ai-jouw-zorggesprekken-kan-share-7417966792570040320-v_zG/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">LinkedIn ↗</a>"
       },
 
       // {
@@ -1817,8 +1817,8 @@ gallery: [
         type: "text",
         title: "Dashboard Redesign",
         title_it: "Redesign della Dashboard",
-        text: "A full redesign of the CoVince home dashboard, reorganised into three focused columns: Journeys, Timeline and Calendar/Events. A refreshed dark UI surfaces the community feed, to-dos and scheduled work at a glance.",
-        text_it: "Redesign completo della dashboard principale di CoVince, riorganizzata in tre colonne: Journeys, Timeline e Calendario/Eventi. Una nuova UI dark mette in evidenza feed della community, to-do e attività pianificate a colpo d'occhio."
+        text: "A full redesign of the CoVince home dashboard, reorganised into three focused columns: Journeys, Timeline and Calendar/Events. A refreshed dark UI surfaces the community feed, to-dos and scheduled work at a glance. The redesign was adopted by the team and is now in active use, improving navigation and day-to-day engagement.",
+        text_it: "Redesign completo della home dashboard di CoVince, riorganizzata in tre colonne: Journeys, Timeline e Calendar/Events. Una UI dark rinnovata mette in evidenza community feed, to-do e attività pianificate a colpo d'occhio. Adottata dal team e ora in uso attivo, con una navigazione più chiara e un maggior utilizzo quotidiano."
       },
 
 
@@ -1857,8 +1857,8 @@ gallery: [
         type: "text",
         title: "Journey Builder & Admin",
         title_it: "Journey Builder & Admin",
-        text: "The back-office side of the platform: the Journey builder where admins configure banners, media, toggles, data aspects and stats, together with the admin users management view and the supporting UI components and pop-ups.",
-        text_it: "Il lato back-office della piattaforma: il builder dei Journey dove gli admin configurano banner, media, toggle, dati e statistiche, insieme alla gestione degli utenti amministratori e ai componenti UI e pop-up di supporto."
+        text: "The back-office side of the platform: the Journey builder where admins configure banners, media, toggles, data aspects and stats, together with the admin user management view and the supporting UI components and pop-ups. Shipped and in daily use by the admin team to build and manage platform content.",
+        text_it: "Il lato back-office della piattaforma: il Journey builder con cui gli admin configurano banner, media, toggle, dati e statistiche, insieme alla vista di gestione degli utenti admin e ai componenti UI e pop-up di supporto. Rilasciato e in uso quotidiano dal team admin per creare e gestire i contenuti della piattaforma."
       },
 
       /* ---------- SMARTNOTE REDESIGN ---------- */
@@ -1889,8 +1889,8 @@ gallery: [
         type: "text",
         title: "SmartNote Redesign",
         title_it: "Redesign di SmartNote",
-        text: "A redesign of SmartNote, the in-platform note tool: a cleaner note panel with a quick-action toolbar (article, audio, image, assign) paired with a threaded Comments & History panel supporting replies, attachments and voice memos.",
-        text_it: "Redesign di SmartNote, lo strumento note della piattaforma: un pannello note più pulito con toolbar di azioni rapide (articolo, audio, immagine, assegna) affiancato da un pannello Commenti & Cronologia con risposte, allegati e memo vocali."
+        text: "A redesign of SmartNote, the in-platform note tool: a cleaner note panel with a quick-action toolbar (article, audio, image, assign) paired with a threaded Comments & History panel supporting replies, attachments and voice memos. Shipped and in active use, streamlining how the team captures and shares notes inside the platform.",
+        text_it: "Redesign di SmartNote, lo strumento note interno alla piattaforma: un pannello note più pulito con toolbar ad azioni rapide (articolo, audio, immagine, assegna), affiancato da un pannello Commenti & Cronologia con thread, risposte, allegati e memo vocali. Rilasciato e in uso attivo, rende più fluido il modo in cui il team crea e condivide note nella piattaforma."
       },
 
 
@@ -1922,8 +1922,8 @@ gallery: [
         type: "text",
         title: "SwipeSlides",
         title_it: "SwipeSlides",
-        text: "SwipeSlides, an AI storyboard tool: each slide pairs a voice-over script with image and video generation prompts, letting users build a narrated visual story and push the generated media straight into a Smart Note.",
-        text_it: "SwipeSlides, uno strumento di storyboard con AI: ogni slide combina uno script di voice-over con prompt per generare immagini e video, permettendo di costruire una storia visiva narrata e inviare i media generati direttamente in uno Smart Note."
+        text: "SwipeSlides, an AI storyboard tool: each slide pairs a voice-over script with image and video generation prompts, letting users build a narrated visual story and push the generated media straight into a Smart Note. The redesign made the flow simpler and more intuitive, easier for users to pick up and build with.",
+        text_it: "SwipeSlides, uno strumento di storyboard AI: ogni slide abbina uno script di voice-over a prompt per la generazione di immagini e video, permettendo di costruire una storia visiva narrata e di mandare i media generati direttamente in una Smart Note. Ridisegnato per un flusso più semplice e intuitivo, ora più facile da usare e da padroneggiare."
       },
     ]
   },
