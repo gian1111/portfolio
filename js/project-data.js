@@ -151,460 +151,6 @@ const projectsData = {
       },
     ]
   },
-  "movie-posters": {
-
-    title: "Movie Posters",
-    category: "Art Direction",
-    intro:
-      "An ongoing collection of alternative movie posters, started as a daily Instagram challenge.",
-    intro_it:
-      "Una raccolta in continua crescita di poster alternativi per film, nata come sfida giornaliera su Instagram.",
-
-    role:
-      "Graphic Designer &<br>Art Director",
-
-    deliverables:
-      "Posters, Typography",
-
-    clients:
-      "Spectrum Films, Black Math Pictures",
-
-    tools:
-      "Adobe Photoshop,<br>Illustrator, Figma",
-
-
-    body: [
-      "A personal project started in 2023 as an Instagram challenge: one alternative movie poster per day. The challenge is over but the project is still ongoing, continuously expanding with new posters and visual explorations.",
-
-    ],
-    body_it: [
-      "Un progetto personale iniziato nel 2023 come sfida su Instagram: un poster alternativo per ogni film al giorno. La sfida è finita ma il progetto continua, espandendosi continuamente con nuovi poster ed esplorazioni visive.",
-    ],
-    gallery: [
-      {
-        type: "grid",
-        cols: 3,
-        images: [
-  { image: "assets/optimized-files/optimized/poster/2001.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/20012.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/ALIENPOSTER1.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/GT.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/GetOut1.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/Nier_Gianmarco_Malandra.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/accattone1.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/apocalypsenow1.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/apocalypsenow2.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/apocalypsenow3.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/asceneatthesea2.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/ataxidriver3.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/batman2.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/blacksunday2.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/blowout1.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/burning2.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/burning3ig.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/busan2.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/citizenkane2.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/citizenkane5.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/citizenkane7.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/dune-messiah.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/dune3-min.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/dune5.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/dunkirk.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/easyrider1.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/enemy2.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/fallenangels2.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/fallenangels3.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/fitzcarraldo2.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/fitzcarraldo34.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/gorgeous3.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/gorgeousposter2.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/heatposter.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/immaculate2-min.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/immmaculate2.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/johnwick.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/joker1.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/joker2.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/kidsreturn2.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/kidsreturn3.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/kidsreturn5ig.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/lastrada3.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/loveexposure3.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/loveexposure6.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/manhattan1.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/manhattan4.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/midsommar21.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/pastlives5.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/pathsofglory4.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/persona4.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/poorthings1.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/precint133.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/ragingbull4-min.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/rashomon3.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/sacreddeer3-min.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/sacreeddeer2.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/sacreeddeer4.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/saltburn.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/scream2.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/screamclean.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/sevensamurai4.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/sevensamurai_jpg.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/shogun1.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/smashing2.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/stalker1.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/stalker3.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/stalker4.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/talktomecover.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/theirishmen.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/thekiller2.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/thekiller4.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/thelast2.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/thenight1.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/thenight2ig.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/thenorthman2.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/thetrumanshow1.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/thewitch.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/twinpeaks2.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/twinpeaksposter2.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/whiplash2.jpg", text: "" },
-  { image: "assets/optimized-files/optimized/poster/zatoichi2.jpg", text: "" }
-        ]
-      }
-    ]
-  },
-  "letsgoski": {
-
-    title: "Letsgoski Official Merch",
-    category: "Merch Design",
-    intro:
-      "Official Merchandise & Apparel Design",
-    intro_it:
-      "Design di merchandise e abbigliamento ufficiale",
-
-    role:
-      "Graphic Designer &<br>Art Director",
-
-    deliverables:
-      "Merch Design, Mockup Design, Logo Design",
-
-    clients:
-      "Novo Esports",
-
-    tools:
-      "Adobe Photoshop,<br>Illustrator, Figma",
-
-
-    body: [
-      "A vibrant streetwear and apparel collection designed for the prominent Italian content creator Marinoski. Built to celebrate one of the most viral catchphrases in the Italian gaming community, the design translates internet culture into a physical, high-impact lifestyle brand. Every asset was developed to bridge the gap between esports fashion and creator merchandise, offering the community clean, production-ready garments that capture the energy of the stream.",
-    ],
-    body_it: [
-      "Una collezione streetwear vivace progettata per il noto content creator italiano Marinoski. Creata per celebrare uno dei catchphrase più virali della community gaming italiana, il design traduce la cultura internet in un brand lifestyle fisico e d'impatto. Ogni asset è stato sviluppato per colmare il divario tra la moda esports e il merchandise dei creator, offrendo alla community capi puliti e pronti per la produzione che catturano l'energia dello stream.",
-    ],
-
-    images: [
-  {
-    src: "assets/optimized-files/optimized/letsgoski/letsgoski_4x5_3.webp",
-    alt: "letsgoski merch"
-  },
-
-  {
-    src: "assets/optimized-files/optimized/letsgoski/letsgoski_4x5_1.webp",
-    alt: "letsgoski merch"
-  },
-
-  {
-    src: "assets/optimized-files/optimized/letsgoski/letsgoski_4x5_4.webp",
-    alt: "letsgoski merch"
-  },
-  {
-    src: "assets/optimized-files/optimized/letsogksi2/468614821_17939031731937904_1370195125912354590_n.webp",
-    alt: "letsgoski merch"
-  },
-
-
-  {
-    src: "assets/optimized-files/optimized/letsogksi2/468614821_17939031731937904_1370195125912354590_n.webp",
-    alt: "letsgoski merch"
-  },
-
-  {
-    src: "assets/optimized-files/optimized/letsogksi2/468614821_17939031731937904_1370195125912354590_n.webp",
-    alt: "letsgoski merch"
-  }
-],
-
-    gallery: [
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/letsgoski/letsgoski_concept_fonetico2.webp", text: "" },
-          { image: "assets/optimized-files/optimized/letsogksi2/Front-Letsgowski_1.webp", text: "" },
-          { image: "assets/optimized-files/optimized/letsgoski/letsgoski_concept_fonetico.webp", text: "" },
-          { image: "assets/optimized-files/optimized/letsogksi2/letsgoski_logo_hat.webp", text: "" }
-        ]
-      },
-      {
-        type: "text",
-        title: "Final Apparel Collection & Custom Logotype",
-        title_it: "Collezione Abbigliamento Finale & Logotipo Custom",
-        text: "The definitive showcase of the Letsgoski merchandise line, featuring custom-designed t-shirts and headwear. This section highlights the final production-ready layouts, combining a bespoke logotype designed from scratch with carefully structured typographic systems tailored for modern streetwear. Produced and released as a full collection, backed by a marketing and influencer campaign, with strong sales across the line. <a href=\"https://shop.novoesports.gg/collections/all\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Shop ↗</a>",
-        text_it: "La vetrina definitiva della linea merchandise Letsgoski, con t-shirt e cappellini disegnati su misura. Questa sezione mostra i layout finali pronti per la produzione, unendo un logotype creato da zero a sistemi tipografici strutturati per uno streetwear contemporaneo. Prodotta e lanciata come collezione completa, accompagnata da una campagna marketing e influencer, con ottime vendite su tutta la linea. <a href=\"https://shop.novoesports.gg/collections/all\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Shop ↗</a>"
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/letsogksi2/letsgoski_concept_4.webp", text: "" },
-          { image: "assets/optimized-files/optimized/letsogksi2/letsgoski_concept2_2.webp", text: "" },
-          { image: "assets/optimized-files/optimized/letsogksi2/letsgoski_concept2_5.webp", text: "" },
-          { image: "assets/optimized-files/optimized/letsogksi2/letsgoski_concept2_1.webp", text: "" },
-          { image: "assets/optimized-files/optimized/letsogksi2/letsgoski_concept2_3.webp", text: "" },
-        ]
-      },
-      {
-        type: "text",
-        title: "Logo Exploration: Metal & Street Aesthetics",
-        title_it: "Esplorazione Logo: Estetica Metal & Street",
-        text: "Early concept designs and rough drafts tracking the evolution of the brand identity. The creative process focused on merging raw, aggressive heavy metal typography with sharp streetwear elements, exploring various weight and texture variants to capture the energetic essence of the community.",
-        text_it: "Concept iniziali e bozze che tracciano l'evoluzione dell'identità del brand. Il processo creativo si è concentrato sulla fusione di una tipografia heavy metal grezza e aggressiva con elementi streetwear decisi, esplorando varianti di peso e texture per catturare l'essenza energetica della community."
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/letsogksi2/letsgoski_back_1.webp", text: "" },
-          { image: "assets/optimized-files/optimized/letsogksi2/letsgoski_back_2.webp", text: "" }
-        ]
-      },
-      {
-        type: "text",
-        title: "Back Graphic Concept Design",
-        title_it: "Design Concept Grafica Posteriore",
-        text: "A specialized layout study developed for an alternative back-print design. This concept explores large-scale graphic composition and visual hierarchy on the reverse of the garments, designed to deliver a powerful, high-impact look from every angle.",
-        text_it: "Uno studio di layout sviluppato per un design alternativo della stampa sul retro. Questo concept esplora la composizione grafica su larga scala e la gerarchia visiva sul retro del capo, progettato per offrire un look potente e d'impatto da ogni angolazione."
-      }
-    ],
-
-
-  },
-  "dinosound": {
-
-    title: "Dinousound",
-    category: "UX/UI Design",
-    intro:
-      "UX/UI art test for Tsugi Studio, a Japanese audio software company. A challenging brief that pushed my design thinking and helped me grow significantly as a designer.",
-    intro_it:
-      "Art test UX/UI per Tsugi Studio, un'azienda giapponese di software audio. Un brief impegnativo che ha spinto il mio pensiero progettuale e mi ha aiutato a crescere notevolmente come designer.",
-
-    role:
-      "Graphic Designer &<br>Art Director",
-
-    deliverables:
-      "UI Design, UX Design, Art Direction, 3D Design ",
-
-    duration:
-      "2 Weeks",
-
-    tools:
-      "Adobe Photoshop,<br>Illustrator, Figma",
-
-
-    body: [
-      "UX/UI concept for Dinosound, a music player built around a dinosaur theme. The project explores two different visual directions: a vintage, textured approach with warm tones and hand-drawn elements, and a darker, holographic concept where dinosaur outlines come to life as interactive UI components. Both concepts were designed with full interactivity in mind, from navigation to playback controls.",
-     ],
-    body_it: [
-      "Concept UX/UI per Dinosound, un music player basato su un tema dinosauro. Il progetto esplora due diverse direzioni visive: un approccio vintage e texturizzato con toni caldi ed elementi disegnati a mano, e un concept più scuro e olografico dove i contorni dei dinosauri prendono vita come componenti UI interattivi. Entrambi i concept sono stati progettati con la piena interattività in mente, dalla navigazione ai controlli di riproduzione.",
-    ],
-
-    images: [
-  {
-    src: "assets/optimized-files/optimized/dinosound/DinoSound_Mockup1_2.webp",
-    alt: "letsgoski merch"
-  },
-
-  {
-    src: "assets/optimized-files/optimized/dinosound/DinoSound_Mockup1_1.webp",
-    alt: "letsgoski merch"
-  },
-
-  {
-    src: "assets/optimized-files/optimized/dinosound/Slide 16_9 - 12.webp",
-    alt: "letsgoski merch"
-  },
-  {
-    src: "assets/optimized-files/optimized/dinosound/DinoSound_Mockup1_2.webp",
-    alt: "letsgoski merch"
-  },
-
-  {
-    src: "assets/optimized-files/optimized/dinosound/DinoSound_Mockup1_2.webp",
-    alt: "letsgoski merch"
-  },
-
-  // {
-  //   src: "assets/optimized-files/optimized/dinosound/DinoSound_Mockup2_1.jpg",
-  //   alt: "letsgoski merch"
-  // }
-],
-
-  },
-  "berserk": {
-
-    title: "Berserk: The Long Night",
-    category: "UX/UI Design",
-    intro:
-      "A UX/UI Case Study & Interface Design Concept",
-    intro_it:
-      "Uno Studio UX/UI & Concept di Interface Design",
-
-    role:
-      "Graphic Designer &<br>Art Director",
-
-    deliverables:
-      "UI Design, UX Design, Art Direction, 3D Design ",
-
-    clients:
-      "Personal Project",
-
-    tools:
-      "Adobe Photoshop,<br>Illustrator, Figma",
-
-
-    body: [
-      "Berserk: The Long Night is a concept game project developed as an exercise to elevate my UI and UX design skills. Utilizing still imagery from the 2016 title Berserk and the Band of the Hawk, I crafted custom interfaces and visual assets tailored to the dark, grim aesthetic of the franchise. As the vision expanded, I also designed the official logo for the concept. The entire project spanned about a month from initial research to final execution. Aside from the background images, every asset was built from scratch using Photoshop, Illustrator, and Figma",
-      ],
-    body_it: [
-      "Berserk: The Long Night è un concept di gioco sviluppato come esercizio per elevare le mie competenze di UI e UX design. Utilizzando immagini fisse dal titolo del 2016 Berserk and the Band of the Hawk, ho creato interfacce personalizzate e asset visivi adattati all'estetica oscura e cupa del franchise. Con l'espandersi della visione, ho anche progettato il logo ufficiale per il concept. L'intero progetto ha coperto circa un mese dalla ricerca iniziale all'esecuzione finale. Escludendo le immagini di sfondo, ogni asset è stato costruito da zero con Photoshop, Illustrator e Figma.",
-    ],
-
-    images: [
-  {
-    src: "assets/optimized-files/optimized/berserk/berserk_2.webp",
-    alt: ""
-  },
-  {
-    src: "assets/optimized-files/optimized/berserk/berserk_8.webp",
-    alt: ""
-  },
-
-  ],
-  gallery: [
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/berserk/berserk_1.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/berserk/berserk_2.webp", text: "" },
-        ]
-      },
-      {
-        type: "text",
-        title: "Main Menu",
-        title_it: "Menu Principale",
-        text: "A clean yet atmospheric opening menu designed to instantly immerse the player. The gritty art style and heavy use of textures establish a dark, visceral mood. Reflecting the core themes of the manga, the stark contrast between the high-visibility interactive buttons and the deep, shadowed background delivers a striking, mysterious visual impact.",
-        text_it: "Un menu di apertura pulito ma atmosferico, progettato per immergere immediatamente il giocatore. Lo stile grezzo e il forte uso delle texture stabiliscono un'atmosfera oscura e viscerale. Riflettendo i temi principali del manga, il forte contrasto tra i pulsanti interattivi ad alta visibilità e lo sfondo profondo e in ombra crea un impatto visivo incisivo e misterioso."
-      },
-
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/berserk/berserk_4.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/berserk/berserk_5.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/berserk/berserk_6.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/berserk/berserk_15.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/berserk/berserk_7.webp", text: "" },
-        ]
-      },
-      {
-        type: "text",
-        title: "Game HUD & Damage Feedback Systems",
-        title_it: "HUD di Gioco & Sistema di Feedback Danni",
-        text: "Minimalist HUD layout showcasing player bars, enemy health tracking, and an immersive combat experience. Features a progressive 3-tier damage overlay system (25% / 50% / 75%) and an optional cinematic HUD variant that directly channels the manga's iconic aesthetic.",
-        text_it: "Layout HUD minimalista che mostra le barre del giocatore, il monitoraggio della salute dei nemici e un'esperienza di combattimento immersiva. Include un sistema progressivo a 3 livelli di overlay danni (25% / 50% / 75%) e una variante HUD cinematografica opzionale che richiama direttamente l'estetica iconica del manga."
-      },
-
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/berserk/berserk_3.webp", text: "" },
-        ]
-      },
-      {
-        type: "text",
-        title: "Cinematic Dialogue Interface",
-        title_it: "Interfaccia Dialogo Cinematografica",
-        text: "Cutscene dialogue overlay concept designed to optimize narrative readability and cinematic immersion, maintaining visual consistency with the project's dark aesthetic.",
-        text_it: "Concept di overlay per dialoghi nelle cutscene, progettato per ottimizzare la leggibilità narrativa e l'immersione cinematografica, mantenendo la coerenza visiva con l'estetica oscura del progetto."
-      },
-
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/berserk/berserk_9.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/berserk/berserk_8.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/berserk/berserk_11.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/berserk/berserk_10.webp", text: "" },
-        ]
-      },
-      {
-        type: "text",
-        title: "Pause Menu Architecture & Navigation",
-        title_it: "Architettura Menu di Pausa & Navigazione",
-        text: "Comprehensive Pause Menu system showing the Character, Equipment, World Map, and Bestiary screens. Built entirely from scratch, the system uses a dual-column layout (interactive mechanics on the left, lore/general info on the right). Individual color coding differentiates each section while maintaining a cohesive visual identity. The streamlined world map maximizes readability and layout hierarchy.",
-        text_it: "Sistema completo del Menu di Pausa con le schermate di Personaggio, Equipaggiamento, Mappa del Mondo e Bestiario. Costruito interamente da zero, il sistema utilizza un layout a doppia colonna (meccaniche interattive a sinistra, lore/informazioni generali a destra). La codifica cromatica individuale differenzia ogni sezione mantenendo un'identità visiva coerente. La mappa del mondo semplificata massimizza la leggibilità e la gerarchia del layout."
-      },
-
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/berserk/assets.webp", text: "" },
-        ]
-      },
-      {
-        type: "text",
-        title: "UI Asset Components & Production",
-        title_it: "Componenti UI & Produzione Asset",
-        text: "Custom UI assets, iconography, and interface components developed from scratch using Illustrator and Photoshop to match the game's gritty visual identity.",
-        text_it: "Asset UI personalizzati, iconografia e componenti dell'interfaccia sviluppati da zero con Illustrator e Photoshop per corrispondere all'identità visiva grezza del gioco."
-      },
-    ]
-  },
   "stefano-francioni": {
 
     title: "Stefano Francioni Produzioni",
@@ -746,6 +292,987 @@ const projectsData = {
         text_it: "Design del manifesto e grafiche multi-formato per lo spettacolo In Ogni Vita la Pioggia Deve Cadere, con Leo Gullotta e Fabio Grossi. Un'identità visiva unica declinata su formati print e digital per la produzione. Utilizzata come campagna ufficiale dello spettacolo, tra stampa e social. <a href=\"https://www.linkedin.com/posts/fabio-grossi-a4892b58_a-roma-dal-26-al-28-gennaio-teatro-parioli-activity-7148359869589368832-wHCY/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">LinkedIn ↗</a>"
       },
     ]
+  },
+  "social-media": {
+
+    title: "Football Social Media Design",
+    category: "Social Media Design",
+    intro:
+      "A collection of social media designs for football clubs and brands.",
+    intro_it:
+      "Una raccolta di design per i social media di club di calcio e brand.",
+
+    role:
+      "Graphic Designer, Art Director",
+
+    deliverables:
+      "Graphic Design, Art Direction",
+
+    clients:
+      "Personal Project",
+
+    tools:
+      "Adobe Photoshop,<br>Illustrator, Figma, Blender",
+
+
+    body: [
+      "A collection of social media concepts for football clubs and other sports, made between 2020 and 2024. Most of the work focuses on Serie A teams, with some other leagues and sports mixed in. Each concept explores a different visual direction, thinking about how a club could present itself on social media.",
+    ],
+    body_it: [
+      "Una raccolta di concept per i social media di club di calcio e altri sport, realizzati tra il 2020 e il 2024. La maggior parte del lavoro si concentra su squadre di Serie A, con alcuni altri campionati e sport. Ogni concept esplora una direzione visiva diversa, pensando a come un club potrebbe presentarsi sui social media.",
+    ],
+
+    images: [
+  {
+    src: "assets/optimized-files/optimized/social-media/HuescaFcBarcelona.webp",
+    alt: "SSC Napoli social media design poster blue layout di lorenzo"
+  },
+],
+    gallery: [
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/ssc-napoli/testnapoli_14png.webp", text: "" },
+          { image: "assets/optimized-files/optimized/ssc-napoli/testnapoli_5.webp", text: "" },
+          { image: "assets/optimized-files/optimized/ssc-napoli/testnapoli_3.webp", text: "" },
+
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/ssc-napoli/testnapoli_12.webp", text: "" },
+          { image: "assets/optimized-files/optimized/social-media/ngonge1.webp", text: "" },
+          { image: "assets/optimized-files/optimized/ssc-napoli/contenapoli.webp", text: "" },
+        ]
+      },
+            {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/ssc-napoli/testnapoli_4.webp", text: "" },
+          { image: "assets/optimized-files/optimized/ssc-napoli/victor.webp", text: "" },
+        ]
+      },
+      {
+        type: "text",
+        title: "SSC Napoli Matchday",
+        text: "A collection of graphics, both Matchday and lifestyle, creating a distinct visual identity around the brand's primary colors using photomanipulation techniques..",
+        text_it: "Una raccolta di grafiche, tra Matchday e lifestyle, che crea un'identità visiva distinta intorno ai colori primari del brand usando tecniche di fotomanipulazione."
+      },
+
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/social-media/italia_1.webp", text: "" },
+          { image: "assets/optimized-files/optimized/social-media/italia_3.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/social-media/zaccagni.webp", text: "" },
+          { image: "assets/optimized-files/optimized/social-media/raspadori.webp", text: "" },
+        ]
+      },
+      {
+        type: "text",
+        title: "Euro 2024",
+        text: "Social media graphics collection for Euro 2024. Personal project focusing on editorial layout and branding for the tournament.",
+        text_it: "Raccolta di grafiche social per Euro 2024. Progetto personale incentrato su layout editoriale e branding per il torneo."
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/social-media/lecce_1.webp", text: "" },
+          { image: "assets/optimized-files/optimized/social-media/lecce_2.webp", text: "" },
+          { image: "assets/optimized-files/optimized/social-media/lecce_3.webp", text: "" },
+        ]
+      },
+      {
+        type: "text",
+        title: "AS Lecce",
+        text: "A comprehensive visual identity and social media system designed for the club's matchday coverage.",
+        text_it: "Un sistema completo di identità visiva e social media progettato per la copertura matchday del club."
+      },
+
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/social-media/Torino_1.webp", text: "" },
+          { image: "assets/optimized-files/optimized/social-media/Torino_2.webp", text: "" },
+        ]
+      },
+      {
+        type: "text",
+        title: "Torino FC",
+        text: "Matchday Announcement & Lineup Design. Visual assets tailored for the club's official communications.",
+        text_it: "Annuncio Matchday & Design Formazione. Asset visivi personalizzati per le comunicazioni ufficiali del club."
+      },
+
+
+    ]
+  },
+  "fracturesounds": {
+
+    title: "Fracture Sounds",
+    category: "Art Direction",
+    intro:
+      "Graphic Design & Motion Assets for 2024 product campaigns and software releases.",
+    intro_it:
+      "Graphic Design & Motion Asset per campagne di prodotto e release software del 2024.",
+
+    role:
+      "Graphic Designer, Art Director",
+
+    deliverables:
+      "Logo Design, Brand Design, UI Design, Marketing Design, Motion Graphics",
+
+    clients:
+      "Fracture Sounds",
+
+    tools:
+      "Adobe Photoshop,<br>Illustrator, Figma, Blender",
+
+
+    body: [
+      "A look at the visuals I created for Fracture Sounds in 2024. My role was to translate the mood of their virtual instruments into clean designs. I designed the logos and UI wallpapers for major releases like String Formations and Moonlight Celeste. For the Piano Month promo, I pushed things a bit further by providing three unique design concepts for each bundle, alongside custom videos and animations to back up the marketing campaign.",
+    ],
+    body_it: [
+      "Uno sguardo ai visual che ho creato per Fracture Sounds nel 2024. Il mio ruolo era tradurre l'atmosfera dei loro strumenti virtuali in design puliti. Ho progettato i loghi e i wallpaper UI per le release principali come String Formations e Moonlight Celeste. Per la promo Piano Month, ho spinto le cose un po' oltre fornendo tre concept di design unici per ogni bundle, insieme a video e animazioni custom a supporto della campagna marketing.",
+    ],
+
+    images: [
+  {
+    src: "assets/optimized-files/optimized/fractures1/Piano-Month-Banner-Updated.webp",
+    alt: "SSC Napoli social media design poster blue layout di lorenzo"
+  },
+],
+    gallery: [
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/fractures2/concept 1-background-horrizontal.webp", text: "" },
+          { image: "assets/optimized-files/optimized/fractures2/concept 1 - artwork.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/fractures2/concept 1-title-banner.webp", text: "" },
+        ]
+      },
+      {
+        type: "text",
+        title: "String Formations",
+        text: "Visual identity, background artwork and logo design for String Formations, a 2024 sample library release by Fracture Sounds. The aesthetic was built to capture the essence of the library's unique soundscapes. Used as the product's official identity across its store page and marketing for the commercial release. <a href=\"https://www.youtube.com/watch?v=RFSRO49tCbE\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">YouTube ↗</a>",
+        text_it: "Identità visiva, artwork di sfondo e design del logo per String Formations, una sample library del 2024 di Fracture Sounds. L'estetica è stata costruita per catturare l'essenza dei soundscape unici della libreria. Utilizzata come identità ufficiale del prodotto, sulla pagina store e nei materiali di lancio commerciale. <a href=\"https://www.youtube.com/watch?v=RFSRO49tCbE\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">YouTube ↗</a>"
+      },
+
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/fractures3/fracture-sounds-trails-background-horrizontal.webp", text: "" },
+          { image: "assets/optimized-files/optimized/fractures3/fracture-sounds-spotlight-piano-artwork.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/fractures3/fracture-sounds-moonlight-celeste-gui-main.webp", text: "" },
+        ]
+      },
+      {
+        type: "text",
+        title: "Moonlight Celeste",
+        text: "Visual identity, background artwork and logo design for Moonlight Celeste, a 2024 sample library release by Fracture Sounds. The visuals were crafted to match the instrument's delicate, atmospheric tone. Used as the product's official identity across its store page and marketing for the commercial release. <a href=\"https://fracturesounds.com/product/moonlight-celeste/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Shop ↗</a>",
+        text_it: "Identità visiva, artwork di sfondo e design del logo per Moonlight Celeste, una sample library del 2024 di Fracture Sounds. I visual sono stati costruiti per rispecchiare il tono delicato e atmosferico dello strumento. Utilizzata come identità ufficiale del prodotto, sulla pagina store e nei materiali di lancio commerciale. <a href=\"https://fracturesounds.com/product/moonlight-celeste/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Shop ↗</a>"
+      },
+
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/fractures1/99bundle_nodirt.webp", text: "" },
+          { image: "assets/optimized-files/optimized/fractures1/lightbundle_nodirt.webp", text: "" },
+          { image: "assets/optimized-files/optimized/fractures1/originalbundle_notext.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/fractures1/99bundle2.webp", text: "" },
+          { image: "assets/optimized-files/optimized/fractures1/lightbundle2.webp", text: "" },
+          { image: "assets/optimized-files/optimized/fractures1/originalbundle2.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/fractures1/pianomonth_banner_animation.mp4", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/fractures1/test_product.mp4", text: "" },
+          { image: "assets/optimized-files/optimized/fractures1/everythingbundle_4x5_animation.mp4", text: "" },
+          { image: "assets/optimized-files/optimized/fractures1/lightbundle_4x5_animation.mp4", text: "" },
+        ]
+      },
+      {
+        type: "text",
+        title: "Piano Month - Campaign",
+        title_it: "Piano Month - Campagna",
+        text: "Visual campaign designs for Fracture Sounds 'Piano Month' sales event. Developed three distinct creative directions for each product bundle, executing the vision across both static assets and dynamic video animations.",
+        text_it: "Design di campagna visual per l'evento di saldi 'Piano Month' di Fracture Sounds. Sviluppate tre direzioni creative distinte per ogni bundle di prodotti, eseguendo la visione sia su asset statici che su animazioni video dinamiche."
+      },
+    ]
+  },
+  "covince": {
+
+    title: "Covince",
+    category: "Branding",
+    intro:
+      "Various designs and applications made from 2024.",
+    intro_it:
+      "Vari design e applicazioni realizzati dal 2024.",
+
+    role:
+      "Multi-Media Designer, Art Director",
+
+    deliverables:
+      "UX/UI Design, Flyers, Brand Design, Web Design ",
+
+    clients:
+      "CoVince",
+
+    tools:
+      "Adobe Photoshop,<br>Illustrator, Figma, Blender, DaVinci Resolve",
+
+
+    body: [
+      "A collection of work created during my time at CoVince since 2024: from redesigning the dashboard and core product screens, to flyer design for Syner Suite, to the visual design of a fully immersive room with wall-to-wall screens built for live events. The work also spans motion graphics and UX/UI design, blending digital and physical design in a way that called for a different approach each time",
+    ],
+    body_it: [
+      "Una raccolta di lavori realizzati durante la mia esperienza in CoVince dal 2024: dal redesign della dashboard e delle schermate principali del prodotto, passando per il design di flyer per Syner Suite, fino alla progettazione visiva di una stanza immersiva con schermi a parete pensata per eventi dal vivo. Il percorso include anche motion graphics e UX/UI design, in un mix di lavoro digitale e fisico che ha richiesto un approccio diverso ogni volta.",
+    ],
+
+    images: [
+  {
+    src: "assets/optimized-files/optimized/covince/website-slides/designs/Slide 16_9 - 225.webp",
+    alt: ""
+  },
+],
+    gallery: [
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/covince/flyers/23_jan_flyer_2.webp", text: "" },
+          { image: "assets/optimized-files/optimized/covince/flyers/23_jan_flyer_2-2.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/covince/flyers/23_jan_flyer_5.webp", text: "" },
+          { image: "assets/optimized-files/optimized/covince/flyers/23_jan_flyer_52.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/covince/flyers/january23-flyeranimated.mp4", text: "" },
+        ]
+      },
+      {
+        type: "text",
+        title: "January Event Flyers",
+        title_it: "Flyer Evento Gennaio",
+        text: "Flyer designs for CoVince January events, created across multiple formats and visual variants, used across the event's official communication. <a href=\"https://www.linkedin.com/posts/melanie-van-halteren-25510b10_laatste-plekken-vrijdag-23-januari-knvb-ugcPost-7419308273075376128-bPrG\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">LinkedIn ↗</a>",
+        text_it: "Design di flyer per gli eventi CoVince di gennaio, realizzati in più formati e varianti visive e utilizzati nella comunicazione ufficiale dell'evento. <a href=\"https://www.linkedin.com/posts/melanie-van-halteren-25510b10_laatste-plekken-vrijdag-23-januari-knvb-ugcPost-7419308273075376128-bPrG\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">LinkedIn ↗</a>"
+      },
+
+
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/covince/flyers/tomo_flyer_22jan_2 (2).webp", text: "" },
+          { image: "assets/optimized-files/optimized/covince/flyers/tomo_flyer_22jan - Copia.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/covince/flyers/tomo_flyer_22jan_6.webp", text: "" },
+          { image: "assets/optimized-files/optimized/covince/flyers/tomo_flyer_22jan_7.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/covince/flyers/TomoCafeFlyer6.webp", text: "" },
+          { image: "assets/optimized-files/optimized/covince/flyers/tomo_flyer_22jan_3tomo-test.webp", text: "" },
+          { image: "assets/optimized-files/optimized/covince/flyers/Frame 427321768.webp", text: "" },
+        ]
+      },
+      {
+        type: "text",
+        title: "Tomo Cafe Flyers",
+        title_it: "Flyer Tomo Cafe",
+        text: "Flyer series for the Tomo events, exploring multiple layout directions and color variants, published across the event's social and promotional channels. <a href=\"https://www.linkedin.com/posts/nieuwsgierig-hoe-ai-jouw-zorggesprekken-kan-share-7417966792570040320-v_zG/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">LinkedIn ↗</a>",
+        text_it: "Serie di flyer per gli eventi Tomo Cafe, con diverse direzioni di layout e varianti di colore. Pubblicati sui canali social e promozionali dell'evento. <a href=\"https://www.linkedin.com/posts/nieuwsgierig-hoe-ai-jouw-zorggesprekken-kan-share-7417966792570040320-v_zG/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">LinkedIn ↗</a>"
+      },
+
+      // {
+      //   type: "group",
+      //   images: [
+      //     { image: "assets/optimized-files/optimized/covince/screens/amazon/1/1.webp", text: "" },
+      //     { image: "assets/optimized-files/optimized/covince/screens/amazon/1/2.webp", text: "" },
+      //     { image: "assets/optimized-files/optimized/covince/screens/amazon/1/4.webp", text: "" },
+      //   ]
+      // },
+      // {
+      //   type: "group",
+      //   images: [
+      //     { image: "assets/optimized-files/optimized/covince/screens/amazon/3/1.webp", text: "" },
+      //     { image: "assets/optimized-files/optimized/covince/screens/amazon/3/2.webp", text: "" },
+      //     { image: "assets/optimized-files/optimized/covince/screens/amazon/3/3.webp", text: "" },
+      //   ]
+      // },
+      // {
+      //   type: "group",
+      //   images: [
+      //     { image: "assets/optimized-files/optimized/covince/screens/jap/verti424al_obeya.webp", text: "" },
+      //     { image: "assets/optimized-files/optimized/covince/screens/jap/vertical_1obeya2.webp", text: "" },
+      //     { image: "assets/optimized-files/optimized/covince/screens/jap/vertical_ob4eya2.webp", text: "" },
+      //   ]
+      // },
+      // {
+      //   type: "text",
+      //   title: "Syner Suite Screens",
+      //   title_it: "Schermate App",
+      //   text: "Template designs for various experiences using the Syner Suite.",
+      //   text_it: "Template di design pronti per diverse esperienze con Syner Suite."
+      // },
+
+      // {
+      //     type: "group",
+      //     images: [
+      //       { image: "assets/optimized-files/optimized/covince/screens/jap/verti424al_obeya.webp", text: "" },
+      //       { image: "assets/optimized-files/optimized/covince/screens/jap/vertical_1obeya2.webp", text: "" },
+      //       { image: "assets/optimized-files/optimized/covince/screens/jap/vertical_ob4eya2.webp", text: "" },
+      //     ]
+      //   },
+      //   {
+      //     type: "text",
+      //     title: "Obeya Screens",
+      //     title_it: "Schermate Obeya",
+      //     text: "Additional interface screens for the Obeya module within the CoVince platform.",
+      //     text_it: "Schermate aggiuntive per il modulo Obeya all'interno della piattaforma CoVince."
+      //   },
+
+      /* ---------- DASHBOARD REDESIGN ---------- */
+
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/covince/dashboar/20260323012429 - FULL 1.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/covince/dashboar/Slide 16_9 - 226.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/covince/dashboar/Slide 16_9 - 225.webp", text: "" },
+        ]
+      },
+            {
+        type: "text",
+        title: "Dashboard Redesign",
+        title_it: "Redesign della Dashboard",
+        text: "A full redesign of the CoVince home dashboard, reorganised into three focused columns: Journeys, Timeline and Calendar/Events. A refreshed dark UI surfaces the community feed, to-dos and scheduled work at a glance. The redesign was adopted by the team and is now in active use, improving navigation and day-to-day engagement.",
+        text_it: "Redesign completo della home dashboard di CoVince, riorganizzata in tre colonne: Journeys, Timeline e Calendar/Events. Una UI dark rinnovata mette in evidenza community feed, to-do e attività pianificate a colpo d'occhio. Adottata dal team e ora in uso attivo, con una navigazione più chiara e un maggior utilizzo quotidiano."
+      },
+
+
+      /* ---------- JOURNEY BUILDER / ADMIN ---------- */
+            {
+        type: "grid",
+        cols: 3,
+        images: [
+          { image: "assets/optimized-files/optimized/covince/journey-dashboard/20260312110747 - FULL 1.webp", alt: "" },
+          { image: "assets/optimized-files/optimized/covince/journey-dashboard/20260312110924 - FULL 1.webp", alt: "" },
+          { image: "assets/optimized-files/optimized/covince/journey-dashboard/20260312111006 - FULL 1.webp", alt: "" },
+        ]
+      },
+
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/covince/journey-dashboard/Final Layout-1.webp", text: "" },
+{ image: "assets/optimized-files/optimized/covince/journey-dashboard/Final Layout.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+                    { image: "assets/optimized-files/optimized/covince/journey-dashboard/Final Layout-2.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/covince/journey-dashboard/Final Layout - Admin Page.webp", text: "" },
+
+        ]
+      },
+            {
+        type: "text",
+        title: "Journey Builder & Admin",
+        title_it: "Journey Builder & Admin",
+        text: "The back-office side of the platform: the Journey builder where admins configure banners, media, toggles, data aspects and stats, together with the admin user management view and the supporting UI components and pop-ups. Shipped and in daily use by the admin team to build and manage platform content.",
+        text_it: "Il lato back-office della piattaforma: il Journey builder con cui gli admin configurano banner, media, toggle, dati e statistiche, insieme alla vista di gestione degli utenti admin e ai componenti UI e pop-up di supporto. Rilasciato e in uso quotidiano dal team admin per creare e gestire i contenuti della piattaforma."
+      },
+
+      /* ---------- SMARTNOTE REDESIGN ---------- */
+
+            {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/covince/smart-note-redesign/image 27.webp", text: "" },
+           { image: "assets/optimized-files/optimized/covince/smart-note-redesign/Slide 16_9 - 31.webp", text: "" },
+
+        ]
+      },
+            {
+        type: "group",
+        images: [
+                    { image: "assets/optimized-files/optimized/covince/smart-note-redesign/Frame 423.webp", text: "" },
+           
+        ]
+      },
+      {
+        type: "group",
+        images: [
+        
+          { image: "assets/optimized-files/optimized/covince/smart-note-redesign/Slide 16_9 - 33.webp", text: "" },
+        ]
+      },
+            {
+        type: "text",
+        title: "SmartNote Redesign",
+        title_it: "Redesign di SmartNote",
+        text: "A redesign of SmartNote, the in-platform note tool: a cleaner note panel with a quick-action toolbar (article, audio, image, assign) paired with a threaded Comments & History panel supporting replies, attachments and voice memos. Shipped and in active use, streamlining how the team captures and shares notes inside the platform.",
+        text_it: "Redesign di SmartNote, lo strumento note interno alla piattaforma: un pannello note più pulito con toolbar ad azioni rapide (articolo, audio, immagine, assegna), affiancato da un pannello Commenti & Cronologia con thread, risposte, allegati e memo vocali. Rilasciato e in uso attivo, rende più fluido il modo in cui il team crea e condivide note nella piattaforma."
+      },
+
+
+
+      /* ---------- SWIPESLIDES ---------- */
+
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/covince/swipeslides/20251218081222 - FULL 2.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/covince/swipeslides/SwipeSlides - UI.webp", text: "" },
+          { image: "assets/optimized-files/optimized/covince/swipeslides/SwipeSlides - UI-1.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+
+          { image: "assets/optimized-files/optimized/covince/swipeslides/SwipeSlides - UI-2.webp", text: "" },
+        ]
+      },
+
+      {
+        type: "text",
+        title: "SwipeSlides",
+        title_it: "SwipeSlides",
+        text: "SwipeSlides, an AI storyboard tool: each slide pairs a voice-over script with image and video generation prompts, letting users build a narrated visual story and push the generated media straight into a Smart Note. The redesign made the flow simpler and more intuitive, easier for users to pick up and build with.",
+        text_it: "SwipeSlides, uno strumento di storyboard AI: ogni slide abbina uno script di voice-over a prompt per la generazione di immagini e video, permettendo di costruire una storia visiva narrata e di mandare i media generati direttamente in una Smart Note. Ridisegnato per un flusso più semplice e intuitivo, ora più facile da usare e da padroneggiare."
+      },
+    ]
+  },
+  "dinosound": {
+
+    title: "Dinosound",
+    category: "UX/UI Design",
+    intro:
+      "UX/UI art test for Tsugi Studio, a Japanese audio software company. A challenging brief that pushed my design thinking and helped me grow significantly as a designer.",
+    intro_it:
+      "Art test UX/UI per Tsugi Studio, un'azienda giapponese di software audio. Un brief impegnativo che ha spinto il mio pensiero progettuale e mi ha aiutato a crescere notevolmente come designer.",
+
+    role:
+      "Graphic Designer &<br>Art Director",
+
+    deliverables:
+      "UI Design, UX Design, Art Direction, 3D Design ",
+
+    duration:
+      "2 Weeks",
+
+    tools:
+      "Adobe Photoshop,<br>Illustrator, Figma",
+
+
+    body: [
+      "UX/UI concept for Dinosound, a music player built around a dinosaur theme. The project explores two different visual directions: a vintage, textured approach with warm tones and hand-drawn elements, and a darker, holographic concept where dinosaur outlines come to life as interactive UI components. Both concepts were designed with full interactivity in mind, from navigation to playback controls.",
+     ],
+    body_it: [
+      "Concept UX/UI per Dinosound, un music player basato su un tema dinosauro. Il progetto esplora due diverse direzioni visive: un approccio vintage e texturizzato con toni caldi ed elementi disegnati a mano, e un concept più scuro e olografico dove i contorni dei dinosauri prendono vita come componenti UI interattivi. Entrambi i concept sono stati progettati con la piena interattività in mente, dalla navigazione ai controlli di riproduzione.",
+    ],
+
+    images: [
+  {
+    src: "assets/optimized-files/optimized/dinosound/DinoSound_Mockup1_2.webp",
+    alt: "letsgoski merch"
+  },
+
+  {
+    src: "assets/optimized-files/optimized/dinosound/DinoSound_Mockup1_1.webp",
+    alt: "letsgoski merch"
+  },
+
+  {
+    src: "assets/optimized-files/optimized/dinosound/Slide 16_9 - 12.webp",
+    alt: "letsgoski merch"
+  },
+  {
+    src: "assets/optimized-files/optimized/dinosound/DinoSound_Mockup1_2.webp",
+    alt: "letsgoski merch"
+  },
+
+  {
+    src: "assets/optimized-files/optimized/dinosound/DinoSound_Mockup1_2.webp",
+    alt: "letsgoski merch"
+  },
+
+  // {
+  //   src: "assets/optimized-files/optimized/dinosound/DinoSound_Mockup2_1.jpg",
+  //   alt: "letsgoski merch"
+  // }
+],
+
+  },
+  "movie-posters": {
+
+    title: "Movie Posters",
+    category: "Art Direction",
+    intro:
+      "An ongoing collection of alternative movie posters, started as a daily Instagram challenge.",
+    intro_it:
+      "Una raccolta in continua crescita di poster alternativi per film, nata come sfida giornaliera su Instagram.",
+
+    role:
+      "Graphic Designer &<br>Art Director",
+
+    deliverables:
+      "Posters, Typography",
+
+    clients:
+      "Spectrum Films, Black Math Pictures",
+
+    tools:
+      "Adobe Photoshop,<br>Illustrator, Figma",
+
+
+    body: [
+      "A personal project started in 2023 as an Instagram challenge: one alternative movie poster per day. The challenge is over but the project is still ongoing, continuously expanding with new posters and visual explorations.",
+
+    ],
+    body_it: [
+      "Un progetto personale iniziato nel 2023 come sfida su Instagram: un poster alternativo per ogni film al giorno. La sfida è finita ma il progetto continua, espandendosi continuamente con nuovi poster ed esplorazioni visive.",
+    ],
+    gallery: [
+      {
+        type: "grid",
+        cols: 3,
+        images: [
+  { image: "assets/optimized-files/optimized/poster/2001.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/20012.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/ALIENPOSTER1.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/GT.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/GetOut1.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/Nier_Gianmarco_Malandra.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/accattone1.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/apocalypsenow1.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/apocalypsenow2.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/apocalypsenow3.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/asceneatthesea2.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/ataxidriver3.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/batman2.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/blacksunday2.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/blowout1.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/burning2.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/burning3ig.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/busan2.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/citizenkane2.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/citizenkane5.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/citizenkane7.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/dune-messiah.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/dune3-min.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/dune5.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/dunkirk.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/easyrider1.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/enemy2.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/fallenangels2.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/fallenangels3.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/fitzcarraldo2.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/fitzcarraldo34.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/gorgeous3.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/gorgeousposter2.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/heatposter.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/immaculate2-min.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/immmaculate2.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/johnwick.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/joker1.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/joker2.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/kidsreturn2.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/kidsreturn3.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/kidsreturn5ig.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/lastrada3.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/loveexposure3.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/loveexposure6.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/manhattan1.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/manhattan4.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/midsommar21.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/pastlives5.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/pathsofglory4.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/persona4.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/poorthings1.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/precint133.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/ragingbull4-min.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/rashomon3.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/sacreddeer3-min.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/sacreeddeer2.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/sacreeddeer4.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/saltburn.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/scream2.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/screamclean.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/sevensamurai4.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/sevensamurai_jpg.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/shogun1.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/smashing2.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/stalker1.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/stalker3.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/stalker4.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/talktomecover.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/theirishmen.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/thekiller2.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/thekiller4.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/thelast2.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/thenight1.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/thenight2ig.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/thenorthman2.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/thetrumanshow1.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/thewitch.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/twinpeaks2.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/twinpeaksposter2.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/whiplash2.jpg", text: "" },
+  { image: "assets/optimized-files/optimized/poster/zatoichi2.jpg", text: "" }
+        ]
+      }
+    ]
+  },
+  "novo": {
+
+    title: "Novo Esports",
+    category: "Art Direction",
+    intro:
+      "A collection of visual content and branding projects developed during my time as Art Director.",
+    intro_it:
+      "Una raccolta di contenuti visivi e progetti di branding sviluppati durante il mio periodo come Art Director.",
+
+    role:
+      "Graphic Designer, Art Director",
+
+    deliverables:
+      "Graphic Design, Art Direction, Merch Design, Social Media Design",
+
+    clients:
+      "Novo Esports",
+
+    tools:
+      "Adobe Photoshop,<br>Illustrator, Figma, Blender",
+
+
+    body: [
+      "In this role, I oversaw the visual identity of Novo Esports across multiple touchpoints. This collection includes comprehensive branding and assets developed for live events, competitive tournaments, social media campaigns, educational carousels, and official merchandise design.",
+    ],
+    body_it: [
+      "In questo ruolo, ho supervisionato l'identità visiva di Novo Esports su più touchpoint. Questa raccolta include branding completo e asset sviluppati per eventi dal vivo, tornei competitivi, campagne social, caroselli educativi e design di merchandise ufficiale.",
+    ],
+
+    images: [
+  {
+    src: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/QualifiedToGrandFinal.webp",
+    alt: "SSC Napoli social media design poster blue layout di lorenzo"
+  },
+],
+    gallery: [
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/3-2_NOVO_Playoff_Defeat_LoserBracket.webp", text: "" },
+          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/H1ber_MVP_4x5.webp", text: "" },
+          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/NOVO_Playoff_Victory_LoserBracket_1080x1920.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/QualifiedToGrandFinal.webp", text: "" },
+          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/QualifiedToGrandFinal_4x5_2.webp", text: "" },
+          ]
+      },
+      {
+        type: "text",
+        title: "Grandfinal Matchday",
+        text: "Graphics created for the Grandfinal event. The art direction was inspired by the movie '300', representing the players as warriors in an epic setting, while keeping the team's colors at the center of it all.",
+        text_it: "Grafiche create per l'evento Grandfinal. La direzione artistica si è ispirata al film '300', rappresentando i giocatori come guerrieri in un'ambientazione epica, mantenendo i colori della squadra al centro di tutto."
+      },
+
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/novo1/NOVO_Playoff_Matchday_Derby.webp", text: "" },
+          { image: "assets/optimized-files/optimized/novo1/NOVO_Playoff_Victory_Derby.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/novo1/NOVO_Playoff_MVP_Derby.webp", text: "" },
+          { image: "assets/optimized-files/optimized/novo1/NOVO_Playoff_Defeat_Derby_1080x1920.webp", text: "" },
+        ]
+      },
+      {
+        type: "text",
+        title: "Matchday VS Dsyre",
+        text: "Matchday graphics for the derby against Dsyre, using Milan as the backdrop to represent both teams being based in the city.",
+        text_it: "Grafiche matchday per il derby contro Dsyre, usando Milano come sfondo per rappresentare entrambe le squadre basate in città."
+      },
+
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (12)/fcporopen.webp", text: "" },
+          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (12)/delazzz_4x5_notqualified.webp", text: "" },
+          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (12)/anonymous_16x9_qualified.webp", text: "" },
+        ]
+      },
+      {
+        type: "text",
+        title: "FC Pro Open Ladder",
+        text: "Matchday graphics and art direction for the FC Pro Open Ladder. Gritty style, consistent across all channels.",
+        text_it: "Grafiche matchday e direzione artistica per la FC Pro Open Ladder. Stile grezzo, coerente su tutti i canali."
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/MatchdayGrandFinal.webp", text: "" },
+          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/VictoryGrandFinal_1080x1920_5-4.webp", text: "" },
+        ]
+      },
+      {
+        type: "text",
+        title: "Grandfinal Rinascimento",
+        text: "Grand Final graphics for the Rinascimento Series against Dsyre. Classy style with a strong use of color and visual elements from the series.",
+        text_it: "Grafiche Grand Final per la Rinascimento Series contro Dsyre. Stile elegante con un forte uso del colore e degli elementi visivi della serie."
+      },
+
+
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/novotruman/truman_matchday.webp", text: "" },
+          { image: "assets/optimized-files/optimized/novotruman/truman_victory.webp", text: "" },
+          { image: "assets/optimized-files/optimized/novotruman/truman_defeat.webp", text: "" },
+        ]
+      },
+      {
+        type: "text",
+        title: "The Truman Show - Unused Concept",
+        title_it: "The Truman Show - Concept Non Utilizzato",
+        text: "Unused matchday concepts themed around The Truman Show, with POW3R as the Jim Carrey figure. Three different versions for matchday, victory and defeat.",
+        text_it: "Concept matchday non utilizzati a tema The Truman Show, con POW3R nei panni di Jim Carrey. Tre versioni diverse per matchday, vittoria e sconfitta."
+      },
+
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/novowallpaper/novo_wallpaper_2_1920.webp", text: "" },
+          { image: "assets/optimized-files/optimized/novowallpaper/novo_wallpaper_mobile_2.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/novowallpaper/novo_wallpaper_2560.webp", text: "" },
+          { image: "assets/optimized-files/optimized/novowallpaper/novo_wallpaper_mobile.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/novowallpaper/novo_wallpaper-2.webp", text: "" },
+          { image: "assets/optimized-files/optimized/novowallpaper/novo_wallpaper5.webp", text: "" },
+        ]
+      },
+      {
+        type: "text",
+        title: "Wallpapers",
+        text: "A series of wallpapers for mobile and desktop using the logo, POW3R and elements from the Novo Esports branding, also covering the Challengers Spain Rising tournament.",
+        text_it: "Una serie di wallpaper per mobile e desktop usando il logo, POW3R ed elementi del branding di Novo Esports, coprendo anche il torneo Challengers Spain Rising."
+      },
+
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (5)/stella-novo_4x5.webp", text: "" },
+          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (8)/standings_playoff.webp", text: "" },
+          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (5)/aig_supercell.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (5)/NOVO_Genesi_Results.webp", text: "" },
+          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/estamosenrising.webp", text: "" },
+        ]
+      },
+      {
+        type: "text",
+        title: "Announcements",
+        title_it: "Annunci",
+        text: "A series of announcement graphics covering roster moves, results, events and everything in between.",
+        text_it: "Una serie di grafiche di annuncio che coprono cambi di roster, risultati, eventi e tutto il resto."
+      },
+    ]
+  },
+  "letsgoski": {
+
+    title: "Letsgoski Official Merch",
+    category: "Merch Design",
+    intro:
+      "Official Merchandise & Apparel Design",
+    intro_it:
+      "Design di merchandise e abbigliamento ufficiale",
+
+    role:
+      "Graphic Designer &<br>Art Director",
+
+    deliverables:
+      "Merch Design, Mockup Design, Logo Design",
+
+    clients:
+      "Novo Esports",
+
+    tools:
+      "Adobe Photoshop,<br>Illustrator, Figma",
+
+
+    body: [
+      "A vibrant streetwear and apparel collection designed for the prominent Italian content creator Marinoski. Built to celebrate one of the most viral catchphrases in the Italian gaming community, the design translates internet culture into a physical, high-impact lifestyle brand. Every asset was developed to bridge the gap between esports fashion and creator merchandise, offering the community clean, production-ready garments that capture the energy of the stream.",
+    ],
+    body_it: [
+      "Una collezione streetwear vivace progettata per il noto content creator italiano Marinoski. Creata per celebrare uno dei catchphrase più virali della community gaming italiana, il design traduce la cultura internet in un brand lifestyle fisico e d'impatto. Ogni asset è stato sviluppato per colmare il divario tra la moda esports e il merchandise dei creator, offrendo alla community capi puliti e pronti per la produzione che catturano l'energia dello stream.",
+    ],
+
+    images: [
+  {
+    src: "assets/optimized-files/optimized/letsgoski/letsgoski_4x5_3.webp",
+    alt: "letsgoski merch"
+  },
+
+  {
+    src: "assets/optimized-files/optimized/letsgoski/letsgoski_4x5_1.webp",
+    alt: "letsgoski merch"
+  },
+
+  {
+    src: "assets/optimized-files/optimized/letsgoski/letsgoski_4x5_4.webp",
+    alt: "letsgoski merch"
+  },
+  {
+    src: "assets/optimized-files/optimized/letsogksi2/468614821_17939031731937904_1370195125912354590_n.webp",
+    alt: "letsgoski merch"
+  },
+
+
+  {
+    src: "assets/optimized-files/optimized/letsogksi2/468614821_17939031731937904_1370195125912354590_n.webp",
+    alt: "letsgoski merch"
+  },
+
+  {
+    src: "assets/optimized-files/optimized/letsogksi2/468614821_17939031731937904_1370195125912354590_n.webp",
+    alt: "letsgoski merch"
+  }
+],
+
+    gallery: [
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/letsgoski/letsgoski_concept_fonetico2.webp", text: "" },
+          { image: "assets/optimized-files/optimized/letsogksi2/Front-Letsgowski_1.webp", text: "" },
+          { image: "assets/optimized-files/optimized/letsgoski/letsgoski_concept_fonetico.webp", text: "" },
+          { image: "assets/optimized-files/optimized/letsogksi2/letsgoski_logo_hat.webp", text: "" }
+        ]
+      },
+      {
+        type: "text",
+        title: "Final Apparel Collection & Custom Logotype",
+        title_it: "Collezione Abbigliamento Finale & Logotipo Custom",
+        text: "The definitive showcase of the Letsgoski merchandise line, featuring custom-designed t-shirts and headwear. This section highlights the final production-ready layouts, combining a bespoke logotype designed from scratch with carefully structured typographic systems tailored for modern streetwear. Produced and released as a full collection, backed by a marketing and influencer campaign, with strong sales across the line. <a href=\"https://shop.novoesports.gg/collections/all\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Shop ↗</a>",
+        text_it: "La vetrina definitiva della linea merchandise Letsgoski, con t-shirt e cappellini disegnati su misura. Questa sezione mostra i layout finali pronti per la produzione, unendo un logotype creato da zero a sistemi tipografici strutturati per uno streetwear contemporaneo. Prodotta e lanciata come collezione completa, accompagnata da una campagna marketing e influencer, con ottime vendite su tutta la linea. <a href=\"https://shop.novoesports.gg/collections/all\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Shop ↗</a>"
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/letsogksi2/letsgoski_concept_4.webp", text: "" },
+          { image: "assets/optimized-files/optimized/letsogksi2/letsgoski_concept2_2.webp", text: "" },
+          { image: "assets/optimized-files/optimized/letsogksi2/letsgoski_concept2_5.webp", text: "" },
+          { image: "assets/optimized-files/optimized/letsogksi2/letsgoski_concept2_1.webp", text: "" },
+          { image: "assets/optimized-files/optimized/letsogksi2/letsgoski_concept2_3.webp", text: "" },
+        ]
+      },
+      {
+        type: "text",
+        title: "Logo Exploration: Metal & Street Aesthetics",
+        title_it: "Esplorazione Logo: Estetica Metal & Street",
+        text: "Early concept designs and rough drafts tracking the evolution of the brand identity. The creative process focused on merging raw, aggressive heavy metal typography with sharp streetwear elements, exploring various weight and texture variants to capture the energetic essence of the community.",
+        text_it: "Concept iniziali e bozze che tracciano l'evoluzione dell'identità del brand. Il processo creativo si è concentrato sulla fusione di una tipografia heavy metal grezza e aggressiva con elementi streetwear decisi, esplorando varianti di peso e texture per catturare l'essenza energetica della community."
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/letsogksi2/letsgoski_back_1.webp", text: "" },
+          { image: "assets/optimized-files/optimized/letsogksi2/letsgoski_back_2.webp", text: "" }
+        ]
+      },
+      {
+        type: "text",
+        title: "Back Graphic Concept Design",
+        title_it: "Design Concept Grafica Posteriore",
+        text: "A specialized layout study developed for an alternative back-print design. This concept explores large-scale graphic composition and visual hierarchy on the reverse of the garments, designed to deliver a powerful, high-impact look from every angle.",
+        text_it: "Uno studio di layout sviluppato per un design alternativo della stampa sul retro. Questo concept esplora la composizione grafica su larga scala e la gerarchia visiva sul retro del capo, progettato per offrire un look potente e d'impatto da ogni angolazione."
+      }
+    ],
+
+
   },
   "gorgeous": {
 
@@ -1240,690 +1767,163 @@ gallery: [
       },
     ]
   },
-  "social-media": {
+  "berserk": {
 
-    title: "Football Social Media Design",
-    category: "Social Media Design",
+    title: "Berserk: The Long Night",
+    category: "UX/UI Design",
     intro:
-      "A collection of social media designs for football clubs and brands.",
+      "A UX/UI Case Study & Interface Design Concept",
     intro_it:
-      "Una raccolta di design per i social media di club di calcio e brand.",
+      "Uno Studio UX/UI & Concept di Interface Design",
 
     role:
-      "Graphic Designer, Art Director",
+      "Graphic Designer &<br>Art Director",
 
     deliverables:
-      "Graphic Design, Art Direction",
+      "UI Design, UX Design, Art Direction, 3D Design ",
 
     clients:
       "Personal Project",
 
     tools:
-      "Adobe Photoshop,<br>Illustrator, Figma, Blender",
+      "Adobe Photoshop,<br>Illustrator, Figma",
 
 
     body: [
-      "A collection of social media concepts for football clubs and other sports, made between 2020 and 2024. Most of the work focuses on Serie A teams, with some other leagues and sports mixed in. Each concept explores a different visual direction, thinking about how a club could present itself on social media.",
-    ],
+      "Berserk: The Long Night is a concept game project developed as an exercise to elevate my UI and UX design skills. Utilizing still imagery from the 2016 title Berserk and the Band of the Hawk, I crafted custom interfaces and visual assets tailored to the dark, grim aesthetic of the franchise. As the vision expanded, I also designed the official logo for the concept. The entire project spanned about a month from initial research to final execution. Aside from the background images, every asset was built from scratch using Photoshop, Illustrator, and Figma",
+      ],
     body_it: [
-      "Una raccolta di concept per i social media di club di calcio e altri sport, realizzati tra il 2020 e il 2024. La maggior parte del lavoro si concentra su squadre di Serie A, con alcuni altri campionati e sport. Ogni concept esplora una direzione visiva diversa, pensando a come un club potrebbe presentarsi sui social media.",
+      "Berserk: The Long Night è un concept di gioco sviluppato come esercizio per elevare le mie competenze di UI e UX design. Utilizzando immagini fisse dal titolo del 2016 Berserk and the Band of the Hawk, ho creato interfacce personalizzate e asset visivi adattati all'estetica oscura e cupa del franchise. Con l'espandersi della visione, ho anche progettato il logo ufficiale per il concept. L'intero progetto ha coperto circa un mese dalla ricerca iniziale all'esecuzione finale. Escludendo le immagini di sfondo, ogni asset è stato costruito da zero con Photoshop, Illustrator e Figma.",
     ],
 
     images: [
   {
-    src: "assets/optimized-files/optimized/social-media/HuescaFcBarcelona.webp",
-    alt: "SSC Napoli social media design poster blue layout di lorenzo"
-  },
-],
-    gallery: [
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/ssc-napoli/testnapoli_14png.webp", text: "" },
-          { image: "assets/optimized-files/optimized/ssc-napoli/testnapoli_5.webp", text: "" },
-          { image: "assets/optimized-files/optimized/ssc-napoli/testnapoli_3.webp", text: "" },
-
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/ssc-napoli/testnapoli_12.webp", text: "" },
-          { image: "assets/optimized-files/optimized/social-media/ngonge1.webp", text: "" },
-          { image: "assets/optimized-files/optimized/ssc-napoli/contenapoli.webp", text: "" },
-        ]
-      },
-            {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/ssc-napoli/testnapoli_4.webp", text: "" },
-          { image: "assets/optimized-files/optimized/ssc-napoli/victor.webp", text: "" },
-        ]
-      },
-      {
-        type: "text",
-        title: "SSC Napoli Matchday",
-        text: "A collection of graphics, both Matchday and lifestyle, creating a distinct visual identity around the brand's primary colors using photomanipulation techniques..",
-        text_it: "Una raccolta di grafiche, tra Matchday e lifestyle, che crea un'identità visiva distinta intorno ai colori primari del brand usando tecniche di fotomanipulazione."
-      },
-
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/social-media/italia_1.webp", text: "" },
-          { image: "assets/optimized-files/optimized/social-media/italia_3.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/social-media/zaccagni.webp", text: "" },
-          { image: "assets/optimized-files/optimized/social-media/raspadori.webp", text: "" },
-        ]
-      },
-      {
-        type: "text",
-        title: "Euro 2024",
-        text: "Social media graphics collection for Euro 2024. Personal project focusing on editorial layout and branding for the tournament.",
-        text_it: "Raccolta di grafiche social per Euro 2024. Progetto personale incentrato su layout editoriale e branding per il torneo."
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/social-media/lecce_1.webp", text: "" },
-          { image: "assets/optimized-files/optimized/social-media/lecce_2.webp", text: "" },
-          { image: "assets/optimized-files/optimized/social-media/lecce_3.webp", text: "" },
-        ]
-      },
-      {
-        type: "text",
-        title: "AS Lecce",
-        text: "A comprehensive visual identity and social media system designed for the club's matchday coverage.",
-        text_it: "Un sistema completo di identità visiva e social media progettato per la copertura matchday del club."
-      },
-
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/social-media/Torino_1.webp", text: "" },
-          { image: "assets/optimized-files/optimized/social-media/Torino_2.webp", text: "" },
-        ]
-      },
-      {
-        type: "text",
-        title: "Torino FC",
-        text: "Matchday Announcement & Lineup Design. Visual assets tailored for the club's official communications.",
-        text_it: "Annuncio Matchday & Design Formazione. Asset visivi personalizzati per le comunicazioni ufficiali del club."
-      },
-
-
-    ]
-  },
-  "novo": {
-
-    title: "Novo Esports",
-    category: "Art Direction",
-    intro:
-      "A collection of visual content and branding projects developed during my time as Art Director.",
-    intro_it:
-      "Una raccolta di contenuti visivi e progetti di branding sviluppati durante il mio periodo come Art Director.",
-
-    role:
-      "Graphic Designer, Art Director",
-
-    deliverables:
-      "Graphic Design, Art Direction, Merch Design, Social Media Design",
-
-    clients:
-      "Novo Esports",
-
-    tools:
-      "Adobe Photoshop,<br>Illustrator, Figma, Blender",
-
-
-    body: [
-      "In this role, I oversaw the visual identity of Novo Esports across multiple touchpoints. This collection includes comprehensive branding and assets developed for live events, competitive tournaments, social media campaigns, educational carousels, and official merchandise design.",
-    ],
-    body_it: [
-      "In questo ruolo, ho supervisionato l'identità visiva di Novo Esports su più touchpoint. Questa raccolta include branding completo e asset sviluppati per eventi dal vivo, tornei competitivi, campagne social, caroselli educativi e design di merchandise ufficiale.",
-    ],
-
-    images: [
-  {
-    src: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/QualifiedToGrandFinal.webp",
-    alt: "SSC Napoli social media design poster blue layout di lorenzo"
-  },
-],
-    gallery: [
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/3-2_NOVO_Playoff_Defeat_LoserBracket.webp", text: "" },
-          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/H1ber_MVP_4x5.webp", text: "" },
-          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/NOVO_Playoff_Victory_LoserBracket_1080x1920.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/QualifiedToGrandFinal.webp", text: "" },
-          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/QualifiedToGrandFinal_4x5_2.webp", text: "" },
-          ]
-      },
-      {
-        type: "text",
-        title: "Grandfinal Matchday",
-        text: "Graphics created for the Grandfinal event. The art direction was inspired by the movie '300', representing the players as warriors in an epic setting, while keeping the team's colors at the center of it all.",
-        text_it: "Grafiche create per l'evento Grandfinal. La direzione artistica si è ispirata al film '300', rappresentando i giocatori come guerrieri in un'ambientazione epica, mantenendo i colori della squadra al centro di tutto."
-      },
-
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/novo1/NOVO_Playoff_Matchday_Derby.webp", text: "" },
-          { image: "assets/optimized-files/optimized/novo1/NOVO_Playoff_Victory_Derby.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/novo1/NOVO_Playoff_MVP_Derby.webp", text: "" },
-          { image: "assets/optimized-files/optimized/novo1/NOVO_Playoff_Defeat_Derby_1080x1920.webp", text: "" },
-        ]
-      },
-      {
-        type: "text",
-        title: "Matchday VS Dsyre",
-        text: "Matchday graphics for the derby against Dsyre, using Milan as the backdrop to represent both teams being based in the city.",
-        text_it: "Grafiche matchday per il derby contro Dsyre, usando Milano come sfondo per rappresentare entrambe le squadre basate in città."
-      },
-
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (12)/fcporopen.webp", text: "" },
-          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (12)/delazzz_4x5_notqualified.webp", text: "" },
-          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (12)/anonymous_16x9_qualified.webp", text: "" },
-        ]
-      },
-      {
-        type: "text",
-        title: "FC Pro Open Ladder",
-        text: "Matchday graphics and art direction for the FC Pro Open Ladder. Gritty style, consistent across all channels.",
-        text_it: "Grafiche matchday e direzione artistica per la FC Pro Open Ladder. Stile grezzo, coerente su tutti i canali."
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/MatchdayGrandFinal.webp", text: "" },
-          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/VictoryGrandFinal_1080x1920_5-4.webp", text: "" },
-        ]
-      },
-      {
-        type: "text",
-        title: "Grandfinal Rinascimento",
-        text: "Grand Final graphics for the Rinascimento Series against Dsyre. Classy style with a strong use of color and visual elements from the series.",
-        text_it: "Grafiche Grand Final per la Rinascimento Series contro Dsyre. Stile elegante con un forte uso del colore e degli elementi visivi della serie."
-      },
-
-
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/novotruman/truman_matchday.webp", text: "" },
-          { image: "assets/optimized-files/optimized/novotruman/truman_victory.webp", text: "" },
-          { image: "assets/optimized-files/optimized/novotruman/truman_defeat.webp", text: "" },
-        ]
-      },
-      {
-        type: "text",
-        title: "The Truman Show - Unused Concept",
-        title_it: "The Truman Show - Concept Non Utilizzato",
-        text: "Unused matchday concepts themed around The Truman Show, with POW3R as the Jim Carrey figure. Three different versions for matchday, victory and defeat.",
-        text_it: "Concept matchday non utilizzati a tema The Truman Show, con POW3R nei panni di Jim Carrey. Tre versioni diverse per matchday, vittoria e sconfitta."
-      },
-
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/novowallpaper/novo_wallpaper_2_1920.webp", text: "" },
-          { image: "assets/optimized-files/optimized/novowallpaper/novo_wallpaper_mobile_2.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/novowallpaper/novo_wallpaper_2560.webp", text: "" },
-          { image: "assets/optimized-files/optimized/novowallpaper/novo_wallpaper_mobile.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/novowallpaper/novo_wallpaper-2.webp", text: "" },
-          { image: "assets/optimized-files/optimized/novowallpaper/novo_wallpaper5.webp", text: "" },
-        ]
-      },
-      {
-        type: "text",
-        title: "Wallpapers",
-        text: "A series of wallpapers for mobile and desktop using the logo, POW3R and elements from the Novo Esports branding, also covering the Challengers Spain Rising tournament.",
-        text_it: "Una serie di wallpaper per mobile e desktop usando il logo, POW3R ed elementi del branding di Novo Esports, coprendo anche il torneo Challengers Spain Rising."
-      },
-
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (5)/stella-novo_4x5.webp", text: "" },
-          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (8)/standings_playoff.webp", text: "" },
-          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (5)/aig_supercell.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (5)/NOVO_Genesi_Results.webp", text: "" },
-          { image: "assets/optimized-files/optimized/BulkResizePhotos.com (11)/estamosenrising.webp", text: "" },
-        ]
-      },
-      {
-        type: "text",
-        title: "Announcements",
-        title_it: "Annunci",
-        text: "A series of announcement graphics covering roster moves, results, events and everything in between.",
-        text_it: "Una serie di grafiche di annuncio che coprono cambi di roster, risultati, eventi e tutto il resto."
-      },
-    ]
-  },
-  "fracturesounds": {
-
-    title: "Fracture Sounds",
-    category: "Art Direction",
-    intro:
-      "Graphic Design & Motion Assets for 2024 product campaigns and software releases.",
-    intro_it:
-      "Graphic Design & Motion Asset per campagne di prodotto e release software del 2024.",
-
-    role:
-      "Graphic Designer, Art Director",
-
-    deliverables:
-      "Logo Design, Brand Design, UI Design, Marketing Design, Motion Graphics",
-
-    clients:
-      "Fracture Sounds",
-
-    tools:
-      "Adobe Photoshop,<br>Illustrator, Figma, Blender",
-
-
-    body: [
-      "A look at the visuals I created for Fracture Sounds in 2024. My role was to translate the mood of their virtual instruments into clean designs. I designed the logos and UI wallpapers for major releases like String Formations and Moonlight Celeste. For the Piano Month promo, I pushed things a bit further by providing three unique design concepts for each bundle, alongside custom videos and animations to back up the marketing campaign.",
-    ],
-    body_it: [
-      "Uno sguardo ai visual che ho creato per Fracture Sounds nel 2024. Il mio ruolo era tradurre l'atmosfera dei loro strumenti virtuali in design puliti. Ho progettato i loghi e i wallpaper UI per le release principali come String Formations e Moonlight Celeste. Per la promo Piano Month, ho spinto le cose un po' oltre fornendo tre concept di design unici per ogni bundle, insieme a video e animazioni custom a supporto della campagna marketing.",
-    ],
-
-    images: [
-  {
-    src: "assets/optimized-files/optimized/fractures1/Piano-Month-Banner-Updated.webp",
-    alt: "SSC Napoli social media design poster blue layout di lorenzo"
-  },
-],
-    gallery: [
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/fractures2/concept 1-background-horrizontal.webp", text: "" },
-          { image: "assets/optimized-files/optimized/fractures2/concept 1 - artwork.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/fractures2/concept 1-title-banner.webp", text: "" },
-        ]
-      },
-      {
-        type: "text",
-        title: "String Formations",
-        text: "Visual identity, background artwork and logo design for String Formations, a 2024 sample library release by Fracture Sounds. The aesthetic was built to capture the essence of the library's unique soundscapes. Used as the product's official identity across its store page and marketing for the commercial release. <a href=\"https://www.youtube.com/watch?v=RFSRO49tCbE\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">YouTube ↗</a>",
-        text_it: "Identità visiva, artwork di sfondo e design del logo per String Formations, una sample library del 2024 di Fracture Sounds. L'estetica è stata costruita per catturare l'essenza dei soundscape unici della libreria. Utilizzata come identità ufficiale del prodotto, sulla pagina store e nei materiali di lancio commerciale. <a href=\"https://www.youtube.com/watch?v=RFSRO49tCbE\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">YouTube ↗</a>"
-      },
-
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/fractures3/fracture-sounds-trails-background-horrizontal.webp", text: "" },
-          { image: "assets/optimized-files/optimized/fractures3/fracture-sounds-spotlight-piano-artwork.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/fractures3/fracture-sounds-moonlight-celeste-gui-main.webp", text: "" },
-        ]
-      },
-      {
-        type: "text",
-        title: "Moonlight Celeste",
-        text: "Visual identity, background artwork and logo design for Moonlight Celeste, a 2024 sample library release by Fracture Sounds. The visuals were crafted to match the instrument's delicate, atmospheric tone. Used as the product's official identity across its store page and marketing for the commercial release. <a href=\"https://fracturesounds.com/product/moonlight-celeste/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Shop ↗</a>",
-        text_it: "Identità visiva, artwork di sfondo e design del logo per Moonlight Celeste, una sample library del 2024 di Fracture Sounds. I visual sono stati costruiti per rispecchiare il tono delicato e atmosferico dello strumento. Utilizzata come identità ufficiale del prodotto, sulla pagina store e nei materiali di lancio commerciale. <a href=\"https://fracturesounds.com/product/moonlight-celeste/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Shop ↗</a>"
-      },
-
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/fractures1/99bundle_nodirt.webp", text: "" },
-          { image: "assets/optimized-files/optimized/fractures1/lightbundle_nodirt.webp", text: "" },
-          { image: "assets/optimized-files/optimized/fractures1/originalbundle_notext.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/fractures1/99bundle2.webp", text: "" },
-          { image: "assets/optimized-files/optimized/fractures1/lightbundle2.webp", text: "" },
-          { image: "assets/optimized-files/optimized/fractures1/originalbundle2.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/fractures1/pianomonth_banner_animation.mp4", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/fractures1/test_product.mp4", text: "" },
-          { image: "assets/optimized-files/optimized/fractures1/everythingbundle_4x5_animation.mp4", text: "" },
-          { image: "assets/optimized-files/optimized/fractures1/lightbundle_4x5_animation.mp4", text: "" },
-        ]
-      },
-      {
-        type: "text",
-        title: "Piano Month - Campaign",
-        title_it: "Piano Month - Campagna",
-        text: "Visual campaign designs for Fracture Sounds 'Piano Month' sales event. Developed three distinct creative directions for each product bundle, executing the vision across both static assets and dynamic video animations.",
-        text_it: "Design di campagna visual per l'evento di saldi 'Piano Month' di Fracture Sounds. Sviluppate tre direzioni creative distinte per ogni bundle di prodotti, eseguendo la visione sia su asset statici che su animazioni video dinamiche."
-      },
-    ]
-  },
-  "covince": {
-
-    title: "Covince",
-    category: "Branding",
-    intro:
-      "Various designs and applications made from 2024.",
-    intro_it:
-      "Vari design e applicazioni realizzati dal 2024.",
-
-    role:
-      "Multi-Media Designer, Art Director",
-
-    deliverables:
-      "UX/UI Design, Flyers, Brand Design, Web Design ",
-
-    clients:
-      "CoVince",
-
-    tools:
-      "Adobe Photoshop,<br>Illustrator, Figma, Blender, DaVinci Resolve",
-
-
-    body: [
-      "A collection of work created during my time at CoVince since 2024: from redesigning the dashboard and core product screens, to flyer design for Syner Suite, to the visual design of a fully immersive room with wall-to-wall screens built for live events. The work also spans motion graphics and UX/UI design, blending digital and physical design in a way that called for a different approach each time",
-    ],
-    body_it: [
-      "Una raccolta di lavori realizzati durante la mia esperienza in CoVince dal 2024: dal redesign della dashboard e delle schermate principali del prodotto, passando per il design di flyer per Syner Suite, fino alla progettazione visiva di una stanza immersiva con schermi a parete pensata per eventi dal vivo. Il percorso include anche motion graphics e UX/UI design, in un mix di lavoro digitale e fisico che ha richiesto un approccio diverso ogni volta.",
-    ],
-
-    images: [
-  {
-    src: "assets/optimized-files/optimized/covince/website-slides/designs/Slide 16_9 - 225.webp",
+    src: "assets/optimized-files/optimized/berserk/berserk_2.webp",
     alt: ""
   },
-],
-    gallery: [
+  {
+    src: "assets/optimized-files/optimized/berserk/berserk_8.webp",
+    alt: ""
+  },
+
+  ],
+  gallery: [
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/covince/flyers/23_jan_flyer_2.webp", text: "" },
-          { image: "assets/optimized-files/optimized/covince/flyers/23_jan_flyer_2-2.webp", text: "" },
+          { image: "assets/optimized-files/optimized/berserk/berserk_1.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/covince/flyers/23_jan_flyer_5.webp", text: "" },
-          { image: "assets/optimized-files/optimized/covince/flyers/23_jan_flyer_52.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/covince/flyers/january23-flyeranimated.mp4", text: "" },
+          { image: "assets/optimized-files/optimized/berserk/berserk_2.webp", text: "" },
         ]
       },
       {
         type: "text",
-        title: "January Event Flyers",
-        title_it: "Flyer Evento Gennaio",
-        text: "Flyer designs for CoVince January events, created across multiple formats and visual variants, used across the event's official communication. <a href=\"https://www.linkedin.com/posts/melanie-van-halteren-25510b10_laatste-plekken-vrijdag-23-januari-knvb-ugcPost-7419308273075376128-bPrG\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">LinkedIn ↗</a>",
-        text_it: "Design di flyer per gli eventi CoVince di gennaio, realizzati in più formati e varianti visive e utilizzati nella comunicazione ufficiale dell'evento. <a href=\"https://www.linkedin.com/posts/melanie-van-halteren-25510b10_laatste-plekken-vrijdag-23-januari-knvb-ugcPost-7419308273075376128-bPrG\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">LinkedIn ↗</a>"
+        title: "Main Menu",
+        title_it: "Menu Principale",
+        text: "A clean yet atmospheric opening menu designed to instantly immerse the player. The gritty art style and heavy use of textures establish a dark, visceral mood. Reflecting the core themes of the manga, the stark contrast between the high-visibility interactive buttons and the deep, shadowed background delivers a striking, mysterious visual impact.",
+        text_it: "Un menu di apertura pulito ma atmosferico, progettato per immergere immediatamente il giocatore. Lo stile grezzo e il forte uso delle texture stabiliscono un'atmosfera oscura e viscerale. Riflettendo i temi principali del manga, il forte contrasto tra i pulsanti interattivi ad alta visibilità e lo sfondo profondo e in ombra crea un impatto visivo incisivo e misterioso."
       },
-
 
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/covince/flyers/tomo_flyer_22jan_2 (2).webp", text: "" },
-          { image: "assets/optimized-files/optimized/covince/flyers/tomo_flyer_22jan - Copia.webp", text: "" },
+          { image: "assets/optimized-files/optimized/berserk/berserk_4.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/covince/flyers/tomo_flyer_22jan_6.webp", text: "" },
-          { image: "assets/optimized-files/optimized/covince/flyers/tomo_flyer_22jan_7.webp", text: "" },
+          { image: "assets/optimized-files/optimized/berserk/berserk_5.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/covince/flyers/TomoCafeFlyer6.webp", text: "" },
-          { image: "assets/optimized-files/optimized/covince/flyers/tomo_flyer_22jan_3tomo-test.webp", text: "" },
-          { image: "assets/optimized-files/optimized/covince/flyers/Frame 427321768.webp", text: "" },
+          { image: "assets/optimized-files/optimized/berserk/berserk_6.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/berserk/berserk_15.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/berserk/berserk_7.webp", text: "" },
+        ]
+      },
+      {
+        type: "text",
+        title: "Game HUD & Damage Feedback Systems",
+        title_it: "HUD di Gioco & Sistema di Feedback Danni",
+        text: "Minimalist HUD layout showcasing player bars, enemy health tracking, and an immersive combat experience. Features a progressive 3-tier damage overlay system (25% / 50% / 75%) and an optional cinematic HUD variant that directly channels the manga's iconic aesthetic.",
+        text_it: "Layout HUD minimalista che mostra le barre del giocatore, il monitoraggio della salute dei nemici e un'esperienza di combattimento immersiva. Include un sistema progressivo a 3 livelli di overlay danni (25% / 50% / 75%) e una variante HUD cinematografica opzionale che richiama direttamente l'estetica iconica del manga."
+      },
+
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/berserk/berserk_3.webp", text: "" },
         ]
       },
       {
         type: "text",
-        title: "Tomo Cafe Flyers",
-        title_it: "Flyer Tomo Cafe",
-        text: "Flyer series for the Tomo events, exploring multiple layout directions and color variants, published across the event's social and promotional channels. <a href=\"https://www.linkedin.com/posts/nieuwsgierig-hoe-ai-jouw-zorggesprekken-kan-share-7417966792570040320-v_zG/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">LinkedIn ↗</a>",
-        text_it: "Serie di flyer per gli eventi Tomo Cafe, con diverse direzioni di layout e varianti di colore. Pubblicati sui canali social e promozionali dell'evento. <a href=\"https://www.linkedin.com/posts/nieuwsgierig-hoe-ai-jouw-zorggesprekken-kan-share-7417966792570040320-v_zG/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">LinkedIn ↗</a>"
-      },
-
-      // {
-      //   type: "group",
-      //   images: [
-      //     { image: "assets/optimized-files/optimized/covince/screens/amazon/1/1.webp", text: "" },
-      //     { image: "assets/optimized-files/optimized/covince/screens/amazon/1/2.webp", text: "" },
-      //     { image: "assets/optimized-files/optimized/covince/screens/amazon/1/4.webp", text: "" },
-      //   ]
-      // },
-      // {
-      //   type: "group",
-      //   images: [
-      //     { image: "assets/optimized-files/optimized/covince/screens/amazon/3/1.webp", text: "" },
-      //     { image: "assets/optimized-files/optimized/covince/screens/amazon/3/2.webp", text: "" },
-      //     { image: "assets/optimized-files/optimized/covince/screens/amazon/3/3.webp", text: "" },
-      //   ]
-      // },
-      // {
-      //   type: "group",
-      //   images: [
-      //     { image: "assets/optimized-files/optimized/covince/screens/jap/verti424al_obeya.webp", text: "" },
-      //     { image: "assets/optimized-files/optimized/covince/screens/jap/vertical_1obeya2.webp", text: "" },
-      //     { image: "assets/optimized-files/optimized/covince/screens/jap/vertical_ob4eya2.webp", text: "" },
-      //   ]
-      // },
-      // {
-      //   type: "text",
-      //   title: "Syner Suite Screens",
-      //   title_it: "Schermate App",
-      //   text: "Template designs for various experiences using the Syner Suite.",
-      //   text_it: "Template di design pronti per diverse esperienze con Syner Suite."
-      // },
-
-      // {
-      //     type: "group",
-      //     images: [
-      //       { image: "assets/optimized-files/optimized/covince/screens/jap/verti424al_obeya.webp", text: "" },
-      //       { image: "assets/optimized-files/optimized/covince/screens/jap/vertical_1obeya2.webp", text: "" },
-      //       { image: "assets/optimized-files/optimized/covince/screens/jap/vertical_ob4eya2.webp", text: "" },
-      //     ]
-      //   },
-      //   {
-      //     type: "text",
-      //     title: "Obeya Screens",
-      //     title_it: "Schermate Obeya",
-      //     text: "Additional interface screens for the Obeya module within the CoVince platform.",
-      //     text_it: "Schermate aggiuntive per il modulo Obeya all'interno della piattaforma CoVince."
-      //   },
-
-      /* ---------- DASHBOARD REDESIGN ---------- */
-
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/covince/dashboar/20260323012429 - FULL 1.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/covince/dashboar/Slide 16_9 - 226.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/covince/dashboar/Slide 16_9 - 225.webp", text: "" },
-        ]
-      },
-            {
-        type: "text",
-        title: "Dashboard Redesign",
-        title_it: "Redesign della Dashboard",
-        text: "A full redesign of the CoVince home dashboard, reorganised into three focused columns: Journeys, Timeline and Calendar/Events. A refreshed dark UI surfaces the community feed, to-dos and scheduled work at a glance. The redesign was adopted by the team and is now in active use, improving navigation and day-to-day engagement.",
-        text_it: "Redesign completo della home dashboard di CoVince, riorganizzata in tre colonne: Journeys, Timeline e Calendar/Events. Una UI dark rinnovata mette in evidenza community feed, to-do e attività pianificate a colpo d'occhio. Adottata dal team e ora in uso attivo, con una navigazione più chiara e un maggior utilizzo quotidiano."
-      },
-
-
-      /* ---------- JOURNEY BUILDER / ADMIN ---------- */
-            {
-        type: "grid",
-        cols: 3,
-        images: [
-          { image: "assets/optimized-files/optimized/covince/journey-dashboard/20260312110747 - FULL 1.webp", alt: "" },
-          { image: "assets/optimized-files/optimized/covince/journey-dashboard/20260312110924 - FULL 1.webp", alt: "" },
-          { image: "assets/optimized-files/optimized/covince/journey-dashboard/20260312111006 - FULL 1.webp", alt: "" },
-        ]
+        title: "Cinematic Dialogue Interface",
+        title_it: "Interfaccia Dialogo Cinematografica",
+        text: "Cutscene dialogue overlay concept designed to optimize narrative readability and cinematic immersion, maintaining visual consistency with the project's dark aesthetic.",
+        text_it: "Concept di overlay per dialoghi nelle cutscene, progettato per ottimizzare la leggibilità narrativa e l'immersione cinematografica, mantenendo la coerenza visiva con l'estetica oscura del progetto."
       },
 
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/covince/journey-dashboard/Final Layout-1.webp", text: "" },
-{ image: "assets/optimized-files/optimized/covince/journey-dashboard/Final Layout.webp", text: "" },
+          { image: "assets/optimized-files/optimized/berserk/berserk_9.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-                    { image: "assets/optimized-files/optimized/covince/journey-dashboard/Final Layout-2.webp", text: "" },
+          { image: "assets/optimized-files/optimized/berserk/berserk_8.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-          { image: "assets/optimized-files/optimized/covince/journey-dashboard/Final Layout - Admin Page.webp", text: "" },
-
-        ]
-      },
-            {
-        type: "text",
-        title: "Journey Builder & Admin",
-        title_it: "Journey Builder & Admin",
-        text: "The back-office side of the platform: the Journey builder where admins configure banners, media, toggles, data aspects and stats, together with the admin user management view and the supporting UI components and pop-ups. Shipped and in daily use by the admin team to build and manage platform content.",
-        text_it: "Il lato back-office della piattaforma: il Journey builder con cui gli admin configurano banner, media, toggle, dati e statistiche, insieme alla vista di gestione degli utenti admin e ai componenti UI e pop-up di supporto. Rilasciato e in uso quotidiano dal team admin per creare e gestire i contenuti della piattaforma."
-      },
-
-      /* ---------- SMARTNOTE REDESIGN ---------- */
-
-            {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/covince/smart-note-redesign/image 27.webp", text: "" },
-           { image: "assets/optimized-files/optimized/covince/smart-note-redesign/Slide 16_9 - 31.webp", text: "" },
-
-        ]
-      },
-            {
-        type: "group",
-        images: [
-                    { image: "assets/optimized-files/optimized/covince/smart-note-redesign/Frame 423.webp", text: "" },
-           
+          { image: "assets/optimized-files/optimized/berserk/berserk_11.webp", text: "" },
         ]
       },
       {
         type: "group",
         images: [
-        
-          { image: "assets/optimized-files/optimized/covince/smart-note-redesign/Slide 16_9 - 33.webp", text: "" },
+          { image: "assets/optimized-files/optimized/berserk/berserk_10.webp", text: "" },
         ]
       },
-            {
-        type: "text",
-        title: "SmartNote Redesign",
-        title_it: "Redesign di SmartNote",
-        text: "A redesign of SmartNote, the in-platform note tool: a cleaner note panel with a quick-action toolbar (article, audio, image, assign) paired with a threaded Comments & History panel supporting replies, attachments and voice memos. Shipped and in active use, streamlining how the team captures and shares notes inside the platform.",
-        text_it: "Redesign di SmartNote, lo strumento note interno alla piattaforma: un pannello note più pulito con toolbar ad azioni rapide (articolo, audio, immagine, assegna), affiancato da un pannello Commenti & Cronologia con thread, risposte, allegati e memo vocali. Rilasciato e in uso attivo, rende più fluido il modo in cui il team crea e condivide note nella piattaforma."
-      },
-
-
-
-      /* ---------- SWIPESLIDES ---------- */
-
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/covince/swipeslides/20251218081222 - FULL 2.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/covince/swipeslides/SwipeSlides - UI.webp", text: "" },
-          { image: "assets/optimized-files/optimized/covince/swipeslides/SwipeSlides - UI-1.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-
-          { image: "assets/optimized-files/optimized/covince/swipeslides/SwipeSlides - UI-2.webp", text: "" },
-        ]
-      },
-
       {
         type: "text",
-        title: "SwipeSlides",
-        title_it: "SwipeSlides",
-        text: "SwipeSlides, an AI storyboard tool: each slide pairs a voice-over script with image and video generation prompts, letting users build a narrated visual story and push the generated media straight into a Smart Note. The redesign made the flow simpler and more intuitive, easier for users to pick up and build with.",
-        text_it: "SwipeSlides, uno strumento di storyboard AI: ogni slide abbina uno script di voice-over a prompt per la generazione di immagini e video, permettendo di costruire una storia visiva narrata e di mandare i media generati direttamente in una Smart Note. Ridisegnato per un flusso più semplice e intuitivo, ora più facile da usare e da padroneggiare."
+        title: "Pause Menu Architecture & Navigation",
+        title_it: "Architettura Menu di Pausa & Navigazione",
+        text: "Comprehensive Pause Menu system showing the Character, Equipment, World Map, and Bestiary screens. Built entirely from scratch, the system uses a dual-column layout (interactive mechanics on the left, lore/general info on the right). Individual color coding differentiates each section while maintaining a cohesive visual identity. The streamlined world map maximizes readability and layout hierarchy.",
+        text_it: "Sistema completo del Menu di Pausa con le schermate di Personaggio, Equipaggiamento, Mappa del Mondo e Bestiario. Costruito interamente da zero, il sistema utilizza un layout a doppia colonna (meccaniche interattive a sinistra, lore/informazioni generali a destra). La codifica cromatica individuale differenzia ogni sezione mantenendo un'identità visiva coerente. La mappa del mondo semplificata massimizza la leggibilità e la gerarchia del layout."
+      },
+
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/berserk/assets.webp", text: "" },
+        ]
+      },
+      {
+        type: "text",
+        title: "UI Asset Components & Production",
+        title_it: "Componenti UI & Produzione Asset",
+        text: "Custom UI assets, iconography, and interface components developed from scratch using Illustrator and Photoshop to match the game's gritty visual identity.",
+        text_it: "Asset UI personalizzati, iconografia e componenti dell'interfaccia sviluppati da zero con Illustrator e Photoshop per corrispondere all'identità visiva grezza del gioco."
       },
     ]
   },

@@ -5,19 +5,19 @@ const myProjects = [
     // { name: "SSC Napoli", slug: "ssc-napoli", style: "", category: "social"},
     { name: "Area Sport", slug:"area", style: "", category: "branding" },
     { name: "Juventus FC", slug:"juventus", style: "", category: "social" },
-    { name: "Movie Posters", slug: "movie-posters", style: "", category: "art-direction" },
-    { name: "Letsgoski Official Merch", slug: "letsgoski", style: "", category: "merch" },
-    { name: "Dinousound", slug: "dinosound", style: "", category: "uxui" },
-    { name: "Berserk: The Long Night", slug:"berserk", style: "", category: "uxui" },
-    { name: "CoVince", slug:"covince", style: "", category: ["uxui", "branding"] },
     { name: "Stefano Francioni", slug: "stefano-francioni", style: "", category: "art-direction" },
-    { name: "Gorgeous Blu-Ray", slug:"gorgeous", style: "", category: "art-direction" }, 
+    { name: "Football Social Media Design", slug:"social-media", style: "", category: "social" },
+    { name: "FractureSounds", slug: "fracturesounds",style: "", category: "social" },
+    { name: "CoVince", slug:"covince", style: "", category: ["uxui", "branding"] },
+    { name: "Dinosound", slug: "dinosound", style: "", category: "uxui" },
+    { name: "Movie Posters", slug: "movie-posters", style: "", category: "art-direction" },
+    { name: "Novo Esports", slug:"novo", style: "", category: "art-direction" },
+    { name: "Letsgoski Official Merch", slug: "letsgoski", style: "", category: "merch" },
+    { name: "Gorgeous Blu-Ray", slug:"gorgeous", style: "", category: "art-direction" },
     { name: "Carousels", slug:"carousels", style: "", category: "social" },
     { name: "Straight Through Crew", slug:"straight", style: "", category: "art-direction" },
     { name: "The Seventh Peak", slug:"seventh", style: "", category: "uxui" },
-    { name: "Football Social Media Design", slug:"social-media", style: "", category: "social" },
-    { name: "Novo Esports", slug:"novo", style: "", category: "art-direction" },
-    { name: "FractureSounds", slug: "fracturesounds",style: "", category: "social" },
+    { name: "Berserk: The Long Night", slug:"berserk", style: "", category: "uxui" },
 
 ];
 
@@ -187,6 +187,9 @@ const translations = {
     menuInfo: 'Info',
     // about me bio (innerHTML — contiene il tag img)
     aboutBio: '<img src="assets/1000045896.jpg" class="float-left w-36 mr-4 mb-2" alt="Ritratto di Gianmarco Malandra">Gianmarco è un graphic designer e art director che lavora su contenuti per i social media, identità visiva e key visual con un focus su tipografia, layout e coerenza visiva.',
+    aboutMore: "Dal 2018 lavora con club e agenzie calcistiche, team esports, produzioni teatrali, distributori cinematografici e aziende music-tech, seguendo i progetti dal primo concept ai file finali di produzione. Il suo lavoro spazia tra branding, sistemi per i social media, key art e packaging — sempre costruiti su solide basi tipografiche. Vive a Chieti e collabora da remoto con clienti in tutta Europa; è aperto a progetti freelance e nuove opportunità.",
+    ctaText: 'Ti piace quello che vedi?',
+    ctaLink: 'Scrivimi',
     // project.html labels
     labelRole: 'Ruolo:',
     labelDeliverables: 'Materiali finali:',
@@ -210,6 +213,9 @@ const translations = {
     menuInfo: 'Info',
     // about me bio
     aboutBio: '<img src="assets/1000045896.jpg" class="float-left w-36 mr-4 mb-2" alt="Portrait of Gianmarco Malandra">Gianmarco is a graphic designer and art director working on social media content, visual identity and key visuals with a focus on typography, layout and visual consistency.',
+    aboutMore: "Since 2018 he has worked with football clubs and agencies, esports teams, theatre productions, film distributors and music-tech companies, taking projects from first concept to final production files. His work spans branding, social media systems, key art and packaging — always built on a strong typographic foundation. Based in Chieti, Italy, he collaborates remotely with clients across Europe and is currently open to freelance projects and new opportunities.",
+    ctaText: 'Like what you see?',
+    ctaLink: 'Get in touch',
     // project.html labels
     labelRole: 'Role:',
     labelDeliverables: 'Deliverables:',
@@ -218,7 +224,7 @@ const translations = {
     labelNextProject: 'Next Project',
     // footer CV
     cvLabel: 'Download CV',
-    cvFile: 'gianmarco-malandra_resume-.pdf',
+    cvFile: 'gianmarco-malandra_resume.pdf',
   }
 };
 
@@ -270,6 +276,14 @@ function applyLang(lang) {
   // About Me bio
   const aboutBio = document.getElementById('about-bio');
   if (aboutBio) aboutBio.innerHTML = t.aboutBio;
+  const aboutMore = document.getElementById('about-more');
+  if (aboutMore) aboutMore.textContent = t.aboutMore;
+
+  // CTA contatto (about me + pagine progetto)
+  const ctaText = document.getElementById('cta-text');
+  const ctaLink = document.getElementById('cta-link');
+  if (ctaText) ctaText.textContent = t.ctaText;
+  if (ctaLink) ctaLink.textContent = t.ctaLink;
 
   // Project page labels
   const labelRole = document.getElementById('label-role');
