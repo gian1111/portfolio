@@ -804,66 +804,97 @@ const projectsData = {
       },
     ]
   },
-  "dinosound": {
+  "straight": {
 
-    title: "Dinosound",
-    category: "UX/UI Design",
+    title: "Straight Through Crew",
+    category: "Art Direction",
     intro:
-      "UX/UI art test for Tsugi Studio, a Japanese audio software company. A challenging brief that pushed my design thinking and helped me grow significantly as a designer.",
+      "Poster design and advertising campaign for a UK indie film.",
     intro_it:
-      "Art test UX/UI per Tsugi Studio, un'azienda giapponese di software audio. Un brief impegnativo che ha spinto il mio pensiero progettuale e mi ha aiutato a crescere notevolmente come designer.",
+      "Progettazione di poster e campagna pubblicitaria per un film indie britannico.",
 
     role:
       "Graphic Designer &<br>Art Director",
 
     deliverables:
-      "UI Design, UX Design, Art Direction, 3D Design ",
+      "Visual Direction, Poster Design, Graphic Design",
 
-    duration:
-      "2 Weeks",
+    clients:
+      "Blackmath Studio",
 
     tools:
       "Adobe Photoshop,<br>Illustrator, Figma",
 
 
     body: [
-      "UX/UI concept for Dinosound, a music player built around a dinosaur theme. The project explores two different visual directions: a vintage, textured approach with warm tones and hand-drawn elements, and a darker, holographic concept where dinosaur outlines come to life as interactive UI components. Both concepts were designed with full interactivity in mind, from navigation to playback controls.",
-     ],
+      "Poster design and advertising campaign for Straight Through Crew, a UK indie film with a psychedelic, social realist aesthetic. The original version existed but pushed the characters to the margins, so the composition was completely redesigned to bring them forward. The project involved developing multiple format variants, vertical and horizontal, pushing the visual identity toward something bolder and more dreamlike. The posters were distributed across Amazon Prime Video, Rotten Tomatoes and Letterboxd.",
+    ],
     body_it: [
-      "Concept UX/UI per Dinosound, un music player basato su un tema dinosauro. Il progetto esplora due diverse direzioni visive: un approccio vintage e texturizzato con toni caldi ed elementi disegnati a mano, e un concept più scuro e olografico dove i contorni dei dinosauri prendono vita come componenti UI interattivi. Entrambi i concept sono stati progettati con la piena interattività in mente, dalla navigazione ai controlli di riproduzione.",
+      "Progettazione di poster e campagna pubblicitaria per Straight Through Crew, un film indie britannico dall'estetica psichedelica e realista-sociale. La versione originale esisteva ma relegava i personaggi ai margini, quindi la composizione è stata completamente ridisegnata per portarli in primo piano. Il progetto ha coinvolto lo sviluppo di più varianti di formato, verticale e orizzontale, spingendo l'identità visiva verso qualcosa di più audace e onirico. I poster sono stati distribuiti su Amazon Prime Video, Rotten Tomatoes e Letterboxd.",
     ],
 
     images: [
   {
-    src: "assets/optimized-files/optimized/dinosound/DinoSound_Mockup1_2.webp",
-    alt: "letsgoski merch"
+    src: "assets/optimized-files/optimized/StraightThroughPoster/Landscape_Poster_3.webp",
+    alt: ""
   },
-
-  {
-    src: "assets/optimized-files/optimized/dinosound/DinoSound_Mockup1_1.webp",
-    alt: "letsgoski merch"
-  },
-
-  {
-    src: "assets/optimized-files/optimized/dinosound/Slide 16_9 - 12.webp",
-    alt: "letsgoski merch"
-  },
-  {
-    src: "assets/optimized-files/optimized/dinosound/DinoSound_Mockup1_2.webp",
-    alt: "letsgoski merch"
-  },
-
-  {
-    src: "assets/optimized-files/optimized/dinosound/DinoSound_Mockup1_2.webp",
-    alt: "letsgoski merch"
-  },
-
-  // {
-  //   src: "assets/optimized-files/optimized/dinosound/DinoSound_Mockup2_1.jpg",
-  //   alt: "letsgoski merch"
-  // }
 ],
 
+    gallery: [
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/StraightThroughPoster/moodboardstr.jpg", text: "" },
+        ]
+      },
+      {
+        type: "text",
+        title: "Moodboard",
+        text: "A curated system of visual references built early on to define the project's visual language and aesthetic, setting the palette, mood and cinematic tone before moving into artwork production.",
+        text_it: "Un sistema curato di riferimenti visivi costruito nella fase iniziale per definire il linguaggio e l'estetica del progetto, fissando palette, atmosfera e tono cinematografico prima di passare alla produzione dell'artwork."
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/StraightThroughPoster/straightthoughcrew-poster1_laurel.png", text: "" },
+          { image: "assets/optimized-files/optimized/StraightThroughPoster/straightthoughcrew-poster2_laurel.png", text: "" },
+        ]
+      },
+      {
+        type: "text",
+        title: "Vertical Key Art & Character Variants",
+        title_it: "Key Art Verticale & Varianti dei Personaggi",
+        text: "The final vertical key art, built around a character-focused approach. The layout was developed in two twin variants, letting the campaign spotlight different lead characters while keeping a unified visual identity and composition. Used as the film's official key art across its promotional campaign. <a href=\"https://www.imdb.com/title/tt21054864/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">IMDb ↗</a> <a href=\"https://letterboxd.com/film/straight-through-crew/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Letterboxd ↗</a>",
+        text_it: "La key art verticale finale, costruita con un approccio centrato sui personaggi. Il layout è stato sviluppato in due varianti gemelle, che permettono alla campagna di mettere in risalto personaggi principali diversi mantenendo un'identità visiva e una composizione unificate. Adottata come key art ufficiale del film e utilizzata nella sua campagna promozionale. <a href=\"https://www.imdb.com/title/tt21054864/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">IMDb ↗</a> <a href=\"https://letterboxd.com/film/straight-through-crew/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Letterboxd ↗</a>"
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/StraightThroughPoster/Landscape_Poster_3.jpg", text: "" },
+          { image: "assets/optimized-files/optimized/StraightThroughPoster/Landscape_Poster_2.jpg", text: "" },
+        ]
+      },
+      {
+        type: "text",
+        title: "Marketing Banners & Campaign Rollout",
+        title_it: "Banner Marketing & Lancio della Campagna",
+        text: "Horizontal banners adapted for digital advertising and display networks. In line with the campaign's core strategy, these assets rotate the focus across different characters to maximise engagement across audiences and platforms. Ran live in the film's advertising campaign, across display networks and digital channels.",
+        text_it: "Banner orizzontali adattati per la pubblicità digitale e le reti display. In linea con la strategia principale della campagna, questi asset alternano il focus sui diversi personaggi per massimizzare l'engagement tra pubblici e piattaforme. Andati live nella campagna pubblicitaria del film, sulle reti display e sui canali digitali."
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/StraightThroughPoster/ref.jpg", text: "" },
+        ]
+      },
+      {
+        type: "text",
+        title: "Digital Distribution & Streaming Presence",
+        title_it: "Distribuzione Digitale & Presenza in Streaming",
+        text: "A showcase of the official key art and marketing materials integrated across major industry platforms, including Amazon Prime Video, Letterboxd, IMDb, and Rotten Tomatoes.",
+        text_it: "Una presentazione della key art ufficiale e dei materiali di marketing integrati nelle principali piattaforme del settore, tra cui Amazon Prime Video, Letterboxd, IMDb e Rotten Tomatoes."
+      },
+    ]
   },
   "movie-posters": {
 
@@ -1438,97 +1469,66 @@ gallery: [
         },
     ]
   },
-  "straight": {
+  "dinosound": {
 
-    title: "Straight Through Crew",
-    category: "Art Direction",
+    title: "Dinosound",
+    category: "UX/UI Design",
     intro:
-      "Poster design and advertising campaign for a UK indie film.",
+      "UX/UI art test for Tsugi Studio, a Japanese audio software company. A challenging brief that pushed my design thinking and helped me grow significantly as a designer.",
     intro_it:
-      "Progettazione di poster e campagna pubblicitaria per un film indie britannico.",
+      "Art test UX/UI per Tsugi Studio, un'azienda giapponese di software audio. Un brief impegnativo che ha spinto il mio pensiero progettuale e mi ha aiutato a crescere notevolmente come designer.",
 
     role:
       "Graphic Designer &<br>Art Director",
 
     deliverables:
-      "Visual Direction, Poster Design, Graphic Design",
+      "UI Design, UX Design, Art Direction, 3D Design ",
 
-    clients:
-      "Blackmath Studio",
+    duration:
+      "2 Weeks",
 
     tools:
       "Adobe Photoshop,<br>Illustrator, Figma",
 
 
     body: [
-      "Poster design and advertising campaign for Straight Through Crew, a UK indie film with a psychedelic, social realist aesthetic. The original version existed but pushed the characters to the margins, so the composition was completely redesigned to bring them forward. The project involved developing multiple format variants, vertical and horizontal, pushing the visual identity toward something bolder and more dreamlike. The posters were distributed across Amazon Prime Video, Rotten Tomatoes and Letterboxd.",
-    ],
+      "UX/UI concept for Dinosound, a music player built around a dinosaur theme. The project explores two different visual directions: a vintage, textured approach with warm tones and hand-drawn elements, and a darker, holographic concept where dinosaur outlines come to life as interactive UI components. Both concepts were designed with full interactivity in mind, from navigation to playback controls.",
+     ],
     body_it: [
-      "Progettazione di poster e campagna pubblicitaria per Straight Through Crew, un film indie britannico dall'estetica psichedelica e realista-sociale. La versione originale esisteva ma relegava i personaggi ai margini, quindi la composizione è stata completamente ridisegnata per portarli in primo piano. Il progetto ha coinvolto lo sviluppo di più varianti di formato, verticale e orizzontale, spingendo l'identità visiva verso qualcosa di più audace e onirico. I poster sono stati distribuiti su Amazon Prime Video, Rotten Tomatoes e Letterboxd.",
+      "Concept UX/UI per Dinosound, un music player basato su un tema dinosauro. Il progetto esplora due diverse direzioni visive: un approccio vintage e texturizzato con toni caldi ed elementi disegnati a mano, e un concept più scuro e olografico dove i contorni dei dinosauri prendono vita come componenti UI interattivi. Entrambi i concept sono stati progettati con la piena interattività in mente, dalla navigazione ai controlli di riproduzione.",
     ],
 
     images: [
   {
-    src: "assets/optimized-files/optimized/StraightThroughPoster/Landscape_Poster_3.webp",
-    alt: ""
+    src: "assets/optimized-files/optimized/dinosound/DinoSound_Mockup1_2.webp",
+    alt: "letsgoski merch"
   },
+
+  {
+    src: "assets/optimized-files/optimized/dinosound/DinoSound_Mockup1_1.webp",
+    alt: "letsgoski merch"
+  },
+
+  {
+    src: "assets/optimized-files/optimized/dinosound/Slide 16_9 - 12.webp",
+    alt: "letsgoski merch"
+  },
+  {
+    src: "assets/optimized-files/optimized/dinosound/DinoSound_Mockup1_2.webp",
+    alt: "letsgoski merch"
+  },
+
+  {
+    src: "assets/optimized-files/optimized/dinosound/DinoSound_Mockup1_2.webp",
+    alt: "letsgoski merch"
+  },
+
+  // {
+  //   src: "assets/optimized-files/optimized/dinosound/DinoSound_Mockup2_1.jpg",
+  //   alt: "letsgoski merch"
+  // }
 ],
 
-    gallery: [
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/StraightThroughPoster/moodboardstr.jpg", text: "" },
-        ]
-      },
-      {
-        type: "text",
-        title: "Moodboard",
-        text: "A curated system of visual references built early on to define the project's visual language and aesthetic, setting the palette, mood and cinematic tone before moving into artwork production.",
-        text_it: "Un sistema curato di riferimenti visivi costruito nella fase iniziale per definire il linguaggio e l'estetica del progetto, fissando palette, atmosfera e tono cinematografico prima di passare alla produzione dell'artwork."
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/StraightThroughPoster/straightthoughcrew-poster1_laurel.png", text: "" },
-          { image: "assets/optimized-files/optimized/StraightThroughPoster/straightthoughcrew-poster2_laurel.png", text: "" },
-        ]
-      },
-      {
-        type: "text",
-        title: "Vertical Key Art & Character Variants",
-        title_it: "Key Art Verticale & Varianti dei Personaggi",
-        text: "The final vertical key art, built around a character-focused approach. The layout was developed in two twin variants, letting the campaign spotlight different lead characters while keeping a unified visual identity and composition. Used as the film's official key art across its promotional campaign. <a href=\"https://www.imdb.com/title/tt21054864/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">IMDb ↗</a> <a href=\"https://letterboxd.com/film/straight-through-crew/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Letterboxd ↗</a>",
-        text_it: "La key art verticale finale, costruita con un approccio centrato sui personaggi. Il layout è stato sviluppato in due varianti gemelle, che permettono alla campagna di mettere in risalto personaggi principali diversi mantenendo un'identità visiva e una composizione unificate. Adottata come key art ufficiale del film e utilizzata nella sua campagna promozionale. <a href=\"https://www.imdb.com/title/tt21054864/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">IMDb ↗</a> <a href=\"https://letterboxd.com/film/straight-through-crew/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Letterboxd ↗</a>"
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/StraightThroughPoster/Landscape_Poster_3.jpg", text: "" },
-          { image: "assets/optimized-files/optimized/StraightThroughPoster/Landscape_Poster_2.jpg", text: "" },
-        ]
-      },
-      {
-        type: "text",
-        title: "Marketing Banners & Campaign Rollout",
-        title_it: "Banner Marketing & Lancio della Campagna",
-        text: "Horizontal banners adapted for digital advertising and display networks. In line with the campaign's core strategy, these assets rotate the focus across different characters to maximise engagement across audiences and platforms. Ran live in the film's advertising campaign, across display networks and digital channels.",
-        text_it: "Banner orizzontali adattati per la pubblicità digitale e le reti display. In linea con la strategia principale della campagna, questi asset alternano il focus sui diversi personaggi per massimizzare l'engagement tra pubblici e piattaforme. Andati live nella campagna pubblicitaria del film, sulle reti display e sui canali digitali."
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/StraightThroughPoster/ref.jpg", text: "" },
-        ]
-      },
-      {
-        type: "text",
-        title: "Digital Distribution & Streaming Presence",
-        title_it: "Distribuzione Digitale & Presenza in Streaming",
-        text: "A showcase of the official key art and marketing materials integrated across major industry platforms, including Amazon Prime Video, Letterboxd, IMDb, and Rotten Tomatoes.",
-        text_it: "Una presentazione della key art ufficiale e dei materiali di marketing integrati nelle principali piattaforme del settore, tra cui Amazon Prime Video, Letterboxd, IMDb e Rotten Tomatoes."
-      },
-    ]
   },
   "seventh": {
 
