@@ -335,6 +335,14 @@ body.theme-dark #mobile-menu .text-gray-500 {
     cursor: pointer;
 }
 
+/* badge circolari più piccoli su mobile */
+@media (max-width: 767px) {
+    .circular-text {
+        width: 104px;
+        height: 104px;
+    }
+}
+
 /* TESTO */
 
 .circle-text {

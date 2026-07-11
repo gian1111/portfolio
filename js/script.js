@@ -186,7 +186,7 @@ const translations = {
     menuSettings: 'Impostazioni',
     menuInfo: 'Info',
     // about me bio (innerHTML — contiene il tag img)
-    aboutBio: '<img src="assets/1000045896.jpg" class="float-left w-36 mr-4 mb-2" alt="Ritratto di Gianmarco Malandra">Gianmarco è un graphic designer e art director che lavora su contenuti per i social media, identità visiva e key visual con un focus su tipografia, layout e coerenza visiva.',
+    aboutBio: '<img src="assets/1000045896.jpg" class="float-left w-24 md:w-36 mr-4 mb-2" alt="Ritratto di Gianmarco Malandra">Gianmarco è un graphic designer e art director che lavora su contenuti per i social media, identità visiva e key visual con un focus su tipografia, layout e coerenza visiva.',
     aboutMore: "Gianmarco Malandra è un graphic e multimedia designer con base a Chieti. Dal 2018 lavora con club e agenzie calcistiche, team esports, produzioni teatrali, distributori cinematografici e aziende music-tech, seguendo i progetti dal primo concept ai file finali di produzione. Il suo lavoro spazia tra branding, sistemi per i social media, key art e packaging, sempre costruiti su solide basi tipografiche. Collabora da remoto con clienti in tutta Europa ed è attualmente aperto a progetti freelance e nuove opportunità.",
     ctaText: 'Ti piace quello che vedi?',
     ctaLink: 'Scrivimi',
@@ -212,7 +212,7 @@ const translations = {
     menuSettings: 'Settings',
     menuInfo: 'Info',
     // about me bio
-    aboutBio: '<img src="assets/1000045896.jpg" class="float-left w-36 mr-4 mb-2" alt="Portrait of Gianmarco Malandra">Gianmarco is a graphic designer and art director working on social media content, visual identity and key visuals with a focus on typography, layout and visual consistency.',
+    aboutBio: '<img src="assets/1000045896.jpg" class="float-left w-24 md:w-36 mr-4 mb-2" alt="Portrait of Gianmarco Malandra">Gianmarco is a graphic designer and art director working on social media content, visual identity and key visuals with a focus on typography, layout and visual consistency.',
     aboutMore: "Gianmarco Malandra is a graphic and multimedia designer based in Chieti, Italy. Since 2018 he has worked with football clubs and agencies, esports teams, theatre productions, film distributors and music-tech companies, taking projects from first concept to final production files. His work spans branding, social media systems, key art and packaging, always built on a strong typographic foundation. He collaborates remotely with clients across Europe and is currently open to freelance projects and new opportunities.",
     ctaText: 'Like what you see?',
     ctaLink: 'Get in touch',
@@ -251,6 +251,8 @@ function applyLang(lang) {
   if (navAboutmeMobile) navAboutmeMobile.textContent = t.aboutme;
   if (btn) btn.textContent = lang === 'en' ? 'ITA' : 'ENG';
   if (btnMobile) btnMobile.textContent = lang === 'en' ? 'ITA' : 'ENG';
+  const btnFooter = document.getElementById('langToggle-footer');
+  if (btnFooter) btnFooter.textContent = lang === 'en' ? 'ITA' : 'ENG';
 
   // Available (footer + mobile)
   document.querySelectorAll('.i18n-available').forEach(el => el.textContent = t.available);
@@ -306,10 +308,12 @@ function applyLang(lang) {
 function initLangToggle() {
   const btn = document.getElementById('langToggle');
   const btnMobile = document.getElementById('langToggle-mobile');
+  const btnFooter = document.getElementById('langToggle-footer');
   applyLang(currentLang);
   const toggle = () => applyLang(currentLang === 'it' ? 'en' : 'it');
   if (btn) btn.addEventListener('click', toggle);
   if (btnMobile) btnMobile.addEventListener('click', toggle);
+  if (btnFooter) btnFooter.addEventListener('click', toggle);
 }
 
 function initHamburger() {
