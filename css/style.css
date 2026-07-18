@@ -152,6 +152,27 @@ body.theme-dark .project-label {
     opacity: 1;
 }
 
+/* ── Anteprima hover progetti (home) ── */
+#hover-preview {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 40;
+    width: 160px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+    opacity: 0;
+    transform: translate(28px, -50%) scale(0.96);
+    transition: opacity 0.18s ease, transform 0.18s ease;
+}
+
+#hover-preview.visible {
+    opacity: 1;
+    transform: translate(28px, -50%) scale(1);
+}
+
 /* ── Project container ── */
 #project-container {
     font-weight: 200;
