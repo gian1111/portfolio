@@ -89,52 +89,6 @@ function initLetterHover() {
 }
 
 /**
- * ANTEPRIMA HOVER (home): immagine del progetto che segue il cursore.
- * Solo su dispositivi con puntatore preciso; usa projectsData
- * (caricato dopo il paint), con fallback silenzioso se non ancora pronto.
- */
-function initHoverPreview() {
-  if (!window.matchMedia('(hover: hover) and (pointer: fine)').matches) return;
-  const container = document.getElementById('project-container');
-  if (!container) return;
-
-  const img = document.createElement('img');
-  img.id = 'hover-preview';
-  img.alt = '';
-  img.decoding = 'async';
-  document.body.appendChild(img);
-
-  function srcFor(slug) {
-    if (typeof projectsData === 'undefined') return null;
-    const p = projectsData[slug];
-    if (!p) return null;
-    const hero = p.images && p.images[0] && p.images[0].src;
-    if (hero) return hero;
-    for (const item of (p.gallery || [])) {
-      const first = item.images && item.images[0];
-      if (first && first.image && !first.image.endsWith('.mp4')) return first.image;
-    }
-    return null;
-  }
-
-  let raf = null;
-  container.addEventListener('mousemove', e => {
-    const a = e.target.closest('a[data-slug]');
-    const src = a ? srcFor(a.dataset.slug) : null;
-    if (!src) { img.classList.remove('visible'); return; }
-    if (img.getAttribute('src') !== src) img.src = src;
-    const x = e.clientX, y = e.clientY;
-    if (raf) cancelAnimationFrame(raf);
-    raf = requestAnimationFrame(() => {
-      img.style.left = x + 'px';
-      img.style.top = y + 'px';
-    });
-    img.classList.add('visible');
-  });
-  container.addEventListener('mouseleave', () => img.classList.remove('visible'));
-}
-
-/**
  * GESTIONE FILTRI
  */
 function initFilters() {
@@ -400,7 +354,6 @@ document.addEventListener('DOMContentLoaded', () => {
     setInterval(updateClock, 60000);
     initLangToggle();
     initHamburger();
-    initHoverPreview();
 
     // Lingua e lista sono già applicate qui (in modo sincrono): rivela
     // subito. Elimina il flash EN->IT senza aggiungere attesa percepita.
