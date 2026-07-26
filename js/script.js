@@ -47,7 +47,7 @@ function renderProjects() {
         </a>
         `;        
         const isLast = index === myProjects.length - 1;
-        const separator = isLast ? '' : `<span class="text-gray-200 font-sans mx-4 font-light">/</span>`;
+        const separator = isLast ? '' : `<span class="project-separator text-gray-200 font-sans mx-4 font-light">/</span>`;
         
         return projectSpan + separator;
     }).join(' ');

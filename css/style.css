@@ -1,11 +1,21 @@
 @font-face {
-    font-family: 'Satoshi-Variable';
-    src: url('../fonts/Satoshi-Variable.woff2') format('woff2'),
-         url('../fonts/Satoshi-Variable.woff') format('woff'),
-         url('../fonts/Satoshi-Variable.ttf') format('truetype');
+    font-family: 'Satoshi';
+    src: url('../Fonts/WEB/fonts/Satoshi-Variable.woff2') format('woff2'),
+         url('../Fonts/WEB/fonts/Satoshi-Variable.woff') format('woff'),
+         url('../Fonts/WEB/fonts/Satoshi-Variable.ttf') format('truetype');
     font-weight: 300 900;
     font-display: swap;
     font-style: normal;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../Fonts/WEB/fonts/Satoshi-VariableItalic.woff2') format('woff2'),
+         url('../Fonts/WEB/fonts/Satoshi-VariableItalic.woff') format('woff'),
+         url('../Fonts/WEB/fonts/Satoshi-VariableItalic.ttf') format('truetype');
+    font-weight: 300 900;
+    font-display: swap;
+    font-style: italic;
 }
 
 /* @font-face {
@@ -154,6 +164,10 @@ body.theme-dark .project-label {
 
 /* ── Project container ── */
 #project-container {
+    /* Fluida: scala con la larghezza della finestra invece di essere fissa,
+       così la resa è coerente a qualsiasi risoluzione di schermo.
+       Su mobile viene sovrascritta dalla media query in fondo al file. */
+    font-size: clamp(2.75rem, 4.6vw, 4rem);
     font-weight: 200;
     line-height: 1.0;
     letter-spacing: -0.05em;
@@ -162,6 +176,14 @@ body.theme-dark .project-label {
     text-rendering: optimizeLegibility;
     animation: fadeIn 0.8s ease-out forwards;
     font-variation-settings: 'wdth' 3;
+}
+
+/* Il separatore "/" usa lo stack di sistema (SF su macOS, Segoe UI su Windows).
+   San Francisco ha un asse 'wdth': senza questo reset erediterebbe il 'wdth' 3
+   del container e il glifo si schiaccerebbe fino a sembrare una barra verticale. */
+#project-container .project-separator {
+    font-variation-settings: normal;
+    font-stretch: normal;
 }
 
 #text-aboutme {

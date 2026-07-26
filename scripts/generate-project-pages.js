@@ -287,7 +287,7 @@ console.log(`Generate ${count} pagine in /project/`);
 const listHtml = myProjects.map((p, i) => {
   const cats = [].concat(p.category).join(' ');
   const link = `<a href="project/${p.slug}.html" data-slug="${p.slug}" data-category="${cats}" class="inline-block transition-all duration-500 ${p.style} text-black hover:text-[#F6FB6B] cursor-crosshair opacity-100">${p.name}</a>`;
-  const sep = i === myProjects.length - 1 ? '' : ` <span class="text-gray-200 font-sans mx-4 font-light">/</span>`;
+  const sep = i === myProjects.length - 1 ? '' : ` <span class="project-separator text-gray-200 font-sans mx-4 font-light">/</span>`;
   return link + sep;
 }).join(' ');
 
