@@ -1,4 +1,107 @@
 const projectsData = {
+  "starbridge": {
+
+    title: "Starbridge",
+    category: "Social Media",
+    intro:
+      "Matchday and milestone graphics for an agency with players spread across four leagues.",
+    intro_it:
+      "Grafiche matchday e traguardi per un'agenzia con giocatori sparsi su quattro campionati.",
+
+    role:
+      "Graphic Designer,<br>Art Director",
+
+    deliverables:
+      "Matchday Design, Social Media Design, Template System",
+
+    clients:
+      "Starbridge",
+
+    tools:
+      "Adobe Photoshop,<br>Illustrator, Figma",
+
+
+    body: [
+      "Starbridge has players scattered across Serie A, Serie B, Serie C and the Hungarian league, which means goals land at odd hours and the graphic has to be out before the moment passes. The answer was a template built around one number or one word, filled with a photomanipulated shot of the player, that takes ten minutes to turn around and still looks like the rest of the feed. Crests and colours change every time; the typography and the grain don't.",
+    ],
+    body_it: [
+      "Starbridge ha giocatori sparsi tra Serie A, Serie B, Serie C e campionato ungherese, il che vuol dire che i gol arrivano a orari scomodi e la grafica deve uscire prima che il momento passi. La risposta è stata un template costruito intorno a un solo numero o a una sola parola, riempito con uno scatto fotomanipolato del giocatore, che si chiude in dieci minuti e resta comunque coerente con il resto del feed. Stemmi e colori cambiano ogni volta; la tipografia e la grana no.",
+    ],
+
+    images: [
+  {
+    src: "assets/optimized-files/optimized/starbridge/tamas-backtoback.webp",
+    alt: "Tamás Galántai back-to-back goals graphic for Starbridge"
+  },
+],
+
+    gallery: [
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/starbridge/brancato-1.webp", text: "" },
+          { image: "assets/optimized-files/optimized/starbridge/ilic-debut.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/starbridge/pecorino-debu.webp", text: "" },
+        ]
+      },
+      {
+        type: "text",
+        title: "Signings & Debuts",
+        title_it: "Trasferimenti & Debutti",
+        text: "Welcomes and debuts share one layout: name in a serif italic over the event in heavy condensed caps, the player cut out against his new club's colours. Brancato was seventeen when he joined Juventus, Ilić debuted against Roma, Pecorino in Serie B. Same frame for all three, because the agency treats them the same way.",
+        text_it: "Benvenuti e debutti condividono lo stesso impianto: il nome in corsivo graziato sopra l'evento in maiuscole condensate pesanti, il giocatore scontornato sui colori del nuovo club. Brancato aveva diciassette anni quando è arrivato alla Juventus, Ilić ha debuttato contro la Roma, Pecorino in Serie B. Stessa cornice per tutti e tre, perché l'agenzia li tratta allo stesso modo."
+      },
+
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/starbridge/rares-1.webp", text: "" },
+          { image: "assets/optimized-files/optimized/starbridge/tamas-1.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/starbridge/adam-boufandar1gol.webp", text: "" },
+          { image: "assets/optimized-files/optimized/starbridge/ilic-assist.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/starbridge/tamas-backtoback.webp", text: "" },
+        ]
+      },
+      {
+        type: "text",
+        title: "Match Moments",
+        title_it: "Momenti di Gara",
+        text: "Goals and assists, out within minutes of the whistle. One word or one number does the talking, sized big enough to read while scrolling: GOAL, a yellow 2 for Ilić's two assists against Monza, FIRST GOAL for Boufandar. Galántai scored in consecutive matches against the same opponent, which was worth a wider format and both celebrations side by side.",
+        text_it: "Gol e assist, fuori a pochi minuti dal fischio. Parla una parola sola o un numero solo, abbastanza grande da leggersi mentre si scorre: GOAL, un 2 giallo per i due assist di Ilić contro il Monza, FIRST GOAL per Boufandar. Galántai ha segnato in due gare consecutive contro lo stesso avversario, e questo meritava un formato più largo con entrambe le esultanze affiancate."
+      },
+
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/starbridge/burnete-matchday.webp", text: "" },
+          { image: "assets/optimized-files/optimized/starbridge/raresburnete-romania.webp", text: "" },
+          { image: "assets/optimized-files/optimized/starbridge/domnitei-compleanno-storia.webp", text: "" },
+        ]
+      },
+      {
+        type: "text",
+        title: "Stories & Recurring Formats",
+        title_it: "Storie & Format Ricorrenti",
+        text: "The 9:16 side of the feed: matchday previews with kick-off time and venue, national team call-ups, birthdays. Stories are where the roster gets covered evenly, since they carry no expectation of a result and can go out for anyone, in any week.",
+        text_it: "Il lato 9:16 del feed: presentazione del matchday con orario e stadio, convocazioni in nazionale, compleanni. Le Storie sono il punto in cui la rosa viene coperta in modo uniforme, perché non richiedono un risultato per esistere e possono uscire per chiunque, in qualsiasi settimana."
+      },
+    ]
+  },
   "area": {
 
     title: "Area Sport",
@@ -290,6 +393,159 @@ const projectsData = {
         title: "Leo Gullotta and Fabio Grossi",
         text: "Poster design and multi-format graphics for the play In Ogni Vita la Pioggia Deve Cadere, starring Leo Gullotta and Fabio Grossi. A single visual identity adapted across print and digital formats, used as the show's official campaign across print and social. <a href=\"https://www.linkedin.com/posts/fabio-grossi-a4892b58_a-roma-dal-26-al-28-gennaio-teatro-parioli-activity-7148359869589368832-wHCY/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">LinkedIn ↗</a>",
         text_it: "Design del manifesto e grafiche multi-formato per lo spettacolo In Ogni Vita la Pioggia Deve Cadere, con Leo Gullotta e Fabio Grossi. Un'identità visiva unica declinata su formati print e digital per la produzione. Utilizzata come campagna ufficiale dello spettacolo, tra stampa e social. <a href=\"https://www.linkedin.com/posts/fabio-grossi-a4892b58_a-roma-dal-26-al-28-gennaio-teatro-parioli-activity-7148359869589368832-wHCY/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">LinkedIn ↗</a>"
+      },
+    ]
+  },
+  "campi-one": {
+
+    title: "Campi-One",
+    category: "Social Media",
+    intro:
+      "Head of Communication for a football agency working with academy and youth players.",
+    intro_it:
+      "Responsabile Comunicazione per un'agenzia di procura che segue giovani e settori giovanili.",
+
+    role:
+      "Head of Communication,<br>Art Director",
+
+    deliverables:
+      "Content Strategy, Editorial Formats, Carousel Design, Social Media Design",
+
+    clients:
+      "Campi-One",
+
+    tools:
+      "Adobe Photoshop,<br>Illustrator, Figma",
+
+
+    body: [
+      "I run communication for Campi-One, an agency whose roster is mostly teenagers moving between academies. That changes what the content has to do: a 17-year-old signing his first contract deserves the same treatment as a player joining Inter, and most of these careers have no highlight reel yet. So the work leans on carousels and written formats rather than single graphics, with a torn-paper collage style that holds together whatever two club crests end up in the same frame.",
+    ],
+    body_it: [
+      "Mi occupo della comunicazione di Campi-One, un'agenzia che ha in scuderia soprattutto ragazzi che si muovono tra settori giovanili. Questo cambia il lavoro: un diciassettenne che firma il primo contratto merita lo stesso trattamento di chi va all'Inter, e la maggior parte di queste carriere non ha ancora highlight da mostrare. Per questo il sistema si appoggia a caroselli e format scritti più che a grafiche singole, con uno stile a collage di carta strappata che regge qualsiasi coppia di stemmi finisca nella stessa inquadratura.",
+    ],
+
+    images: [
+  {
+    src: "assets/optimized-files/optimized/campi-one/antonio-kasala.webp",
+    alt: "Antonio Kasala transfer announcement carousel for Campi-One"
+  },
+],
+
+    gallery: [
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/campi-one/zambon.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/campi-one/canzian-carosello.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/campi-one/roberto-carraro-carosello.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/campi-one/antonio-kasala.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/campi-one/cavazza-contratto.webp", text: "" },
+        ]
+      },
+      {
+        type: "text",
+        title: "Transfers & First Contracts",
+        title_it: "Trasferimenti & Primi Contratti",
+        text: "Every move gets a carousel, whether it's a step between two academies or a signing at Inter. The slide order is always the same: the player, the passage from one club to the next, what he's good at, a thank-you to the club he's leaving. Keeping the structure fixed is what lets the format survive any pair of crests, including the ones nobody outside the region recognises. First professional contracts get a single frame instead, since there's no second club to show: Cavazza signing with Hellas Verona at eighteen, through to 2028.",
+        text_it: "Ogni movimento ha il suo carosello, che sia un passaggio tra due settori giovanili o la firma con l'Inter. L'ordine delle slide è sempre quello: il giocatore, il passaggio da un club all'altro, le sue caratteristiche, un saluto alla società che lascia. Tenere fissa la struttura è ciò che permette al format di reggere qualsiasi coppia di stemmi, comprese quelle che fuori dalla provincia non conosce nessuno. I primi contratti da professionista hanno invece una sola immagine, perché non c'è un secondo club da mostrare: Cavazza che firma con l'Hellas Verona a diciotto anni, fino al 2028."
+      },
+
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/campi-one/dietroiguantoni1.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/campi-one/degrandis.webp", text: "" },
+        ]
+      },
+      {
+        type: "text",
+        title: "Dietro i Guantoni",
+        title_it: "Dietro i Guantoni",
+        text: "A column about goalkeepers. One question per slide, the answer left in the player's own words, pull-quotes for the lines worth stealing. I wrote the questions and laid out each edition on the same template, recoloured to the club's kit. Goalkeepers rarely get asked anything, so they tend to talk, and the format gives the answers room.",
+        text_it: "Una rubrica sui portieri. Una domanda per slide, la risposta lasciata nelle parole del giocatore, le frasi migliori isolate come citazioni. Scrivo le domande e impagino ogni puntata sullo stesso template, ricolorato sui colori del club. Ai portieri non chiede mai niente nessuno, quindi parlano volentieri, e il format dà spazio alle risposte."
+      },
+
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/campi-one/samuelelongo.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/campi-one/tommasocarosello.webp", text: "" },
+        ]
+      },
+      {
+        type: "text",
+        title: "Player Stories",
+        title_it: "Storie dei Giocatori",
+        text: "The pieces with no news peg, planned weeks ahead: a career told across five slides instead of announced in one. Samuele Longo came through Inter and has played in four countries since, so the numbers carry the story. Tommaso Sacchetto is nineteen and has been with the club two and a half years, so the story is the work itself.",
+        text_it: "I contenuti che non dipendono da una notizia, programmati con settimane di anticipo: una carriera raccontata in cinque slide invece che annunciata in una. Samuele Longo è cresciuto nell'Inter e da allora ha giocato in quattro paesi, quindi sono i numeri a reggere il racconto. Tommaso Sacchetto ha diciannove anni ed è nel club da due anni e mezzo, quindi il racconto è il lavoro quotidiano."
+      },
+
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/campi-one/debutto-andrea.webp", text: "" },
+          { image: "assets/optimized-files/optimized/campi-one/recap-1.webp", text: "" },
+          { image: "assets/optimized-files/optimized/campi-one/motivazione-1.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/campi-one/nicolas-cocola-compleanno.webp", text: "" },
+          { image: "assets/optimized-files/optimized/campi-one/diego-campione-birthdaystories.webp", text: "" },
+        ]
+      },
+      {
+        type: "text",
+        title: "Reactive & Recurring Content",
+        title_it: "Contenuti Reattivi & Ricorrenti",
+        text: "The quick stuff between the big pieces. Debut posts go out the same night; the weekly recap gathers everyone's minutes from the round, which is how the quieter players get their turn. Zero Scuse is the agency talking in its own voice rather than about a player, a cover that opens onto a longer read. Birthdays are scheduled months ahead in 9:16.",
+        text_it: "La roba veloce tra un pezzo grande e l'altro. I post di debutto escono la sera stessa; il recap settimanale raccoglie i minuti di tutti nel turno di campionato, ed è il modo in cui tocca anche ai giocatori meno in vista. Zero Scuse è l'agenzia che parla con la propria voce invece che di un giocatore: una copertina che apre su un testo più lungo. I compleanni sono programmati con mesi di anticipo in 9:16."
+      },
+
+      {
+        type: "group",
+        images: [
+          { image: "assets/optimized-files/optimized/campi-one/gianmarco-presentazione.webp", text: "" },
+        ]
+      },
+      {
+        type: "text",
+        title: "Behind the Project",
+        title_it: "Dietro il Progetto",
+        text: "My own announcement post, made with the same collage treatment the players get. The agency introduces its staff the way it introduces signings, which is the point: the people working behind a career are part of the story too.",
+        text_it: "Il mio post di presentazione, fatto con lo stesso trattamento a collage che ricevono i giocatori. L'agenzia annuncia il proprio staff come annuncia i trasferimenti, ed è proprio questo il senso: anche chi lavora dietro una carriera fa parte del racconto."
       },
     ]
   },
@@ -1938,262 +2194,6 @@ gallery: [
         title_it: "Componenti UI & Produzione Asset",
         text: "Custom UI assets, iconography, and interface components developed from scratch using Illustrator and Photoshop to match the game's gritty visual identity.",
         text_it: "Asset UI personalizzati, iconografia e componenti dell'interfaccia sviluppati da zero con Illustrator e Photoshop per corrispondere all'identità visiva grezza del gioco."
-      },
-    ]
-  },
-  "campi-one": {
-
-    title: "Campi-One",
-    category: "Social Media",
-    intro:
-      "Head of Communication for a football agency working with academy and youth players.",
-    intro_it:
-      "Responsabile Comunicazione per un'agenzia di procura che segue giovani e settori giovanili.",
-
-    role:
-      "Head of Communication,<br>Art Director",
-
-    deliverables:
-      "Content Strategy, Editorial Formats, Carousel Design, Social Media Design",
-
-    clients:
-      "Campi-One",
-
-    tools:
-      "Adobe Photoshop,<br>Illustrator, Figma",
-
-
-    body: [
-      "I run communication for Campi-One, an agency whose roster is mostly teenagers moving between academies. That changes what the content has to do: a 17-year-old signing his first contract deserves the same treatment as a player joining Inter, and most of these careers have no highlight reel yet. So the work leans on carousels and written formats rather than single graphics, with a torn-paper collage style that holds together whatever two club crests end up in the same frame.",
-    ],
-    body_it: [
-      "Mi occupo della comunicazione di Campi-One, un'agenzia che ha in scuderia soprattutto ragazzi che si muovono tra settori giovanili. Questo cambia il lavoro: un diciassettenne che firma il primo contratto merita lo stesso trattamento di chi va all'Inter, e la maggior parte di queste carriere non ha ancora highlight da mostrare. Per questo il sistema si appoggia a caroselli e format scritti più che a grafiche singole, con uno stile a collage di carta strappata che regge qualsiasi coppia di stemmi finisca nella stessa inquadratura.",
-    ],
-
-    images: [
-  {
-    src: "assets/optimized-files/optimized/campi-one/antonio-kasala.webp",
-    alt: "Antonio Kasala transfer announcement carousel for Campi-One"
-  },
-],
-
-    gallery: [
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/campi-one/zambon.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/campi-one/canzian-carosello.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/campi-one/roberto-carraro-carosello.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/campi-one/antonio-kasala.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/campi-one/cavazza-contratto.webp", text: "" },
-        ]
-      },
-      {
-        type: "text",
-        title: "Transfers & First Contracts",
-        title_it: "Trasferimenti & Primi Contratti",
-        text: "Every move gets a carousel, whether it's a step between two academies or a signing at Inter. The slide order is always the same: the player, the passage from one club to the next, what he's good at, a thank-you to the club he's leaving. Keeping the structure fixed is what lets the format survive any pair of crests, including the ones nobody outside the region recognises. First professional contracts get a single frame instead, since there's no second club to show: Cavazza signing with Hellas Verona at eighteen, through to 2028.",
-        text_it: "Ogni movimento ha il suo carosello, che sia un passaggio tra due settori giovanili o la firma con l'Inter. L'ordine delle slide è sempre quello: il giocatore, il passaggio da un club all'altro, le sue caratteristiche, un saluto alla società che lascia. Tenere fissa la struttura è ciò che permette al format di reggere qualsiasi coppia di stemmi, comprese quelle che fuori dalla provincia non conosce nessuno. I primi contratti da professionista hanno invece una sola immagine, perché non c'è un secondo club da mostrare: Cavazza che firma con l'Hellas Verona a diciotto anni, fino al 2028."
-      },
-
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/campi-one/dietroiguantoni1.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/campi-one/degrandis.webp", text: "" },
-        ]
-      },
-      {
-        type: "text",
-        title: "Dietro i Guantoni",
-        title_it: "Dietro i Guantoni",
-        text: "A column about goalkeepers. One question per slide, the answer left in the player's own words, pull-quotes for the lines worth stealing. I wrote the questions and laid out each edition on the same template, recoloured to the club's kit. Goalkeepers rarely get asked anything, so they tend to talk, and the format gives the answers room.",
-        text_it: "Una rubrica sui portieri. Una domanda per slide, la risposta lasciata nelle parole del giocatore, le frasi migliori isolate come citazioni. Scrivo le domande e impagino ogni puntata sullo stesso template, ricolorato sui colori del club. Ai portieri non chiede mai niente nessuno, quindi parlano volentieri, e il format dà spazio alle risposte."
-      },
-
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/campi-one/samuelelongo.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/campi-one/tommasocarosello.webp", text: "" },
-        ]
-      },
-      {
-        type: "text",
-        title: "Player Stories",
-        title_it: "Storie dei Giocatori",
-        text: "The pieces with no news peg, planned weeks ahead: a career told across five slides instead of announced in one. Samuele Longo came through Inter and has played in four countries since, so the numbers carry the story. Tommaso Sacchetto is nineteen and has been with the club two and a half years, so the story is the work itself.",
-        text_it: "I contenuti che non dipendono da una notizia, programmati con settimane di anticipo: una carriera raccontata in cinque slide invece che annunciata in una. Samuele Longo è cresciuto nell'Inter e da allora ha giocato in quattro paesi, quindi sono i numeri a reggere il racconto. Tommaso Sacchetto ha diciannove anni ed è nel club da due anni e mezzo, quindi il racconto è il lavoro quotidiano."
-      },
-
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/campi-one/debutto-andrea.webp", text: "" },
-          { image: "assets/optimized-files/optimized/campi-one/recap-1.webp", text: "" },
-          { image: "assets/optimized-files/optimized/campi-one/motivazione-1.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/campi-one/nicolas-cocola-compleanno.webp", text: "" },
-          { image: "assets/optimized-files/optimized/campi-one/diego-campione-birthdaystories.webp", text: "" },
-        ]
-      },
-      {
-        type: "text",
-        title: "Reactive & Recurring Content",
-        title_it: "Contenuti Reattivi & Ricorrenti",
-        text: "The quick stuff between the big pieces. Debut posts go out the same night; the weekly recap gathers everyone's minutes from the round, which is how the quieter players get their turn. Zero Scuse is the agency talking in its own voice rather than about a player, a cover that opens onto a longer read. Birthdays are scheduled months ahead in 9:16.",
-        text_it: "La roba veloce tra un pezzo grande e l'altro. I post di debutto escono la sera stessa; il recap settimanale raccoglie i minuti di tutti nel turno di campionato, ed è il modo in cui tocca anche ai giocatori meno in vista. Zero Scuse è l'agenzia che parla con la propria voce invece che di un giocatore: una copertina che apre su un testo più lungo. I compleanni sono programmati con mesi di anticipo in 9:16."
-      },
-
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/campi-one/gianmarco-presentazione.webp", text: "" },
-        ]
-      },
-      {
-        type: "text",
-        title: "Behind the Project",
-        title_it: "Dietro il Progetto",
-        text: "My own announcement post, made with the same collage treatment the players get. The agency introduces its staff the way it introduces signings, which is the point: the people working behind a career are part of the story too.",
-        text_it: "Il mio post di presentazione, fatto con lo stesso trattamento a collage che ricevono i giocatori. L'agenzia annuncia il proprio staff come annuncia i trasferimenti, ed è proprio questo il senso: anche chi lavora dietro una carriera fa parte del racconto."
-      },
-    ]
-  },
-  "starbridge": {
-
-    title: "Starbridge",
-    category: "Social Media",
-    intro:
-      "Matchday and milestone graphics for an agency with players spread across four leagues.",
-    intro_it:
-      "Grafiche matchday e traguardi per un'agenzia con giocatori sparsi su quattro campionati.",
-
-    role:
-      "Graphic Designer,<br>Art Director",
-
-    deliverables:
-      "Matchday Design, Social Media Design, Template System",
-
-    clients:
-      "Starbridge",
-
-    tools:
-      "Adobe Photoshop,<br>Illustrator, Figma",
-
-
-    body: [
-      "Starbridge has players scattered across Serie A, Serie B, Serie C and the Hungarian league, which means goals land at odd hours and the graphic has to be out before the moment passes. The answer was a template built around one number or one word, filled with a photomanipulated shot of the player, that takes ten minutes to turn around and still looks like the rest of the feed. Crests and colours change every time; the typography and the grain don't.",
-    ],
-    body_it: [
-      "Starbridge ha giocatori sparsi tra Serie A, Serie B, Serie C e campionato ungherese, il che vuol dire che i gol arrivano a orari scomodi e la grafica deve uscire prima che il momento passi. La risposta è stata un template costruito intorno a un solo numero o a una sola parola, riempito con uno scatto fotomanipolato del giocatore, che si chiude in dieci minuti e resta comunque coerente con il resto del feed. Stemmi e colori cambiano ogni volta; la tipografia e la grana no.",
-    ],
-
-    images: [
-  {
-    src: "assets/optimized-files/optimized/starbridge/tamas-backtoback.webp",
-    alt: "Tamás Galántai back-to-back goals graphic for Starbridge"
-  },
-],
-
-    gallery: [
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/starbridge/brancato-1.webp", text: "" },
-          { image: "assets/optimized-files/optimized/starbridge/ilic-debut.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/starbridge/pecorino-debu.webp", text: "" },
-        ]
-      },
-      {
-        type: "text",
-        title: "Signings & Debuts",
-        title_it: "Trasferimenti & Debutti",
-        text: "Welcomes and debuts share one layout: name in a serif italic over the event in heavy condensed caps, the player cut out against his new club's colours. Brancato was seventeen when he joined Juventus, Ilić debuted against Roma, Pecorino in Serie B. Same frame for all three, because the agency treats them the same way.",
-        text_it: "Benvenuti e debutti condividono lo stesso impianto: il nome in corsivo graziato sopra l'evento in maiuscole condensate pesanti, il giocatore scontornato sui colori del nuovo club. Brancato aveva diciassette anni quando è arrivato alla Juventus, Ilić ha debuttato contro la Roma, Pecorino in Serie B. Stessa cornice per tutti e tre, perché l'agenzia li tratta allo stesso modo."
-      },
-
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/starbridge/rares-1.webp", text: "" },
-          { image: "assets/optimized-files/optimized/starbridge/tamas-1.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/starbridge/adam-boufandar1gol.webp", text: "" },
-          { image: "assets/optimized-files/optimized/starbridge/ilic-assist.webp", text: "" },
-        ]
-      },
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/starbridge/tamas-backtoback.webp", text: "" },
-        ]
-      },
-      {
-        type: "text",
-        title: "Match Moments",
-        title_it: "Momenti di Gara",
-        text: "Goals and assists, out within minutes of the whistle. One word or one number does the talking, sized big enough to read while scrolling: GOAL, a yellow 2 for Ilić's two assists against Monza, FIRST GOAL for Boufandar. Galántai scored in consecutive matches against the same opponent, which was worth a wider format and both celebrations side by side.",
-        text_it: "Gol e assist, fuori a pochi minuti dal fischio. Parla una parola sola o un numero solo, abbastanza grande da leggersi mentre si scorre: GOAL, un 2 giallo per i due assist di Ilić contro il Monza, FIRST GOAL per Boufandar. Galántai ha segnato in due gare consecutive contro lo stesso avversario, e questo meritava un formato più largo con entrambe le esultanze affiancate."
-      },
-
-      {
-        type: "group",
-        images: [
-          { image: "assets/optimized-files/optimized/starbridge/burnete-matchday.webp", text: "" },
-          { image: "assets/optimized-files/optimized/starbridge/raresburnete-romania.webp", text: "" },
-          { image: "assets/optimized-files/optimized/starbridge/domnitei-compleanno-storia.webp", text: "" },
-        ]
-      },
-      {
-        type: "text",
-        title: "Stories & Recurring Formats",
-        title_it: "Storie & Format Ricorrenti",
-        text: "The 9:16 side of the feed: matchday previews with kick-off time and venue, national team call-ups, birthdays. Stories are where the roster gets covered evenly, since they carry no expectation of a result and can go out for anyone, in any week.",
-        text_it: "Il lato 9:16 del feed: presentazione del matchday con orario e stadio, convocazioni in nazionale, compleanni. Le Storie sono il punto in cui la rosa viene coperta in modo uniforme, perché non richiedono un risultato per esistere e possono uscire per chiunque, in qualsiasi settimana."
       },
     ]
   },

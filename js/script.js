@@ -3,9 +3,11 @@
  */
 const myProjects = [
     // { name: "SSC Napoli", slug: "ssc-napoli", style: "", category: "social"},
+    { name: "Starbridge", slug:"starbridge", style: "", category: "social" },
     { name: "Area Sport", slug:"area", style: "", category: "branding" },
     { name: "Juventus FC", slug:"juventus", style: "", category: "social" },
     { name: "Stefano Francioni", slug: "stefano-francioni", style: "", category: "art-direction" },
+    { name: "Campi-One", slug:"campi-one", style: "", category: "social" },
     { name: "Football Social Media Design", slug:"social-media", style: "", category: "social" },
     { name: "FractureSounds", slug: "fracturesounds",style: "", category: "social" },
     { name: "CoVince", slug:"covince", style: "", category: ["uxui", "branding"] },
@@ -18,8 +20,6 @@ const myProjects = [
     { name: "Dinosound", slug: "dinosound", style: "", category: "uxui" },
     { name: "The Seventh Peak", slug:"seventh", style: "", category: "uxui" },
     { name: "Berserk: The Long Night", slug:"berserk", style: "", category: "uxui" },
-    { name: "Campi-One", slug:"campi-one", style: "", category: "social" },
-    { name: "Starbridge", slug:"starbridge", style: "", category: "social" },
 ];
 
 let activeFilter = 'all';
