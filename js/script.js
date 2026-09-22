@@ -18,7 +18,8 @@ const myProjects = [
     { name: "Dinosound", slug: "dinosound", style: "", category: "uxui" },
     { name: "The Seventh Peak", slug:"seventh", style: "", category: "uxui" },
     { name: "Berserk: The Long Night", slug:"berserk", style: "", category: "uxui" },
-
+    { name: "Campi-One", slug:"campi-one", style: "", category: "social" },
+    { name: "Starbridge", slug:"starbridge", style: "", category: "social" },
 ];
 
 let activeFilter = 'all';
