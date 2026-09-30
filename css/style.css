@@ -89,7 +89,7 @@ body.leaving {
 /* ── Dark mode overrides (improved contrast) ── */
 body.theme-dark {
     background: #04131A !important; /* deep, near-black teal */
-    color: #F8FAFC !important;      /* almost pure white for high contrast */
+    color: #CBD5E1 !important;      /* grigio chiaro: meno abbagliante del bianco pieno */
 }
 
 body.theme-dark .bg-white {
@@ -97,7 +97,7 @@ body.theme-dark .bg-white {
 }
 
 body.theme-dark .text-black {
-    color: #F8FAFC !important;
+    color: #CBD5E1 !important;
 }
 
 /* invert utility backgrounds carefully */
@@ -118,9 +118,10 @@ body.theme-dark .text-gray-400 {
     color: #9CA3AF !important;
 }
 
-/* Hover dei link: in dark schiarisce invece di scurire, restando leggibile */
+/* Hover dei link: attenua come nel tema chiaro (nero -> gray-500), partendo
+   dal #CBD5E1 del testo base e restando sopra AA. */
 body.theme-dark .hover\:text-gray-500:hover {
-    color: #CBD5E1 !important;
+    color: #9CA3AF !important;
 }
 
 /* Make small/light text more legible */
@@ -134,11 +135,11 @@ body.theme-dark a.underline, body.theme-dark .underline {
 }
 
 body.theme-dark .theme-toggle-nav {
-    color: #F8FAFC;
+    color: #CBD5E1;
 }
 
 body.theme-dark .circle-text {
-    fill: #F8FAFC;
+    fill: #CBD5E1;
 }
 
 body.theme-dark .project-label {
@@ -276,7 +277,7 @@ body.theme-dark #mobile-menu .text-gray-500 {
 }
 
 body.theme-dark #hamburger-toggle .hamburger-icon span {
-    background-color: #F8FAFC;
+    background-color: #CBD5E1;
 }
 
 #hamburger-toggle.active .hamburger-icon span:first-child {
@@ -313,7 +314,7 @@ body.theme-dark #mobile-menu {
 
 body.theme-dark #mobile-menu a,
 body.theme-dark #mobile-menu button {
-    color: #F8FAFC;
+    color: #CBD5E1;
 }
 
 body.theme-dark #mobile-menu .border-t {
