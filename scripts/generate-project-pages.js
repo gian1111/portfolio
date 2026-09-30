@@ -193,7 +193,7 @@ function fillById(html, id, content) {
 function fillImg(html, id, item, projectTitle) {
   const re = new RegExp(`<img id="${id}" src="" alt=""`);
   if (!item?.src) return html.replace(re, `<img id="${id}" src="" alt="" hidden`);
-  const alt = escapeAttr(item.alt || `${stripHtml(projectTitle)} — hero image`);
+  const alt = escapeAttr(item.alt || `${stripHtml(projectTitle)} hero image`);
   return html.replace(re, `<img id="${id}" src="${toThumb(item.src)}" data-full="${toWebP(item.src)}" alt="${alt}"`);
 }
 
@@ -209,7 +209,7 @@ for (const [slug, project] of Object.entries(projectsData)) {
   const title = `${stripHtml(project.title)} | Gianmarco Malandra`;
   const description = truncate(
     stripHtml(project.intro) || stripHtml(project.body?.[0]) ||
-    `${stripHtml(project.title)} — a project by Gianmarco Malandra, graphic designer and art director.`,
+    `${stripHtml(project.title)}, a project by Gianmarco Malandra, graphic designer and art director.`,
     160
   );
   const pageUrl = `${SITE_URL}/project/${slug}.html`;

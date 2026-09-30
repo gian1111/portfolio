@@ -90,7 +90,7 @@ if (project) {
     el.hidden = false;
     el.src = toThumb(src);
     el.dataset.full = toWebP(src);
-    el.alt = item.alt || `${project.title} — hero image`;
+    el.alt = item.alt || `${project.title} hero image`;
   }
 
   setHero("project-image-1", project.images?.[0]);

@@ -88,6 +88,12 @@ const projectsData = {
       {
         type: "group",
         images: [
+          { image: "assets/optimized-files/optimized/starbridge/burnete-qualification.webp", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
           { image: "assets/optimized-files/optimized/starbridge/burnete-matchday.webp", text: "" },
           { image: "assets/optimized-files/optimized/starbridge/raresburnete-romania.webp", text: "" },
           { image: "assets/optimized-files/optimized/starbridge/domnitei-compleanno-storia.webp", text: "" },
@@ -95,10 +101,10 @@ const projectsData = {
       },
       {
         type: "text",
-        title: "Stories & Recurring Formats",
-        title_it: "Storie & Format Ricorrenti",
-        text: "The 9:16 side of the feed: matchday previews with kick-off time and venue, national team call-ups, birthdays. Stories are where the roster gets covered evenly, since they carry no expectation of a result and can go out for anyone, in any week.",
-        text_it: "Il lato 9:16 del feed: presentazione del matchday con orario e stadio, convocazioni in nazionale, compleanni. Le Storie sono il punto in cui la rosa viene coperta in modo uniforme, perché non richiedono un risultato per esistere e possono uscire per chiunque, in qualsiasi settimana."
+        title: "Call-ups, Stories & Recurring Formats",
+        title_it: "Convocazioni, Storie & Format Ricorrenti",
+        text: "International call-ups get a frame of their own: Burnete's three U21 Euro qualifiers listed with dates, kick-off times and both flags, so the graphic stays current for the whole window instead of a single night. The rest is the 9:16 side of the feed: matchday previews with kick-off time and venue, national team call-ups, birthdays. Stories are where the roster gets covered evenly, since they carry no expectation of a result and can go out for anyone, in any week.",
+        text_it: "Le convocazioni in nazionale hanno una cornice a sé: i tre impegni di Burnete nelle qualificazioni agli Europei U21 elencati con date, orari e bandiere, così la grafica resta valida per tutta la finestra invece che per una sera sola. Il resto è il lato 9:16 del feed: presentazione del matchday con orario e stadio, convocazioni in nazionale, compleanni. Le Storie sono il punto in cui la rosa viene coperta in modo uniforme, perché non richiedono un risultato per esistere e possono uscire per chiunque, in qualsiasi settimana."
       },
     ]
   },
@@ -205,10 +211,10 @@ const projectsData = {
 
 
     body: [
-      "A collection of social media design concepts for Juventus. Personal project showcasing alternative visual directions for the club.",
+      "A collection of social media design concepts for Juventus. A personal project, made to try visual directions the club does not use.",
     ],
     body_it: [
-      "Una raccolta di concept di design per i social media della Juventus. Progetto personale che mostra direzioni visive alternative per il club.",
+      "Una raccolta di concept di design per i social media della Juventus. Progetto personale, per provare direzioni visive che il club non usa.",
     ],
 
     images: [
@@ -249,8 +255,8 @@ const projectsData = {
       {
         type: "text",
         title: "Juventus FC",
-        text: "A collection of social media design concepts for Juventus. Personal project showcasing alternative visual directions for the club.",
-        text_it: "Una raccolta di concept di design per i social media della Juventus. Progetto personale che mostra direzioni visive alternative per il club."
+        text: "A collection of social media design concepts for Juventus. A personal project, made to try visual directions the club does not use.",
+        text_it: "Una raccolta di concept di design per i social media della Juventus. Progetto personale, per provare direzioni visive che il club non usa."
       },
     ]
   },
@@ -474,6 +480,21 @@ const projectsData = {
       {
         type: "group",
         images: [
+          { image: "assets/optimized-files/optimized/campi-one/zedda1.webp", text: "" },
+          { image: "assets/optimized-files/optimized/campi-one/zedda2.webp", text: "" },
+        ]
+      },
+      {
+        type: "text",
+        title: "<a href=\"https://www.instagram.com/p/Dd4L5MxjRpm/?img_index=1\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Diego Zedda - Goal Carousel ↗</a>",
+        title_it: "<a href=\"https://www.instagram.com/p/Dd4L5MxjRpm/?img_index=1\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Diego Zedda - Carosello Gol ↗</a>",
+        text: "Two slides. The first introduces him: attacking midfielder, eighteen, Cittadella U20. The second logs the goals as crest against crest, with a ball marking the side he scored for. Venezia, Modena, Udinese. At this age there is no highlight reel to cut from, so the scoreline has to carry it, and the second slide is really just a results table that looks like a graphic.",
+        text_it: "Due slide. La prima lo presenta: trequartista, diciotto anni, Cittadella U20. La seconda registra i gol come stemma contro stemma, con un pallone a segnare la squadra per cui ha segnato. Venezia, Modena, Udinese. A quest'età non c'è un video da cui ritagliare highlight, quindi deve reggere il tabellino, e la seconda slide in fondo è una tabella di risultati che sembra una grafica."
+      },
+
+      {
+        type: "group",
+        images: [
           { image: "assets/optimized-files/optimized/campi-one/dietroiguantoni1.webp", text: "" },
         ]
       },
@@ -647,8 +668,8 @@ const projectsData = {
       {
         type: "text",
         title: "AS Lecce",
-        text: "A comprehensive visual identity and social media system designed for the club's matchday coverage.",
-        text_it: "Un sistema completo di identità visiva e social media progettato per la copertura matchday del club."
+        text: "A visual identity and social media system for the club's matchday coverage.",
+        text_it: "Un sistema di identità visiva e social media per la copertura matchday del club."
       },
 
       {
@@ -669,14 +690,15 @@ const projectsData = {
         type: "group",
         images: [
           { image: "assets/optimized-files/optimized/social-media/sergi-getwell.webp", text: "" },
+          { image: "assets/optimized-files/optimized/social-media/class-is-timeless.webp", text: "" },
         ]
       },
       {
         type: "text",
         title: "<a href=\"https://www.instagram.com/p/DdPykjfvrQs/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">LA Galaxy ↗</a>",
         title_it: "<a href=\"https://www.instagram.com/p/DdPykjfvrQs/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">LA Galaxy ↗</a>",
-        text: "A get-well post for Sergi Roberto after his injury, built on the warm gradient and palm-tree skyline of the LA Galaxy identity. The crown is the fans' nickname for him made literal, which is the kind of detail that decides whether a club post reads as affection or as an obligation.",
-        text_it: "Un post di auguri di pronta guarigione per Sergi Roberto dopo l'infortunio, costruito sul gradiente caldo e sullo skyline di palme dell'identità LA Galaxy. La corona è il soprannome che gli danno i tifosi preso alla lettera, ed è il tipo di dettaglio che decide se un post di club si legge come affetto o come un atto dovuto."
+        text: "A get-well post for Sergi Roberto after his injury, built on the warm gradient and palm-tree skyline of the LA Galaxy identity. The crown is the fans' nickname for him made literal, which is the kind of detail that decides whether a club post reads as affection or as an obligation. The second frame works the other way round: no news, no scoreline, just a portrait dragged through light streaks until the colours land on the Galaxy palette, with CLASS IS TIMELESS set wide enough in serif caps to hold the whole post together.",
+        text_it: "Un post di auguri di pronta guarigione per Sergi Roberto dopo l'infortunio, costruito sul gradiente caldo e sullo skyline di palme dell'identità LA Galaxy. La corona è il soprannome che gli danno i tifosi preso alla lettera, ed è il tipo di dettaglio che decide se un post di club si legge come affetto o come un atto dovuto. Il secondo frame va nella direzione opposta: nessuna notizia, nessun risultato, solo un ritratto attraversato da scie di luce finché i colori non cadono sulla palette Galaxy, con CLASS IS TIMELESS in maiuscole graziate abbastanza larghe da tenere insieme tutto il post."
       },
 
 
@@ -734,8 +756,8 @@ const projectsData = {
       {
         type: "text",
         title: "String Formations",
-        text: "Visual identity, background artwork and logo design for String Formations, a 2024 sample library release by Fracture Sounds. The aesthetic was built to capture the essence of the library's unique soundscapes. Used as the product's official identity across its store page and marketing for the commercial release. <a href=\"https://www.youtube.com/watch?v=RFSRO49tCbE\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">YouTube ↗</a>",
-        text_it: "Identità visiva, artwork di sfondo e design del logo per String Formations, una sample library del 2024 di Fracture Sounds. L'estetica è stata costruita per catturare l'essenza dei soundscape unici della libreria. Utilizzata come identità ufficiale del prodotto, sulla pagina store e nei materiali di lancio commerciale. <a href=\"https://www.youtube.com/watch?v=RFSRO49tCbE\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">YouTube ↗</a>"
+        text: "Visual identity, background artwork and logo design for String Formations, a 2024 sample library release by Fracture Sounds. The artwork takes its cues from how the library actually sounds. Used as the product's official identity across its store page and marketing for the commercial release. <a href=\"https://www.youtube.com/watch?v=RFSRO49tCbE\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">YouTube ↗</a>",
+        text_it: "Identità visiva, artwork di sfondo e design del logo per String Formations, una sample library del 2024 di Fracture Sounds. L'artwork parte da come suona davvero la libreria. Utilizzata come identità ufficiale del prodotto, sulla pagina store e nei materiali di lancio commerciale. <a href=\"https://www.youtube.com/watch?v=RFSRO49tCbE\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">YouTube ↗</a>"
       },
 
       {
@@ -754,8 +776,8 @@ const projectsData = {
       {
         type: "text",
         title: "Moonlight Celeste",
-        text: "Visual identity, background artwork and logo design for Moonlight Celeste, a 2024 sample library release by Fracture Sounds. The visuals were crafted to match the instrument's delicate, atmospheric tone. Used as the product's official identity across its store page and marketing for the commercial release. <a href=\"https://fracturesounds.com/product/moonlight-celeste/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Shop ↗</a>",
-        text_it: "Identità visiva, artwork di sfondo e design del logo per Moonlight Celeste, una sample library del 2024 di Fracture Sounds. I visual sono stati costruiti per rispecchiare il tono delicato e atmosferico dello strumento. Utilizzata come identità ufficiale del prodotto, sulla pagina store e nei materiali di lancio commerciale. <a href=\"https://fracturesounds.com/product/moonlight-celeste/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Shop ↗</a>"
+        text: "Visual identity, background artwork and logo design for Moonlight Celeste, a 2024 sample library release by Fracture Sounds. The visuals follow the instrument's delicate, atmospheric tone. Used as the product's official identity across its store page and marketing for the commercial release. <a href=\"https://fracturesounds.com/product/moonlight-celeste/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Shop ↗</a>",
+        text_it: "Identità visiva, artwork di sfondo e design del logo per Moonlight Celeste, una sample library del 2024 di Fracture Sounds. I visual seguono il tono delicato e atmosferico dello strumento. Utilizzata come identità ufficiale del prodotto, sulla pagina store e nei materiali di lancio commerciale. <a href=\"https://fracturesounds.com/product/moonlight-celeste/\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Shop ↗</a>"
       },
 
       {
@@ -792,8 +814,8 @@ const projectsData = {
         type: "text",
         title: "Piano Month - Campaign",
         title_it: "Piano Month - Campagna",
-        text: "Visual campaign designs for Fracture Sounds 'Piano Month' sales event. Developed three distinct creative directions for each product bundle, executing the vision across both static assets and dynamic video animations.",
-        text_it: "Design di campagna visual per l'evento di saldi 'Piano Month' di Fracture Sounds. Sviluppate tre direzioni creative distinte per ogni bundle di prodotti, eseguendo la visione sia su asset statici che su animazioni video dinamiche."
+        text: "Visual campaign designs for Fracture Sounds 'Piano Month' sales event. Three separate creative directions for each bundle, carried across static assets and video animations.",
+        text_it: "Design di campagna visual per l'evento di saldi 'Piano Month' di Fracture Sounds. Tre direzioni creative distinte per ogni bundle, portate sia sugli asset statici sia sulle animazioni video."
       },
     ]
   },
@@ -820,10 +842,10 @@ const projectsData = {
 
 
     body: [
-      "A collection of work created during my time at CoVince since 2024: from redesigning the dashboard and core product screens, to flyer design for Syner Suite, to the visual design of a fully immersive room with wall-to-wall screens built for live events. The work also spans motion graphics and UX/UI design, blending digital and physical design in a way that called for a different approach each time",
+      "A collection of work created during my time at CoVince since 2024: from redesigning the dashboard and core product screens, to flyer design for Syner Suite, to the visual design of a room with wall-to-wall screens built for live events. The work also spans motion graphics and UX/UI design, blending digital and physical design in a way that called for a different approach each time",
     ],
     body_it: [
-      "Una raccolta di lavori realizzati durante la mia esperienza in CoVince dal 2024: dal redesign della dashboard e delle schermate principali del prodotto, passando per il design di flyer per Syner Suite, fino alla progettazione visiva di una stanza immersiva con schermi a parete pensata per eventi dal vivo. Il percorso include anche motion graphics e UX/UI design, in un mix di lavoro digitale e fisico che ha richiesto un approccio diverso ogni volta.",
+      "Una raccolta di lavori realizzati durante la mia esperienza in CoVince dal 2024: dal redesign della dashboard e delle schermate principali del prodotto, passando per il design di flyer per Syner Suite, fino alla progettazione visiva di una stanza con schermi a parete pensata per eventi dal vivo. Il percorso include anche motion graphics e UX/UI design, in un mix di lavoro digitale e fisico che ha richiesto un approccio diverso ogni volta.",
     ],
 
     images: [
@@ -964,7 +986,7 @@ const projectsData = {
         type: "text",
         title: "Dashboard Redesign",
         title_it: "Redesign della Dashboard",
-        text: "A full redesign of the CoVince home dashboard, reorganised into three focused columns: Journeys, Timeline and Calendar/Events. A refreshed dark UI surfaces the community feed, to-dos and scheduled work at a glance. The redesign was adopted by the team and is now in active use, improving navigation and day-to-day engagement.",
+        text: "A full redesign of the CoVince home dashboard, reorganised into three focused columns: Journeys, Timeline and Calendar/Events. A refreshed dark UI surfaces the community feed, to-dos and scheduled work at a glance. The redesign was adopted by the team and is now in active use, with clearer navigation and more day-to-day use.",
         text_it: "Redesign completo della home dashboard di CoVince, riorganizzata in tre colonne: Journeys, Timeline e Calendar/Events. Una UI dark rinnovata mette in evidenza community feed, to-do e attività pianificate a colpo d'occhio. Adottata dal team e ora in uso attivo, con una navigazione più chiara e un maggior utilizzo quotidiano."
       },
 
@@ -1036,8 +1058,8 @@ const projectsData = {
         type: "text",
         title: "SmartNote Redesign",
         title_it: "Redesign di SmartNote",
-        text: "A redesign of SmartNote, the in-platform note tool: a cleaner note panel with a quick-action toolbar (article, audio, image, assign) paired with a threaded Comments & History panel supporting replies, attachments and voice memos. Shipped and in active use, streamlining how the team captures and shares notes inside the platform.",
-        text_it: "Redesign di SmartNote, lo strumento note interno alla piattaforma: un pannello note più pulito con toolbar ad azioni rapide (articolo, audio, immagine, assegna), affiancato da un pannello Commenti & Cronologia con thread, risposte, allegati e memo vocali. Rilasciato e in uso attivo, rende più fluido il modo in cui il team crea e condivide note nella piattaforma."
+        text: "A redesign of SmartNote, the in-platform note tool: a cleaner note panel with a quick-action toolbar (article, audio, image, assign) paired with a threaded Comments & History panel supporting replies, attachments and voice memos. Shipped and in active use for capturing and sharing notes inside the platform.",
+        text_it: "Redesign di SmartNote, lo strumento note interno alla piattaforma: un pannello note più pulito con toolbar ad azioni rapide (articolo, audio, immagine, assegna), affiancato da un pannello Commenti & Cronologia con thread, risposte, allegati e memo vocali. Rilasciato e in uso attivo per creare e condividere note nella piattaforma."
       },
 
 
@@ -1069,8 +1091,8 @@ const projectsData = {
         type: "text",
         title: "SwipeSlides",
         title_it: "SwipeSlides",
-        text: "SwipeSlides, an AI storyboard tool: each slide pairs a voice-over script with image and video generation prompts, letting users build a narrated visual story and push the generated media straight into a Smart Note. The redesign made the flow simpler and more intuitive, easier for users to pick up and build with.",
-        text_it: "SwipeSlides, uno strumento di storyboard AI: ogni slide abbina uno script di voice-over a prompt per la generazione di immagini e video, permettendo di costruire una storia visiva narrata e di mandare i media generati direttamente in una Smart Note. Ridisegnato per un flusso più semplice e intuitivo, ora più facile da usare e da padroneggiare."
+        text: "SwipeSlides, an AI storyboard tool: each slide pairs a voice-over script with image and video generation prompts, letting users build a narrated visual story and push the generated media straight into a Smart Note. The redesign cut the flow down to fewer steps and made it easier to pick up.",
+        text_it: "SwipeSlides, uno strumento di storyboard AI: ogni slide abbina uno script di voice-over a prompt per la generazione di immagini e video, permettendo di costruire una storia visiva narrata e di mandare i media generati direttamente in una Smart Note. Ridisegnato per un flusso con meno passaggi e più facile da imparare."
       },
     ]
   },
@@ -1120,8 +1142,8 @@ const projectsData = {
       {
         type: "text",
         title: "Moodboard",
-        text: "A curated system of visual references built early on to define the project's visual language and aesthetic, setting the palette, mood and cinematic tone before moving into artwork production.",
-        text_it: "Un sistema curato di riferimenti visivi costruito nella fase iniziale per definire il linguaggio e l'estetica del progetto, fissando palette, atmosfera e tono cinematografico prima di passare alla produzione dell'artwork."
+        text: "Visual references gathered early to fix the palette, the mood and the cinematic tone before any artwork started.",
+        text_it: "Riferimenti visivi raccolti all'inizio per fissare palette, atmosfera e tono cinematografico prima di cominciare l'artwork."
       },
       {
         type: "group",
@@ -1148,8 +1170,8 @@ const projectsData = {
         type: "text",
         title: "Marketing Banners & Campaign Rollout",
         title_it: "Banner Marketing & Lancio della Campagna",
-        text: "Horizontal banners adapted for digital advertising and display networks. In line with the campaign's core strategy, these assets rotate the focus across different characters to maximise engagement across audiences and platforms. Ran live in the film's advertising campaign, across display networks and digital channels.",
-        text_it: "Banner orizzontali adattati per la pubblicità digitale e le reti display. In linea con la strategia principale della campagna, questi asset alternano il focus sui diversi personaggi per massimizzare l'engagement tra pubblici e piattaforme. Andati live nella campagna pubblicitaria del film, sulle reti display e sui canali digitali."
+        text: "Horizontal banners adapted for digital advertising and display networks. Like the key art, they rotate the focus across different characters, so the same campaign can lead with whichever one suits the placement. Ran live in the film's advertising campaign, across display networks and digital channels.",
+        text_it: "Banner orizzontali adattati per la pubblicità digitale e le reti display. Come la key art, alternano il focus sui diversi personaggi, così la stessa campagna può aprire con quello più adatto allo spazio. Andati live nella campagna pubblicitaria del film, sulle reti display e sui canali digitali."
       },
       {
         type: "group",
@@ -1161,8 +1183,8 @@ const projectsData = {
         type: "text",
         title: "Digital Distribution & Streaming Presence",
         title_it: "Distribuzione Digitale & Presenza in Streaming",
-        text: "A showcase of the official key art and marketing materials integrated across major industry platforms, including Amazon Prime Video, Letterboxd, IMDb, and Rotten Tomatoes.",
-        text_it: "Una presentazione della key art ufficiale e dei materiali di marketing integrati nelle principali piattaforme del settore, tra cui Amazon Prime Video, Letterboxd, IMDb e Rotten Tomatoes."
+        text: "The official key art and marketing materials as they appear on Amazon Prime Video, Letterboxd, IMDb and Rotten Tomatoes.",
+        text_it: "La key art ufficiale e i materiali di marketing come appaiono su Amazon Prime Video, Letterboxd, IMDb e Rotten Tomatoes."
       },
     ]
   },
@@ -1309,10 +1331,10 @@ const projectsData = {
 
 
     body: [
-      "In this role, I oversaw the visual identity of Novo Esports across multiple touchpoints. This collection includes comprehensive branding and assets developed for live events, competitive tournaments, social media campaigns, educational carousels, and official merchandise design.",
+      "I ran the visual identity of Novo Esports: branding and assets for live events, tournaments, social campaigns, carousels and official merchandise.",
     ],
     body_it: [
-      "In questo ruolo, ho supervisionato l'identità visiva di Novo Esports su più touchpoint. Questa raccolta include branding completo e asset sviluppati per eventi dal vivo, tornei competitivi, campagne social, caroselli educativi e design di merchandise ufficiale.",
+      "Ho seguito l'identità visiva di Novo Esports: branding e asset per eventi dal vivo, tornei, campagne social, caroselli e merchandise ufficiale.",
     ],
 
     images: [
@@ -1485,10 +1507,10 @@ const projectsData = {
 
 
     body: [
-      "A vibrant streetwear and apparel collection designed for the prominent Italian content creator Marinoski. Built to celebrate one of the most viral catchphrases in the Italian gaming community, the design translates internet culture into a physical, high-impact lifestyle brand. Every asset was developed to bridge the gap between esports fashion and creator merchandise, offering the community clean, production-ready garments that capture the energy of the stream.",
+      "A streetwear and apparel collection for the Italian content creator Marinoski, built around one of the catchphrases his audience already repeats back to him. The job was getting that from a stream onto something people would actually wear, which meant production-ready garments rather than mockups: t-shirts and headwear that hold up next to regular streetwear instead of reading as merch.",
     ],
     body_it: [
-      "Una collezione streetwear vivace progettata per il noto content creator italiano Marinoski. Creata per celebrare uno dei catchphrase più virali della community gaming italiana, il design traduce la cultura internet in un brand lifestyle fisico e d'impatto. Ogni asset è stato sviluppato per colmare il divario tra la moda esports e il merchandise dei creator, offrendo alla community capi puliti e pronti per la produzione che catturano l'energia dello stream.",
+      "Una collezione streetwear per il content creator italiano Marinoski, costruita intorno a uno dei tormentoni che il suo pubblico gli ripete già addosso. Il lavoro era portarlo dallo stream a qualcosa che la gente si mettesse davvero, quindi capi pronti per la produzione e non mockup: t-shirt e cappellini che reggono accanto allo streetwear normale invece di leggersi come merch.",
     ],
 
     images: [
@@ -1537,8 +1559,8 @@ const projectsData = {
         type: "text",
         title: "Final Apparel Collection & Custom Logotype",
         title_it: "Collezione Abbigliamento Finale & Logotipo Custom",
-        text: "The definitive showcase of the Letsgoski merchandise line, featuring custom-designed t-shirts and headwear. This section highlights the final production-ready layouts, combining a bespoke logotype designed from scratch with carefully structured typographic systems tailored for modern streetwear. Produced and released as a full collection, backed by a marketing and influencer campaign, with strong sales across the line. <a href=\"https://shop.novoesports.gg/collections/all\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Shop ↗</a>",
-        text_it: "La vetrina definitiva della linea merchandise Letsgoski, con t-shirt e cappellini disegnati su misura. Questa sezione mostra i layout finali pronti per la produzione, unendo un logotype creato da zero a sistemi tipografici strutturati per uno streetwear contemporaneo. Prodotta e lanciata come collezione completa, accompagnata da una campagna marketing e influencer, con ottime vendite su tutta la linea. <a href=\"https://shop.novoesports.gg/collections/all\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Shop ↗</a>"
+        text: "The finished line: t-shirts and headwear, in the layouts that went to production. The logotype was drawn from scratch and everything else is built on it. Produced and released as a full collection with a marketing and influencer campaign behind it, and it sold well across the line. <a href=\"https://shop.novoesports.gg/collections/all\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Shop ↗</a>",
+        text_it: "La linea finita: t-shirt e cappellini, nei layout andati in produzione. Il logotype è stato disegnato da zero e tutto il resto è costruito su quello. Prodotta e lanciata come collezione completa, con dietro una campagna marketing e influencer, e ha venduto bene su tutta la linea. <a href=\"https://shop.novoesports.gg/collections/all\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Shop ↗</a>"
       },
       {
         type: "group",
@@ -1554,8 +1576,8 @@ const projectsData = {
         type: "text",
         title: "Logo Exploration: Metal & Street Aesthetics",
         title_it: "Esplorazione Logo: Estetica Metal & Street",
-        text: "Early concept designs and rough drafts tracking the evolution of the brand identity. The creative process focused on merging raw, aggressive heavy metal typography with sharp streetwear elements, exploring various weight and texture variants to capture the energetic essence of the community.",
-        text_it: "Concept iniziali e bozze che tracciano l'evoluzione dell'identità del brand. Il processo creativo si è concentrato sulla fusione di una tipografia heavy metal grezza e aggressiva con elementi streetwear decisi, esplorando varianti di peso e texture per catturare l'essenza energetica della community."
+        text: "Early concepts and rough drafts, showing how the identity got to where it landed. The work was mostly about pushing raw heavy metal typography against sharper streetwear shapes, trying different weights and textures until the two stopped fighting each other.",
+        text_it: "Concept iniziali e bozze, per vedere come l'identità è arrivata dov'è arrivata. Il lavoro è stato soprattutto spingere una tipografia heavy metal grezza contro forme streetwear più nette, provando pesi e texture finché le due cose hanno smesso di litigare."
       },
       {
         type: "group",
@@ -1568,8 +1590,8 @@ const projectsData = {
         type: "text",
         title: "Back Graphic Concept Design",
         title_it: "Design Concept Grafica Posteriore",
-        text: "A specialized layout study developed for an alternative back-print design. This concept explores large-scale graphic composition and visual hierarchy on the reverse of the garments, designed to deliver a powerful, high-impact look from every angle.",
-        text_it: "Uno studio di layout sviluppato per un design alternativo della stampa sul retro. Questo concept esplora la composizione grafica su larga scala e la gerarchia visiva sul retro del capo, progettato per offrire un look potente e d'impatto da ogni angolazione."
+        text: "A layout study for an alternative back print. The back of a garment gives you more room than the front and no logo to work around, so this one tests how large the composition can go before the hierarchy stops holding.",
+        text_it: "Uno studio di layout per una stampa alternativa sul retro. Il retro di un capo dà più spazio del davanti e non ha un logo da aggirare, quindi qui si prova quanto può crescere la composizione prima che la gerarchia non regga più."
       }
     ],
 
@@ -1598,10 +1620,10 @@ const projectsData = {
 
 
     body: [
-      "Art direction and custom cover design for Spectrum Films' special Blu-ray edition of Gorgeous. In this role, I oversaw the project's visual direction, creating a tailored front cover and coordinating the overall packaging aesthetic to meet the collector-focused standards of the label.",
+      "Art direction and custom cover design for Spectrum Films' special Blu-ray edition of Gorgeous. I handled the visual direction, designed the front cover and coordinated the rest of the packaging around it, to the standard the label holds its collector editions to.",
     ],
     body_it: [
-      "Direzione artistica e design di copertina personalizzata per l'edizione speciale Blu-ray di Gorgeous per Spectrum Films. In questo ruolo, ho supervisionato la direzione visiva del progetto, creando una copertina anteriore su misura e coordinando l'estetica generale della confezione per soddisfare gli standard orientati al collezionista del label.",
+      "Direzione artistica e design di copertina personalizzata per l'edizione speciale Blu-ray di Gorgeous per Spectrum Films. Ho curato la direzione visiva, disegnato la copertina e coordinato il resto della confezione, allo standard che il label tiene sulle edizioni da collezione.",
     ],
     images: [
   {
@@ -1637,10 +1659,10 @@ gallery: [
       },
       {
         type: "text",
-        title: "Distribution & Retail Showcase",
-        title_it: "Distribuzione & Presentazione Retail",
-        text: "A look at the finalized Blu-ray design live in production. This section highlights the product placement across official distribution channels, including the Spectrum Films webstore and Rakuten. <a href=\"https://www.spectrumfilms.fr/catalogue/158-product-3760405250031.html\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Shop ↗</a>",
-        text_it: "Uno sguardo al design Blu-ray finalizzato in produzione. Questa sezione mette in evidenza il posizionamento del prodotto nei canali di distribuzione ufficiali, inclusi il webstore di Spectrum Films e Rakuten. <a href=\"https://www.spectrumfilms.fr/catalogue/158-product-3760405250031.html\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Shop ↗</a>"
+        title: "Distribution & Retail",
+        title_it: "Distribuzione & Retail",
+        text: "The finished Blu-ray in production, listed on the Spectrum Films webstore and on Rakuten. <a href=\"https://www.spectrumfilms.fr/catalogue/158-product-3760405250031.html\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Shop ↗</a>",
+        text_it: "Il Blu-ray finito in produzione, in vendita sul webstore di Spectrum Films e su Rakuten. <a href=\"https://www.spectrumfilms.fr/catalogue/158-product-3760405250031.html\" target=\"_blank\" rel=\"noopener\" class=\"underline hover:text-gray-500\">Shop ↗</a>"
       },
     ]
 
@@ -1912,8 +1934,8 @@ gallery: [
       {
         type: "text",
         title: "Wireframe",
-        text: "After thorough research, I've created the initial wireframe sketch, opting for a bold and striking design with heavy use of textures. Since the game is set in a mountainous environment, I incorporated sharp, angular shapes to enhance immersion, not just within the world but through the UI itself. The rugged aesthetic mirrors the game's atmosphere and adds depth to the user experience. Additionally, I've developed a playable prototype in Figma, allowing for interactive exploration of the wireframe.",
-        text_it: "Dopo una ricerca approfondita, ho creato il wireframe iniziale, optando per un design audace e d'impatto con un forte uso delle texture. Poiché il gioco è ambientato in un ambiente montano, ho incorporato forme angolate e taglienti per migliorare l'immersione, non solo nel mondo ma attraverso l'UI stessa. L'estetica ruvida rispecchia l'atmosfera del gioco e aggiunge profondità all'esperienza utente. Ho inoltre sviluppato un prototipo interattivo in Figma."
+        text: "The first wireframe: bold shapes, heavy texture. The game is set on mountains, so the UI runs on sharp angular forms too, instead of sitting over the world as a neutral layer. I also built a playable prototype in Figma, so the wireframe could be clicked through rather than just looked at.",
+        text_it: "Il primo wireframe: forme decise, texture in evidenza. Il gioco è ambientato in montagna, quindi anche l'UI va di forme angolate e taglienti, invece di stare sopra il mondo come uno strato neutro. Ho anche costruito un prototipo giocabile in Figma, così il wireframe si poteva cliccare e non solo guardare."
       },
 
 
@@ -2019,8 +2041,8 @@ gallery: [
         type: "text",
         title: "High Fidelity Mockup",
         title_it: "Mockup ad Alta Fedeltà",
-        text: "After finalizing the wireframe, I created the high-fidelity mockup, focusing on making the design look polished and user-friendly. The bold design and textured details are fully brought to life, reflecting the game's mountainous setting. I kept the sharp, angular shapes to give the interface a rugged feel that matches the game's atmosphere. Every part of the UI is clear and easy to use, while still looking visually striking. This mockup shows the finished design, giving a sense of how the final product will look and feel.",
-        text_it: "Dopo aver finalizzato il wireframe, ho creato il mockup ad alta fedeltà, concentrandomi nel rendere il design raffinato e user-friendly. Il design audace e i dettagli texturizzati sono pienamente realizzati, riflettendo l'ambientazione montana del gioco. Ho mantenuto le forme angolate e taglienti per dare all'interfaccia un aspetto grezzo che corrisponde all'atmosfera del gioco. Ogni parte dell'UI è chiara e facile da usare, pur risultando visivamente incisiva. Questo mockup mostra il design finito, dando un'idea di come apparirà il prodotto finale."
+        text: "After the wireframe, the high-fidelity mockup: the layout and the textures fully resolved, the sharp angular shapes carried over so the interface keeps the rough feel of the setting. This is the design as it would ship.",
+        text_it: "Dopo il wireframe, il mockup ad alta fedeltà: layout e texture risolti del tutto, le forme angolate e taglienti mantenute così che l'interfaccia conservi la ruvidità dell'ambientazione. Questo è il design come uscirebbe."
       },
 
       {
@@ -2060,10 +2082,10 @@ gallery: [
 
 
     body: [
-      "Berserk: The Long Night is a concept game project developed as an exercise to elevate my UI and UX design skills. Utilizing still imagery from the 2016 title Berserk and the Band of the Hawk, I crafted custom interfaces and visual assets tailored to the dark, grim aesthetic of the franchise. As the vision expanded, I also designed the official logo for the concept. The entire project spanned about a month from initial research to final execution. Aside from the background images, every asset was built from scratch using Photoshop, Illustrator, and Figma",
+      "Berserk: The Long Night is a concept game project I made to push my UI and UX work further. The backgrounds are stills from the 2016 game Berserk and the Band of the Hawk; everything sitting on top of them is mine, built for the dark, grim look of the franchise. The logo came later, once the thing had grown past a handful of screens. About a month from research to final execution, and apart from the backgrounds every asset was built from scratch in Photoshop, Illustrator and Figma",
       ],
     body_it: [
-      "Berserk: The Long Night è un concept di gioco sviluppato come esercizio per elevare le mie competenze di UI e UX design. Utilizzando immagini fisse dal titolo del 2016 Berserk and the Band of the Hawk, ho creato interfacce personalizzate e asset visivi adattati all'estetica oscura e cupa del franchise. Con l'espandersi della visione, ho anche progettato il logo ufficiale per il concept. L'intero progetto ha coperto circa un mese dalla ricerca iniziale all'esecuzione finale. Escludendo le immagini di sfondo, ogni asset è stato costruito da zero con Photoshop, Illustrator e Figma.",
+      "Berserk: The Long Night è un concept di gioco che ho fatto per spingere più avanti il mio lavoro di UI e UX. Gli sfondi sono immagini fisse dal gioco del 2016 Berserk and the Band of the Hawk; tutto quello che ci sta sopra è mio, costruito sull'estetica oscura e cupa del franchise. Il logo è arrivato dopo, quando il progetto era cresciuto oltre qualche schermata. Circa un mese dalla ricerca all'esecuzione finale, e a parte gli sfondi ogni asset è stato costruito da zero con Photoshop, Illustrator e Figma.",
     ],
 
     images: [
@@ -2094,8 +2116,8 @@ gallery: [
         type: "text",
         title: "Main Menu",
         title_it: "Menu Principale",
-        text: "A clean yet atmospheric opening menu designed to instantly immerse the player. The gritty art style and heavy use of textures establish a dark, visceral mood. Reflecting the core themes of the manga, the stark contrast between the high-visibility interactive buttons and the deep, shadowed background delivers a striking, mysterious visual impact.",
-        text_it: "Un menu di apertura pulito ma atmosferico, progettato per immergere immediatamente il giocatore. Lo stile grezzo e il forte uso delle texture stabiliscono un'atmosfera oscura e viscerale. Riflettendo i temi principali del manga, il forte contrasto tra i pulsanti interattivi ad alta visibilità e lo sfondo profondo e in ombra crea un impatto visivo incisivo e misterioso."
+        text: "The opening menu, kept clean but heavy on texture. The buttons sit at high contrast against a background pushed deep into shadow, which is what makes them readable and also what gives the screen its mood.",
+        text_it: "Il menu di apertura, tenuto pulito ma carico di texture. I pulsanti stanno ad alto contrasto su uno sfondo spinto in ombra: è questo che li rende leggibili ed è anche questo che dà l'atmosfera alla schermata."
       },
 
       {
@@ -2132,8 +2154,8 @@ gallery: [
         type: "text",
         title: "Game HUD & Damage Feedback Systems",
         title_it: "HUD di Gioco & Sistema di Feedback Danni",
-        text: "Minimalist HUD layout showcasing player bars, enemy health tracking, and an immersive combat experience. Features a progressive 3-tier damage overlay system (25% / 50% / 75%) and an optional cinematic HUD variant that directly channels the manga's iconic aesthetic.",
-        text_it: "Layout HUD minimalista che mostra le barre del giocatore, il monitoraggio della salute dei nemici e un'esperienza di combattimento immersiva. Include un sistema progressivo a 3 livelli di overlay danni (25% / 50% / 75%) e una variante HUD cinematografica opzionale che richiama direttamente l'estetica iconica del manga."
+        text: "A minimal HUD: player bars and enemy health tracking. Damage reads through a three-tier overlay (25% / 50% / 75%), and there is an optional cinematic variant that strips the interface back further.",
+        text_it: "Un HUD minimale: barre del giocatore e monitoraggio della salute dei nemici. Il danno si legge con un overlay a tre livelli (25% / 50% / 75%), e c'è una variante cinematografica opzionale che riduce ancora di più l'interfaccia."
       },
 
       {
@@ -2146,8 +2168,8 @@ gallery: [
         type: "text",
         title: "Cinematic Dialogue Interface",
         title_it: "Interfaccia Dialogo Cinematografica",
-        text: "Cutscene dialogue overlay concept designed to optimize narrative readability and cinematic immersion, maintaining visual consistency with the project's dark aesthetic.",
-        text_it: "Concept di overlay per dialoghi nelle cutscene, progettato per ottimizzare la leggibilità narrativa e l'immersione cinematografica, mantenendo la coerenza visiva con l'estetica oscura del progetto."
+        text: "The dialogue overlay for cutscenes, built to stay readable over moving footage without breaking the dark look of everything else.",
+        text_it: "L'overlay dei dialoghi nelle cutscene, pensato per restare leggibile sopra le immagini in movimento senza rompere il tono scuro di tutto il resto."
       },
 
       {
@@ -2178,8 +2200,8 @@ gallery: [
         type: "text",
         title: "Pause Menu Architecture & Navigation",
         title_it: "Architettura Menu di Pausa & Navigazione",
-        text: "Comprehensive Pause Menu system showing the Character, Equipment, World Map, and Bestiary screens. Built entirely from scratch, the system uses a dual-column layout (interactive mechanics on the left, lore/general info on the right). Individual color coding differentiates each section while maintaining a cohesive visual identity. The streamlined world map maximizes readability and layout hierarchy.",
-        text_it: "Sistema completo del Menu di Pausa con le schermate di Personaggio, Equipaggiamento, Mappa del Mondo e Bestiario. Costruito interamente da zero, il sistema utilizza un layout a doppia colonna (meccaniche interattive a sinistra, lore/informazioni generali a destra). La codifica cromatica individuale differenzia ogni sezione mantenendo un'identità visiva coerente. La mappa del mondo semplificata massimizza la leggibilità e la gerarchia del layout."
+        text: "The pause menu: Character, Equipment, World Map and Bestiary. Two columns throughout, mechanics you interact with on the left, lore and general info on the right. Each section gets its own colour, so you know where you are without reading the header.",
+        text_it: "Il menu di pausa: Personaggio, Equipaggiamento, Mappa del Mondo e Bestiario. Due colonne ovunque, a sinistra le meccaniche con cui interagisci, a destra lore e informazioni generali. Ogni sezione ha un suo colore, così sai dove sei senza leggere l'intestazione."
       },
 
       {
