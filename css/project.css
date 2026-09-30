@@ -131,6 +131,22 @@ main section {
 
 .gallery-text-body { margin: 0; color: #374151; }
 
+/* ── Dark mode ──
+   Gerarchia voluta: titolo #F8FAFC > testo gallery #CBD5E1 > label #9CA3AF. */
+body.theme-dark .gallery-text-body {
+    color: #CBD5E1;
+}
+
+/* Il lightbox copriva lo schermo di bianco anche a tema scuro */
+body.theme-dark .lightbox {
+    background: rgba(4, 19, 26, 0.96);
+}
+
+/* Placeholder dietro le immagini in caricamento */
+body.theme-dark .project-image {
+    background-color: #0C2029;
+}
+
 @media (max-width: 767px) {
   .project-gallery {
     flex-direction: column;

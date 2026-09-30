@@ -109,11 +109,18 @@ body.theme-dark .text-white {
     color: #04131A !important;
 }
 
-/* Muted text for secondary content */
+/* Muted text for secondary content.
+   Nota: il valore scuro serviva ai bottoni filtro, che in dark restano su una
+   pillola chiara; qui vale il grigio chiaro, i filtri sono gestiti sotto. */
 body.theme-dark .text-gray-600,
 body.theme-dark .text-gray-500,
 body.theme-dark .text-gray-400 {
-    color: #1f2021 !important;
+    color: #9CA3AF !important;
+}
+
+/* Hover dei link: in dark schiarisce invece di scurire, restando leggibile */
+body.theme-dark .hover\:text-gray-500:hover {
+    color: #CBD5E1 !important;
 }
 
 /* Make small/light text more legible */
@@ -135,7 +142,7 @@ body.theme-dark .circle-text {
 }
 
 body.theme-dark .project-label {
-    border-top-color: #1F2937;
+    border-top-color: #2A3A44;
     color: #9CA3AF;
 }
 
@@ -245,7 +252,7 @@ body.theme-dark #mobile-menu {
     background: #04131A !important;
 }
 body.theme-dark #mobile-menu .border-gray-200 {
-    border-color: #1F2937 !important;
+    border-color: #2A3A44 !important;
 }
 body.theme-dark #mobile-menu .text-gray-500 {
     color: #9CA3AF !important;
@@ -310,7 +317,7 @@ body.theme-dark #mobile-menu button {
 }
 
 body.theme-dark #mobile-menu .border-t {
-    border-color: #1F2937;
+    border-color: #2A3A44;
 }
 
 body.theme-dark #mobile-menu .text-gray-500 {
@@ -388,7 +395,18 @@ body.theme-dark #mobile-menu .text-gray-500 {
     animation: rotateText 6s linear infinite;
 }
 
-body.theme-dark .filter-btn.bg-\[\#F6FB6B\] {
+/* I bottoni filtro restano su pillola chiara anche in dark: il testo va scuro.
+   Inattivo = #E8E8E8, attivo "all" = accento, attivo categoria = #C2C2C2. */
+body.theme-dark .filter-btn.bg-\[\#E8E8E8\] {
+    color: #1f2021 !important;
+}
+
+body.theme-dark .filter-btn.bg-\[\#E8E8E8\]:hover {
+    color: #000000 !important;
+}
+
+body.theme-dark .filter-btn.bg-\[\#F6FB6B\],
+body.theme-dark .filter-btn.bg-\[\#C2C2C2\] {
     color: #000000 !important;
 }
 
