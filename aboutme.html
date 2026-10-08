@@ -100,7 +100,7 @@
     </h2>
   </div>
 
-  <div class="col-span-12 md:col-span-4 flex flex-row md:flex-col items-center justify-center md:justify-start gap-8 pt-8 md:pt-4">
+  <div class="col-span-12 md:col-span-4 flex flex-row md:flex-col lg:grid lg:grid-cols-[repeat(2,max-content)] items-center justify-center md:justify-start gap-3 md:gap-8 lg:gap-6 pt-8 md:pt-4">
     <a href="https://letterboxd.com/gian1/" class="circular-text" aria-label="Letterboxd profile">
       <svg viewBox="0 0 200 200">
         <defs>
@@ -115,6 +115,26 @@
         <text class="circle-text">
           <textPath href="#circlePath">
           LETTERBOXD • LETTERBOXD • LETTERBOXD •
+          </textPath>
+        </text>
+      </svg>
+    </a>
+
+    <a href="https://unsplash.com/it/@ocramnaig" class="circular-text" aria-label="Unsplash profile">
+      <svg viewBox="0 0 200 200">
+        <defs>
+          <path
+            id="circlePath3"
+            d="M 100, 100
+               m -75, 0
+               a 75,75 0 1,1 150,0
+               a 75,75 0 1,1 -150,0"
+          />
+        </defs>
+        <!-- UNSPLASH è più corta: textLength la distende su tutto il cerchio -->
+        <text class="circle-text">
+          <textPath href="#circlePath3" textLength="465" lengthAdjust="spacing">
+          UNSPLASH • UNSPLASH • UNSPLASH •
           </textPath>
         </text>
       </svg>

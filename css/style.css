@@ -368,8 +368,8 @@ body.theme-dark #mobile-menu .text-gray-500 {
 /* badge circolari più piccoli su mobile */
 @media (max-width: 767px) {
     .circular-text {
-        width: 104px;
-        height: 104px;
+        width: 96px;
+        height: 96px;
     }
 }
 
