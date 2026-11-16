@@ -40,12 +40,13 @@ const projectsData = {
         type: "group",
         images: [
           { image: "assets/optimized-files/optimized/starbridge/brancato-1.webp", text: "" },
-          { image: "assets/optimized-files/optimized/starbridge/ilic-debut.webp", text: "" },
+          { image: "assets/optimized-files/optimized/starbridge/brancato-thumb.webp", alt: "Alessandro Brancato debut graphic, Juventus vs Cremonese, for Starbridge", text: "" },
         ]
       },
       {
         type: "group",
         images: [
+          { image: "assets/optimized-files/optimized/starbridge/ilic-debut.webp", text: "" },
           { image: "assets/optimized-files/optimized/starbridge/pecorino-debu.webp", text: "" },
         ]
       },
@@ -53,8 +54,8 @@ const projectsData = {
         type: "text",
         title: "Signings & Debuts",
         title_it: "Trasferimenti & Debutti",
-        text: "Welcomes and debuts share one layout: name in a serif italic over the event in heavy condensed caps, the player cut out against his new club's colours. Brancato was seventeen when he joined Juventus, Ilić debuted against Roma, Pecorino in Serie B. Same frame for all three, because the agency treats them the same way.",
-        text_it: "Benvenuti e debutti condividono lo stesso impianto: il nome in corsivo graziato sopra l'evento in maiuscole condensate pesanti, il giocatore scontornato sui colori del nuovo club. Brancato aveva diciassette anni quando è arrivato alla Juventus, Ilić ha debuttato contro la Roma, Pecorino in Serie B. Stessa cornice per tutti e tre, perché l'agenzia li tratta allo stesso modo."
+        text: "Welcomes and debuts share one layout: name in a serif italic over the event in heavy condensed caps, the player cut out against his new club's colours. Brancato was seventeen when he joined Juventus and debuted against Cremonese, Ilić debuted against Roma, Pecorino in Serie B. Same frame for all of them, because the agency treats them the same way.",
+        text_it: "Benvenuti e debutti condividono lo stesso impianto: il nome in corsivo graziato sopra l'evento in maiuscole condensate pesanti, il giocatore scontornato sui colori del nuovo club. Brancato aveva diciassette anni quando è arrivato alla Juventus e ha debuttato contro la Cremonese, Ilić ha debuttato contro la Roma, Pecorino in Serie B. Stessa cornice per tutti, perché l'agenzia li tratta allo stesso modo."
       },
 
       {
@@ -62,6 +63,7 @@ const projectsData = {
         images: [
           { image: "assets/optimized-files/optimized/starbridge/rares-1.webp", text: "" },
           { image: "assets/optimized-files/optimized/starbridge/tamas-1.webp", text: "" },
+          { image: "assets/optimized-files/optimized/starbridge/matilde-oddina-gol.webp", alt: "Matilde Oddina goal graphic, Juventus U19 vs Fiorentina U19, for Starbridge", text: "" },
         ]
       },
       {
@@ -81,8 +83,8 @@ const projectsData = {
         type: "text",
         title: "Match Moments",
         title_it: "Momenti di Gara",
-        text: "Goals and assists, out within minutes of the whistle. One word or one number does the talking, sized big enough to read while scrolling: GOAL, a yellow 2 for Ilić's two assists against Monza, FIRST GOAL for Boufandar. Galántai scored in consecutive matches against the same opponent, which was worth a wider format and both celebrations side by side.",
-        text_it: "Gol e assist, fuori a pochi minuti dal fischio. Parla una parola sola o un numero solo, abbastanza grande da leggersi mentre si scorre: GOAL, un 2 giallo per i due assist di Ilić contro il Monza, FIRST GOAL per Boufandar. Galántai ha segnato in due gare consecutive contro lo stesso avversario, e questo meritava un formato più largo con entrambe le esultanze affiancate."
+        text: "Goals and assists, out within minutes of the whistle. One word or one number does the talking, sized big enough to read while scrolling: GOAL for Burnete, Galántai and Matilde Oddina, a yellow 2 for Ilić's two assists against Monza, FIRST GOAL for Boufandar. Galántai scored in consecutive matches against the same opponent, which was worth a wider format and both celebrations side by side.",
+        text_it: "Gol e assist, fuori a pochi minuti dal fischio. Parla una parola sola o un numero solo, abbastanza grande da leggersi mentre si scorre: GOAL per Burnete, Galántai e Matilde Oddina, un 2 giallo per i due assist di Ilić contro il Monza, FIRST GOAL per Boufandar. Galántai ha segnato in due gare consecutive contro lo stesso avversario, e questo meritava un formato più largo con entrambe le esultanze affiancate."
       },
 
       {
@@ -543,6 +545,13 @@ const projectsData = {
       {
         type: "group",
         images: [
+          { image: "assets/optimized-files/optimized/campi-one/conzato-convocato.webp", alt: "Filippo Conzato Italy U20 call-up post for Campi-One", text: "" },
+          { image: "assets/optimized-files/optimized/campi-one/conzato-convocato_1080x1920.webp", alt: "Filippo Conzato Italy U20 call-up story for Campi-One", text: "" },
+        ]
+      },
+      {
+        type: "group",
+        images: [
           { image: "assets/optimized-files/optimized/campi-one/nicolas-cocola-compleanno.webp", text: "" },
           { image: "assets/optimized-files/optimized/campi-one/diego-campione-birthdaystories.webp", text: "" },
         ]
@@ -551,8 +560,8 @@ const projectsData = {
         type: "text",
         title: "Reactive & Recurring Content",
         title_it: "Contenuti Reattivi & Ricorrenti",
-        text: "The quick stuff between the big pieces. Debut posts go out the same night; the weekly recap gathers everyone's minutes from the round, which is how the quieter players get their turn. Zero Scuse is the agency talking in its own voice rather than about a player, a cover that opens onto a longer read. Birthdays are scheduled months ahead in 9:16.",
-        text_it: "La roba veloce tra un pezzo grande e l'altro. I post di debutto escono la sera stessa; il recap settimanale raccoglie i minuti di tutti nel turno di campionato, ed è il modo in cui tocca anche ai giocatori meno in vista. Zero Scuse è l'agenzia che parla con la propria voce invece che di un giocatore: una copertina che apre su un testo più lungo. I compleanni sono programmati con mesi di anticipo in 9:16."
+        text: "The quick stuff between the big pieces. Debut posts go out the same night, and so do national team call-ups, as a post and a story built on the same layout; the weekly recap gathers everyone's minutes from the round, which is how the quieter players get their turn. Zero Scuse is the agency talking in its own voice rather than about a player, a cover that opens onto a longer read. Birthdays are scheduled months ahead in 9:16.",
+        text_it: "La roba veloce tra un pezzo grande e l'altro. I post di debutto escono la sera stessa, e così le convocazioni in nazionale, in versione post e storia sullo stesso impianto; il recap settimanale raccoglie i minuti di tutti nel turno di campionato, ed è il modo in cui tocca anche ai giocatori meno in vista. Zero Scuse è l'agenzia che parla con la propria voce invece che di un giocatore: una copertina che apre su un testo più lungo. I compleanni sono programmati con mesi di anticipo in 9:16."
       },
 
       {
